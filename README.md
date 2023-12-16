@@ -1,5 +1,5 @@
 # Egtech-CE-Reforged
-A Soi modpack.
+A '''json//Soi''' modpack.
 version 0.1.0
 
 Currently in BETA! Features are NOT complete, NOT AN OFFICIAL RELEASE.
