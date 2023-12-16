@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market"
+	group: ""
+	icon: "minecraft:emerald"
+	id: "7FA81DDA0B538C2F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "5EEF56A544D7B93B"
+		rewards: [{
+			id: "616D854FB9F8836A"
+			item: "skilltree:wisdom_scroll"
+			type: "item"
+		}]
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			id: "2FE1B9F0C19E2351"
+			item: "minecraft:emerald_block"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "Market"
+}

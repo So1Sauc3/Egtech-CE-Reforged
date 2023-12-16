@@ -1,0 +1,481 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss_hunt"
+	group: "2AA1CE9666BDB6E0"
+	icon: "cataclysm:flame_eye"
+	id: "382439CAE2DEA246"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15C68D60EA501F59"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "witherstormmod:main/wither_storm_defeated"
+				criterion: ""
+				id: "74F9AE6C3C8559ED"
+				type: "advancement"
+			}]
+			title: "Savior"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C68D60EA501F59"]
+			icon: {
+				Count: 1b
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "391467814141A620"
+			tasks: [{
+				id: "1897370D98407174"
+				type: "custom"
+			}]
+			title: "Ancient Construct"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C68D60EA501F59"]
+			icon: {
+				Count: 1b
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "788967565DF39863"
+			tasks: [{
+				id: "7F252CE3E62222FB"
+				type: "custom"
+			}]
+			title: "Mana \\& Artifice"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C68D60EA501F59"]
+			icon: {
+				Count: 1b
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F548D96921647F9"
+			tasks: [{
+				id: "4FFDEAE76958FE78"
+				type: "custom"
+			}]
+			title: "The Lesser"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F548D96921647F9"]
+			icon: {
+				Count: 1b
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "247751AEAB407B70"
+			tasks: [{
+				id: "3E7953CBC79896A9"
+				type: "custom"
+			}]
+			title: "The Foundry"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["247751AEAB407B70"]
+			icon: "cataclysm:the_incinerator"
+			id: "2B5D0244C1E2BDC7"
+			tasks: [{
+				id: "3EC8B3C73C6ECB0B"
+				type: "custom"
+			}]
+			title: "Dark Souls"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14C6F7933BB9AC92"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:primitive_club"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C6AA3F0F6CCB741"
+			tasks: [{
+				id: "0E39C8EDB75A4557"
+				type: "custom"
+			}]
+			title: "Bonk"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C6AA3F0F6CCB741"]
+			icon: "alexscaves:raygun"
+			id: "6966E8C8EA3D65AB"
+			tasks: [{
+				id: "3B09DDD07DA30676"
+				type: "custom"
+			}]
+			title: "Area 51"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["339AD67838274E0F"]
+			icon: "cataclysm:tidal_claws"
+			id: "01C634A27C66DC8D"
+			tasks: [{
+				id: "7D97CC26337511D9"
+				type: "custom"
+			}]
+			title: "Whiplash"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["788967565DF39863"]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "56B05809C650FAC3"
+			tasks: [{
+				id: "6A60B6295A81D025"
+				type: "custom"
+			}]
+			title: "Bellerophon"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56B05809C650FAC3"]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "74761A2A02DA464A"
+			tasks: [{
+				id: "2B1C545AACB7DC63"
+				type: "custom"
+			}]
+			title: "Archmage"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56B05809C650FAC3"]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:blood_staff"
+				tag: {
+					ISB_spellbook: {
+						activeSpellIndex: 0
+						spellSlots: 5
+						spells: [
+							{
+								level: 6
+								sid: "irons_spellbooks:wither_skull"
+								slot: 0
+							}
+							{
+								level: 6
+								sid: "irons_spellbooks:ray_of_siphoning"
+								slot: 1
+							}
+							{
+								level: 3
+								sid: "irons_spellbooks:blood_step"
+								slot: 2
+							}
+							{
+								level: 6
+								sid: "irons_spellbooks:blood_slash"
+								slot: 3
+							}
+							{
+								level: 6
+								sid: "irons_spellbooks:blaze_storm"
+								slot: 4
+							}
+						]
+					}
+				}
+			}
+			id: "3750EB9B147C0738"
+			tasks: [{
+				id: "62854C8CCBFCCE86"
+				type: "custom"
+			}]
+			title: "Sealed"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["339AD67838274E0F"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:skelewag_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0815F1CA2B79BCD9"
+			tasks: [{
+				id: "69652EEEB0AF0095"
+				type: "custom"
+			}]
+			title: "Jack Sparrow"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7CF8895E97EDED83"
+				"2B5D0244C1E2BDC7"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:ignitium_elytra_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "174398DE00216EC4"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "31B73DE0735F88CE"
+				type: "custom"
+			}]
+			title: "Phoenix"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["391467814141A620"]
+			id: "339AD67838274E0F"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43D4C4F87CAA7842"
+				type: "custom"
+			}]
+			title: "Lovecraftian Depths"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15C68D60EA501F59"]
+			id: "14C6F7933BB9AC92"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "536A12B29959CAAA"
+				type: "custom"
+			}]
+			title: "Boss Hunt"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F548D96921647F9"]
+			hide: true
+			id: "0F381715C4E1A9DE"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "alexsmobs:hemolymph_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6C92C4EB93C77FAB"
+				type: "custom"
+			}]
+			title: "Evolution"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F548D96921647F9"]
+			hide: true
+			id: "5C3BAFAA726FDF62"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "alexsmobs:straddleboard"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3EB5EDD7117F90B2"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14C6F7933BB9AC92"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:galena_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "096931446EF69238"
+			tasks: [{
+				id: "07C52D8FAE2CDC64"
+				type: "custom"
+			}]
+			title: "Force"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["096931446EF69238"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:hood_of_darkness"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77113008049D7C7E"
+			tasks: [{
+				id: "1EC64B8BD78611F5"
+				type: "custom"
+			}]
+			title: "Edgelord"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["416B03D308FCA442"]
+			icon: "alexsmobs:void_worm_eye"
+			id: "57E454E6A6D297B3"
+			tasks: [{
+				id: "6FADE068600D5986"
+				type: "custom"
+			}]
+			title: "Devourer of Gods"
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"77113008049D7C7E"
+				"6966E8C8EA3D65AB"
+			]
+			id: "7CF8895E97EDED83"
+			tasks: [{
+				icon: "cataclysm:mechanical_fusion_anvil"
+				id: "02379624206C1FE1"
+				type: "custom"
+			}]
+			title: "The Forge"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7CF8895E97EDED83"]
+			id: "416B03D308FCA442"
+			tasks: [{
+				icon: "minecraft:end_crystal"
+				id: "2CF86FFC52C1DF7E"
+				type: "custom"
+			}]
+			title: "Master Mode"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["416B03D308FCA442"]
+			id: "3294DA42E4D236CC"
+			tasks: [{
+				icon: "cataclysm:void_core"
+				id: "37286DB71A3E15AA"
+				type: "custom"
+			}]
+			title: "Keeper of Void"
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"7CF8895E97EDED83"
+				"3294DA42E4D236CC"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "20DB99EF8FD44332"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "022D69A27A759ABB"
+				type: "custom"
+			}]
+			title: "Reinhardt"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"7CF8895E97EDED83"
+				"3294DA42E4D236CC"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "24FEC12EAF127030"
+			tasks: [{
+				icon: "cataclysm:void_assault_shoulder_weapon"
+				id: "544A88224B9FE612"
+				type: "custom"
+			}]
+			title: "Misato Tachibana"
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3294DA42E4D236CC"]
+			id: "1A38B3C34C616DA7"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				icon: "cataclysm:gauntlet_of_bulwark"
+				id: "0BE072A3AFA62A13"
+				type: "custom"
+			}]
+			title: "Doomfist"
+			x: 0.5d
+			y: -14.5d
+		}
+	]
+	title: "Arms Race"
+}

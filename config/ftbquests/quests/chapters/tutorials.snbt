@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorials"
+	group: ""
+	icon: "create:clipboard"
+	id: "51B74AEC55DBA5E0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This tab of FTB Quests is meant to &6provide additional help&r to anyone confused with the game mechanics or progression of the mods and the pack. _Soi would &6appreciate it greatly&r if you are able to check this before asking him questions, thanks!"]
+			icon: "minecraft:bookshelf"
+			id: "23402BC19FF05D29"
+			rewards: [{
+				id: "10C3EC31CFF9618A"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Additional helpful resources!"
+			tasks: [{
+				id: "37CEBE49E80E4B8A"
+				title: "Tutorials and Compendiums"
+				type: "checkmark"
+			}]
+			title: "Tutorials and Compendiums"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "witherstormmod:withered_nether_star"
+			id: "31CBE977F814C99F"
+			tasks: [{
+				id: "36ECACE1D165006E"
+				type: "checkmark"
+			}]
+			title: "Wither Storm"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "simplyswords:runic_tablet"
+			id: "64976A7E2DBDF109"
+			tasks: [{
+				id: "5C4880944B405660"
+				type: "checkmark"
+			}]
+			title: "Simply Swords"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "minecraft:end_portal_frame"
+			id: "676D18DB7AAD6603"
+			tasks: [{
+				id: "284416758A153956"
+				type: "checkmark"
+			}]
+			title: "Nullscape"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "minecraft:totem_of_undying"
+			id: "439C07A04B4A4195"
+			tasks: [{
+				id: "57E15633B34A28A7"
+				type: "checkmark"
+			}]
+			title: "Guard Villagers"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "cataclysm:flame_eye"
+			id: "1062D9F848C93792"
+			tasks: [{
+				id: "15EB6ECA22AC400B"
+				type: "checkmark"
+			}]
+			title: "Lender's Cataclysm"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "ftbquests:book"
+			id: "5D25EEE0A26E5B84"
+			tasks: [{
+				id: "70715BD5EB17A80F"
+				type: "checkmark"
+			}]
+			title: "FTB Quests/Chunks"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "create:brass_hand"
+			id: "557055197EA31176"
+			tasks: [{
+				id: "2771CE35803226F3"
+				type: "checkmark"
+			}]
+			title: "Create \\& Co."
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "supplementaries:globe"
+			id: "787FDA4B5F38EF6C"
+			tasks: [{
+				id: "7B09E501AC2BDF09"
+				type: "checkmark"
+			}]
+			title: "Supplementaries"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "59C971661ABDE083"
+			tasks: [{
+				id: "4CDDC9C2F03B648C"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveau"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_spell: {
+						id: "irons_spellbooks:acupuncture"
+						level: 1
+					}
+				}
+			}
+			id: "4225A0529950F2E2"
+			tasks: [{
+				id: "72F62441D2092DD4"
+				type: "checkmark"
+			}]
+			title: "Iron's Spells"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "cobblemon:poke_ball"
+			id: "30767AEC24E07B3D"
+			tasks: [{
+				id: "4CEE9B22E4C34EBF"
+				type: "checkmark"
+			}]
+			title: "Cobblemon"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: {
+				Count: 1b
+				id: "farmersdelight:netherite_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64CAA6405FC61353"
+			tasks: [{
+				id: "7AE9D80E602612EC"
+				type: "checkmark"
+			}]
+			title: "Farmer's / Nether's Delight"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: {
+				Count: 1b
+				id: "vinery:cherry_wine"
+				tag: {
+					Year: 0
+				}
+			}
+			id: "5508CA884C229492"
+			tasks: [{
+				id: "2F75B8D1F680BBD7"
+				type: "checkmark"
+			}]
+			title: "Vinery"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+			id: "6DE2A4684BF10EE0"
+			tasks: [{
+				id: "3F79D1281B98C79C"
+				type: "checkmark"
+			}]
+			title: "Alex's Caves \\& Mobs"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "regions_unexplored:apple_oak_sapling"
+			id: "7BC471DF095435A6"
+			tasks: [{
+				id: "3CE9E794D2BC3916"
+				type: "checkmark"
+			}]
+			title: "Regions Unexplored"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "minecraft:blaze_powder"
+			id: "2546FD635D65B864"
+			tasks: [{
+				id: "2A0BF27A5BE71C2C"
+				type: "checkmark"
+			}]
+			title: "Incendium"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			hide: true
+			icon: "majruszsdifficulty:undead_battle_standard"
+			id: "343F61B536B1C19E"
+			tasks: [{
+				id: "3F15610992A9CF49"
+				type: "custom"
+			}]
+			title: "Majrusz's Difficulty"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "travelersbackpack:standard"
+				tag: { }
+			}
+			id: "489F9E10D399F894"
+			tasks: [{
+				id: "18FCFA2F18A49B26"
+				type: "custom"
+			}]
+			title: "Inventory Nerfs"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			hide: true
+			icon: "farmersdelight:apple_pie"
+			id: "7D05D414EAB9863B"
+			tasks: [{
+				id: "127E929F2E70023C"
+				type: "custom"
+			}]
+			title: "Slice of Life: Apple Pie"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23402BC19FF05D29"]
+			hide: true
+			icon: "supplementaries:flag_red"
+			id: "2BCEE2A4E0979D68"
+			tasks: [{
+				id: "400291CC9D90C86D"
+				type: "custom"
+			}]
+			title: "FTB Teams"
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+	title: "Tutorials"
+}

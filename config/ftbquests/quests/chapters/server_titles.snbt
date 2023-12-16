@@ -1,0 +1,473 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "server_titles"
+	group: "4C9AFEF0A2D77F2E"
+	icon: "supplementaries:globe"
+	id: "1514792360F09FA6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "witherstormmod:amulet"
+				tag: { }
+			}
+			id: "4386B2ED33401524"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Bragging rights for the &6worthy&r"
+			tasks: [{
+				id: "5A0DBBDCDEF33664"
+				title: "placeholder"
+				type: "checkmark"
+			}]
+			title: "Server Titles"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4386B2ED33401524"]
+			icon: "witherstormmod:command_block_sword"
+			id: "2C2F393F4233D064"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "3839896676D7DAF1"
+				title: "test1"
+				type: "checkmark"
+			}]
+			title: "Combat"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4386B2ED33401524"]
+			icon: "witherstormmod:command_block_pickaxe"
+			id: "1D43CA94FBD733FD"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "7C2A26C49A0CFBF5"
+				title: "test2"
+				type: "checkmark"
+			}]
+			title: "Exploration"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4386B2ED33401524"]
+			icon: "witherstormmod:command_block_shovel"
+			id: "176E862A5A8CBD08"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "1203435F219D3AD9"
+				title: "test3"
+				type: "checkmark"
+			}]
+			title: "Collection"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4386B2ED33401524"]
+			icon: "witherstormmod:command_block_axe"
+			id: "08D03A41B019A564"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "37F87930EE611355"
+				title: "test4"
+				type: "checkmark"
+			}]
+			title: "Construction"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C2F393F4233D064"]
+			icon: "witherstormmod:withered_nether_star"
+			id: "4F9C10D402745E6F"
+			size: 1.25d
+			subtitle: "&6Defeat&r the Wither Storm"
+			tasks: [{
+				id: "6823D015C2F5ED28"
+				title: "Hero"
+				type: "custom"
+			}]
+			title: "[Hero]"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2C2F393F4233D064"]
+			icon: "cobblemon:kings_rock"
+			id: "27BA082508099F06"
+			subtitle: "&6Conquer&r and control all bases"
+			tasks: [{
+				id: "67C5352531471C5B"
+				type: "custom"
+			}]
+			title: "[The Great]"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C2F393F4233D064"]
+			icon: {
+				Count: 1b
+				id: "simplyswords:runic_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18841976DC98ED44"
+			subtitle: "&6Kill&r every player 10 times"
+			tasks: [{
+				id: "515BC26E18498AB9"
+				type: "custom"
+			}]
+			title: "[Assassin]"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C2F393F4233D064"]
+			icon: "minecraft:stone_button"
+			id: "2F8417817B13E85F"
+			subtitle: "Complete the &6Boss Rush&r challenge"
+			tasks: [{
+				id: "52463E6E91600810"
+				type: "custom"
+			}]
+			title: "[Rock]"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C2F393F4233D064"]
+			icon: {
+				Count: 1b
+				id: "create_sabers:brass_saber_galaxy"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0745B6A3816F231C"
+			subtitle: "Equip and &6raise&r a guard villager army"
+			tasks: [{
+				id: "06398DDEFA71699A"
+				type: "custom"
+			}]
+			title: "[Empire]"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D43CA94FBD733FD"]
+			icon: {
+				Count: 1b
+				id: "travelersbackpack:dragon"
+				tag: { }
+			}
+			id: "39D60DC2516BBF23"
+			size: 1.25d
+			subtitle: "&6Set up&r an outpost in 50 Terralith Biomes"
+			tasks: [{
+				id: "5EA073EE7A572EDC"
+				type: "custom"
+			}]
+			title: "[Pioneer]"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D43CA94FBD733FD"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+			id: "6112E3D767D57A8F"
+			subtitle: "Discover and &6settle&r all of Alex's Caves"
+			tasks: [{
+				id: "2767C02DAA296F45"
+				type: "custom"
+			}]
+			title: "[Spelunker]"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D43CA94FBD733FD"]
+			icon: "alexsmobs:capsid"
+			id: "1AA2858F43DE5E5F"
+			subtitle: "&6Make&r a space base in every Nullscape biome"
+			tasks: [{
+				id: "7E358578E57AE42C"
+				type: "custom"
+			}]
+			title: "[Astroneer]"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08D03A41B019A564"]
+			icon: "create:creative_crate"
+			id: "232DD0D7927B9646"
+			size: 1.25d
+			subtitle: "&6Automate&r the Create Mod itself"
+			tasks: [{
+				id: "003391A29AF1CA7C"
+				type: "custom"
+			}]
+			title: "[Creator]"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["176E862A5A8CBD08"]
+			icon: "farmersdelight:squid_ink_pasta"
+			id: "292256AFDD9DAC31"
+			subtitle: "&6Gather&r every single consumable item"
+			tasks: [{
+				id: "078BBBA892117CBB"
+				type: "custom"
+			}]
+			title: "[Connoisseur]"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08D03A41B019A564"]
+			icon: "create:crafting_blueprint"
+			id: "358AFA831932B06A"
+			subtitle: "&6Build&r a fully functional city"
+			tasks: [{
+				id: "521ECF0B21104E6F"
+				type: "custom"
+			}]
+			title: "[Architect]"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D43CA94FBD733FD"]
+			icon: "minecraft:cracked_stone_bricks"
+			id: "1E8CAAA70A7C510F"
+			subtitle: "Discover and &6repurpose&r all major structures"
+			tasks: [{
+				id: "33A65D1725EAEB44"
+				type: "custom"
+			}]
+			title: "[Usurper]"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08D03A41B019A564"]
+			icon: "create:track"
+			id: "57A73A3759D605B1"
+			subtitle: "&6Connect&r all player bases by rail"
+			tasks: [{
+				id: "739A08A552F90BC0"
+				type: "custom"
+			}]
+			title: "[66]"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08D03A41B019A564"]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:electromancer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40AA0E5F36EBAC52"
+			subtitle: "&6Build&r and open a wizarding school"
+			tasks: [{
+				id: "5BFF37E08C7ACFBD"
+				type: "custom"
+			}]
+			title: "[Headmaster]"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["176E862A5A8CBD08"]
+			icon: "farmersdelight:ratatouille"
+			id: "7AAF29600ABAA77A"
+			subtitle: "&6Produce&r 2 stacks of every Farmer's Delight food"
+			tasks: [{
+				id: "3297037DC7BFE435"
+				type: "custom"
+			}]
+			title: "[Big Pizza]"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["176E862A5A8CBD08"]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_spell: {
+						id: "irons_spellbooks:black_hole"
+						level: 6
+					}
+				}
+			}
+			id: "2207637B104D5F13"
+			subtitle: "&6Obtain&r every single spell scroll"
+			tasks: [{
+				id: "08B8C1AE6A055C41"
+				type: "custom"
+			}]
+			title: "[Sorcerer]"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["176E862A5A8CBD08"]
+			icon: "cobblemon:master_ball"
+			id: "1E07B7AC8C637A14"
+			size: 1.25d
+			subtitle: "&6Catch&r every pokemon"
+			tasks: [{
+				id: "7AA119887291E99E"
+				type: "custom"
+			}]
+			title: "[Pokemaster]"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["176E862A5A8CBD08"]
+			icon: {
+				Count: 1b
+				id: "vinery:bottle_mojang_noir"
+				tag: {
+					Year: 0
+				}
+			}
+			id: "21FABD84FD052B69"
+			subtitle: "&6Brew&r every wine"
+			tasks: [{
+				id: "388A35710632DB8F"
+				type: "custom"
+			}]
+			title: "[Vintner]"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4386B2ED33401524"]
+			icon: "witherstormmod:command_block_hoe"
+			id: "383ED070517AE0BC"
+			invisible: true
+			rewards: [
+				{
+					id: "1596F8FE88EBC9AF"
+					item: "kubejs:oreo_cream"
+					type: "item"
+				}
+				{
+					id: "5D055EA2511635DB"
+					item: "tempad:tempad"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "1E38BE0F28DEF39F"
+				title: "[Completionist]"
+				type: "custom"
+			}]
+			title: "Completionist"
+			x: -8.125d
+			y: 8.125d
+		}
+		{
+			dependencies: ["1D43CA94FBD733FD"]
+			icon: "minecraft:piglin_head"
+			id: "13D1EF46CC3CE001"
+			subtitle: "Plunder and &6make liveable&r all of Incendium"
+			tasks: [{
+				id: "0ED310D4D2AB6011"
+				type: "custom"
+			}]
+			title: "[Ultrakill]"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08D03A41B019A564"]
+			icon: "alexscaves:nuclear_bomb"
+			id: "3E4E3FCC6473E361"
+			subtitle: "&6Automate&r nuclear bombs production"
+			tasks: [{
+				id: "41AB079A8E4ECF93"
+				title: "[Oppenheimer]"
+				type: "custom"
+			}]
+			title: "[Atomic]"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["383ED070517AE0BC"]
+			description: ["N-Word Pass acquired"]
+			icon: "ars_nouveau:glyph_wither"
+			id: "68C0679FC0BE2B96"
+			invisible: true
+			shape: "square"
+			subtitle: "One of Us"
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "14E817A08CA5490A"
+					type: "kill"
+					value: 10000L
+				}
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "0F42CAFE6517435C"
+					type: "kill"
+					value: 500L
+				}
+			]
+			title: "N-Word Pass"
+			x: -12.0d
+			y: 11.5d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "116BEAC14D8DCC28"
+			invisible: true
+			tasks: [{
+				disable_toast: true
+				id: "34DD5CF8F1575DDF"
+				optional_task: true
+				title: "centering"
+				type: "custom"
+			}]
+			x: 13.0d
+			y: -12.0d
+		}
+	]
+	title: "Server Titles"
+}

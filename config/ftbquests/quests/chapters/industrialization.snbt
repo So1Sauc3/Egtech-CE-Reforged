@@ -1,0 +1,809 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrialization"
+	group: "2AA1CE9666BDB6E0"
+	icon: "create:precision_mechanism"
+	id: "7FCD70ED1E727782"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:brass_hand"
+			id: "6BAF4536E7BA9C44"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "witherstormmod:main/wither_storm_defeated"
+				criterion: ""
+				id: "01F6A37E9BF07D12"
+				type: "advancement"
+			}]
+			title: "The Turn of the Century"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EA2B9375D1B299B"]
+			icon: "create:attribute_filter"
+			id: "796FABE2FB932797"
+			tasks: [{
+				id: "38BF2A523ED6DDF8"
+				type: "custom"
+			}]
+			title: "Upgrades, people!"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6379B1715D307863"]
+			icon: "create:brass_casing"
+			id: "16CC98907504E609"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7781B6794E3A9189"
+				type: "custom"
+			}]
+			title: "Brass Age"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["756577571C98AADC"]
+			icon: "create:railway_casing"
+			id: "2D1501C3B0AA0236"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "665DE529B49B0D07"
+				type: "custom"
+			}]
+			title: "Logistical Age"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BAF4536E7BA9C44"]
+			icon: "create:andesite_casing"
+			id: "27CEFE48FE894A28"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "22DBDF8916FC9A62"
+				type: "custom"
+			}]
+			title: "Andesite Age"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6BAF4536E7BA9C44"]
+			icon: "create:copper_casing"
+			id: "411067BDE0180961"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "240A94997F12EB57"
+				type: "custom"
+			}]
+			title: "Copper Age"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["262D5052060140CE"]
+			icon: "kubejs:example_iron_farm"
+			id: "20B9C2DCCD629AC6"
+			tasks: [{
+				id: "3CC0205E9285E126"
+				item: "kubejs:example_iron_farm"
+				type: "item"
+			}]
+			title: "The Cornerstone"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["145349610C0F4E6A"]
+			icon: "farmersdelight:rich_soil_farmland"
+			id: "08DED6B19C4BD9AE"
+			subtitle: "Make a &6crop farm&r"
+			tasks: [{
+				id: "3D994DBFC0276411"
+				type: "custom"
+			}]
+			title: "McCormick"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2103FAD6DF0B5ACC"]
+			icon: "create:chocolate_bucket"
+			id: "6A35EB1B7478D3E8"
+			tasks: [{
+				id: "0916BABE782458E6"
+				type: "custom"
+			}]
+			title: "Wonka"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27CEFE48FE894A28"]
+			icon: "minecraft:furnace_minecart"
+			id: "662BEB80FF47AB2F"
+			tasks: [{
+				id: "38CA80AAFF39533D"
+				type: "custom"
+			}]
+			title: "Physics Be Damned"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["27CEFE48FE894A28"]
+			icon: "create:mechanical_harvester"
+			id: "145349610C0F4E6A"
+			tasks: [{
+				id: "5290F39E39275CCF"
+				type: "custom"
+			}]
+			title: "Basic Harvesting"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["08DED6B19C4BD9AE"]
+			icon: "minecraft:spruce_sapling"
+			id: "6546C7E521A7318A"
+			tasks: [{
+				id: "08B745379F06A8FB"
+				type: "custom"
+			}]
+			title: "Sustainable Deforestation"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27CEFE48FE894A28"]
+			icon: "create:mechanical_press"
+			id: "262D5052060140CE"
+			tasks: [{
+				id: "5E8457D4AC905207"
+				type: "custom"
+			}]
+			title: "Basic Processing"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20B9C2DCCD629AC6"]
+			icon: "create:blaze_burner"
+			id: "6379B1715D307863"
+			tasks: [{
+				id: "4D043C97FF7863FD"
+				type: "custom"
+			}]
+			title: "Rekindled Embers"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16CC98907504E609"]
+			icon: "create:polished_rose_quartz"
+			id: "6EA2B9375D1B299B"
+			tasks: [{
+				id: "106C89CDC6E53E8F"
+				type: "custom"
+			}]
+			title: "Jewelsmith"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["796FABE2FB932797"]
+			icon: "create:powdered_obsidian"
+			id: "756577571C98AADC"
+			tasks: [{
+				id: "61EE92733B552311"
+				type: "custom"
+			}]
+			title: "Spice Melange"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A35EB1B7478D3E8"]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "parcool:energy_drink"
+				}
+			}
+			id: "5DD593D41C9F2CA4"
+			tasks: [{
+				id: "30769568D53866A0"
+				type: "custom"
+			}]
+			title: "Red Bull"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["411067BDE0180961"]
+			icon: "create:smart_fluid_pipe"
+			id: "2103FAD6DF0B5ACC"
+			tasks: [{
+				id: "1138F8BE1EE0DB55"
+				type: "custom"
+			}]
+			title: "Pipe Dream"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D1501C3B0AA0236"]
+			icon: "create:track"
+			id: "41BC0E3DAD95B1F0"
+			tasks: [{
+				id: "345C3274A3F3B299"
+				type: "custom"
+			}]
+			title: "Iron Highway"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["796FABE2FB932797"]
+			icon: "create:mechanical_crafter"
+			id: "0EFC167C364D6E32"
+			tasks: [{
+				id: "0E31E85F7ED05F4E"
+				type: "custom"
+			}]
+			title: "Outside the Box"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16CC98907504E609"]
+			icon: "create:deployer"
+			id: "134F5DD1CD9EBDF3"
+			tasks: [{
+				id: "53805CA44A52CC04"
+				type: "custom"
+			}]
+			title: "Doppleganger"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20B9C2DCCD629AC6"]
+			icon: "minecraft:iron_block"
+			id: "0A6E73C67F3C85C0"
+			tasks: [{
+				id: "04F755AE46BE9917"
+				type: "custom"
+			}]
+			title: "Bessemer Process"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["08DED6B19C4BD9AE"]
+			icon: {
+				Count: 1b
+				id: "create_things_and_misc:brass_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24DDD05A8A4CE94C"
+			tasks: [{
+				id: "529BF48692F4CE90"
+				type: "custom"
+			}]
+			title: "FDA-Approved"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A35EB1B7478D3E8"]
+			icon: "create_enchantment_industry:printer"
+			id: "43DD535889B35D48"
+			tasks: [{
+				id: "5C5EBE7843535087"
+				type: "custom"
+			}]
+			title: "New York Times"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["411067BDE0180961"]
+			icon: "create:fluid_tank"
+			id: "49730DE1DEE6227D"
+			tasks: [{
+				id: "1F66E857627A3683"
+				type: "custom"
+			}]
+			title: "Fluid Silos"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["662BEB80FF47AB2F"]
+			icon: "create:mechanical_drill"
+			id: "21FB21CBE8D9044A"
+			tasks: [{
+				id: "6E138A9401A1BC93"
+				type: "custom"
+			}]
+			title: "Dwarvern Instincts"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["21FB21CBE8D9044A"]
+			icon: "alexscaves:raw_scarlet_neodymium"
+			id: "37E1F99EBB32F216"
+			tasks: [{
+				id: "60708A00A798AA2D"
+				type: "custom"
+			}]
+			title: "Magnetic Harvesting"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["21FB21CBE8D9044A"]
+			icon: "alexscaves:uranium"
+			id: "1A47FF03AB791073"
+			tasks: [{
+				id: "056DC16409A4CAC9"
+				type: "custom"
+			}]
+			title: "Radioactive Excavation"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["134F5DD1CD9EBDF3"]
+			icon: "create:precision_mechanism"
+			id: "1B81A670B1813B55"
+			tasks: [{
+				id: "4E9BD9ACF273D164"
+				type: "custom"
+			}]
+			title: "Clockwork"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B81A670B1813B55"]
+			icon: "create:mechanical_arm"
+			id: "1148D8A7F21AB37F"
+			tasks: [{
+				id: "7BF56BF1D5FD0CB4"
+				type: "custom"
+			}]
+			title: "Micro Managing"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["372E7A23B868826A"]
+			hide: true
+			icon: "railways:remote_lens"
+			id: "60777AA73811863B"
+			tasks: [{
+				id: "391B6ACF10E90194"
+				type: "custom"
+			}]
+			title: "Laziest Employee"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41BC0E3DAD95B1F0"]
+			icon: "create:track_station"
+			id: "5A1CC1834AABBF79"
+			tasks: [{
+				id: "4C6FC6396ECD3826"
+				type: "custom"
+			}]
+			title: "Tank Engine"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5A1CC1834AABBF79"]
+			icon: "create:track_signal"
+			id: "2B3843C99F2935F2"
+			tasks: [{
+				id: "712B244918F81BC0"
+				type: "custom"
+			}]
+			title: "Logistical Logistics"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5A1CC1834AABBF79"]
+			id: "0DB78B8AF8CAF3B7"
+			tasks: [{
+				advancement: "create:train_portal"
+				criterion: ""
+				id: "1F24800194EBF9BF"
+				type: "advancement"
+			}]
+			title: "Railway to Hell"
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["49730DE1DEE6227D"]
+			icon: "create:steam_engine"
+			id: "04A68FB028F8D2E2"
+			tasks: [{
+				id: "244C17CEB7E7A4B5"
+				type: "custom"
+			}]
+			title: "Steampunker"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04A68FB028F8D2E2"]
+			icon: {
+				Count: 1b
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C3673428B60D604"
+			tasks: [{
+				id: "1D05219281D340EB"
+				type: "custom"
+			}]
+			title: "Irish Weaponry"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04A68FB028F8D2E2"]
+			icon: "create:steam_whistle"
+			id: "708A5CE3B235579B"
+			tasks: [{
+				id: "25AF6139B80A9F1B"
+				type: "custom"
+			}]
+			title: "Toccata \\& Fugue"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EFC167C364D6E32"]
+			icon: "create:crushing_wheel"
+			id: "215A260458BB6E70"
+			tasks: [{
+				id: "0994C6311BD1B9DA"
+				type: "custom"
+			}]
+			title: "The Grinder"
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0EFC167C364D6E32"]
+			icon: "create:wand_of_symmetry"
+			id: "5701AB037731FE1D"
+			tasks: [{
+				id: "64121CCA0E7924E8"
+				type: "custom"
+			}]
+			title: "Magical Mechanics"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0A6E73C67F3C85C0"]
+			icon: "minecraft:barrier"
+			id: "56AC887986FACBCE"
+			tasks: [{
+				id: "46469ADBA64D3485"
+				type: "custom"
+			}]
+			title: "World Eater"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A6E73C67F3C85C0"]
+			icon: "create:item_vault"
+			id: "5510262C0A4664B5"
+			tasks: [{
+				id: "212C9227806135F5"
+				type: "custom"
+			}]
+			title: "Amazon"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24DDD05A8A4CE94C"]
+			icon: "minecraft:porkchop"
+			id: "7128CD232ED99835"
+			tasks: [{
+				id: "1B304EFB4A28DF75"
+				type: "custom"
+			}]
+			title: "Orwell"
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24DDD05A8A4CE94C"]
+			icon: "farmersdelight:raw_pasta"
+			id: "75EFDFCF8CD67071"
+			tasks: [{
+				id: "29A9FE63C8AA3A6D"
+				type: "custom"
+			}]
+			title: "Italian Roots"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43DD535889B35D48"]
+			icon: "create_enchantment_industry:disenchanter"
+			id: "5A5FDAD46243BD80"
+			tasks: [{
+				id: "5C269ADF85D03329"
+				type: "custom"
+			}]
+			title: "Down the Drain"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["43DD535889B35D48"]
+			icon: "create_things_and_misc:sprinkler"
+			id: "2869DA85197E3356"
+			tasks: [{
+				id: "24386D4B214B45AF"
+				type: "custom"
+			}]
+			title: "Green Revolution"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A5FDAD46243BD80"]
+			hide: true
+			icon: "create_enchantment_industry:enchanting_guide"
+			id: "78F18682F84D1A62"
+			tasks: [{
+				id: "39EB206AF1453AA8"
+				type: "custom"
+			}]
+			title: "Automated Sorcery"
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["78F18682F84D1A62"]
+			id: "5E4A91120EE5B53C"
+			tasks: [{
+				icon: "create_enchantment_industry:hyper_experience_bottle"
+				id: "1E000FA0823E74A6"
+				type: "custom"
+			}]
+			title: "Overdrive"
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1C3673428B60D604"]
+			hide: true
+			icon: "create_things_and_misc:spout_gun"
+			id: "64D524C0E7358D56"
+			tasks: [{
+				id: "0615FE07FADBA361"
+				type: "custom"
+			}]
+			title: "Chemical Warfare"
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A47FF03AB791073"]
+			hide: true
+			id: "61D1BE0CC8B94F8C"
+			tasks: [{
+				icon: "alexscaves:nuclear_furnace_component"
+				id: "3F566F592F1BAA58"
+				type: "custom"
+			}]
+			title: "Kitchen Refurbishment"
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["61D1BE0CC8B94F8C"]
+			id: "7BCB60126658EFE2"
+			tasks: [{
+				icon: "alexscaves:nuclear_bomb"
+				id: "5B0ED20B5DE2E19F"
+				title: "Destroyer of Worlds"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["64D524C0E7358D56"]
+			icon: {
+				Count: 1b
+				id: "create_things_and_misc:blaze_balloon_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2510213C5E05832B"
+			tasks: [{
+				id: "47A58CCC2D5A97A5"
+				type: "custom"
+			}]
+			title: "Air Support"
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B81A670B1813B55"]
+			icon: "railways:red_conductor_cap"
+			id: "372E7A23B868826A"
+			tasks: [{
+				id: "5983C7AAB311D034"
+				title: "iRobot"
+				type: "custom"
+			}]
+			title: "Detroit"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B81A670B1813B55"]
+			hide: true
+			icon: "create_things_and_misc:vibration_mechanism"
+			id: "327E616F92A2D7AB"
+			tasks: [{
+				id: "0C4423489FBED346"
+				title: "Simple Harmonic Motion"
+				type: "custom"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["327E616F92A2D7AB"]
+			id: "52F24F031A8FF913"
+			tasks: [{
+				icon: "create_things_and_misc:brass_speaker"
+				id: "06E6EC543BC360F2"
+				title: "The Boombox"
+				type: "custom"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["327E616F92A2D7AB"]
+			id: "2818B0B8BA66768C"
+			tasks: [{
+				icon: "create_things_and_misc:radar"
+				id: "255CF6A13116511B"
+				title: "Hacks!"
+				type: "custom"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16CC98907504E609"]
+			hide: true
+			icon: "create_things_and_misc:card_reader"
+			id: "4C463E06A7ABBA44"
+			tasks: [{
+				id: "51BCE3863FF5773D"
+				title: "Securitycraft"
+				type: "custom"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DB78B8AF8CAF3B7"]
+			hide: true
+			id: "66A02C1743C5C0C3"
+			tasks: [{
+				advancement: "create:long_travel"
+				criterion: ""
+				id: "678EB612F819AA30"
+				type: "advancement"
+			}]
+			title: "Transcontinental"
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2B3843C99F2935F2"]
+			hide: true
+			icon: "railways:track_monorail"
+			id: "132CFE20981636C5"
+			tasks: [{
+				id: "62DE3D379D005903"
+				type: "custom"
+			}]
+			title: "Fallout Infrastructure"
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["132CFE20981636C5"]
+			id: "46FF39C5341E6EFF"
+			tasks: [{
+				icon: "railways:track_phantom"
+				id: "1F7E4FD2BD9E84A0"
+				title: "Cartoon Logic"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["215A260458BB6E70"]
+			hide: true
+			id: "63C44B7922443BAA"
+			tasks: [{
+				id: "1D1175B42B6F9657"
+				item: "kubejs:example_gold_farm"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["63C44B7922443BAA"]
+			icon: {
+				Count: 1b
+				id: "travelersbackpack:netherite"
+				tag: { }
+			}
+			id: "0CE784718C439259"
+			tasks: [{
+				id: "0E35CF12E9DE591A"
+				title: "G.H. Bass \\& Co."
+				type: "custom"
+			}]
+			x: 7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["63C44B7922443BAA"]
+			icon: "cobblemon:ultra_ball"
+			id: "2B00701C154E8215"
+			tasks: [{
+				id: "4958BA35210FB959"
+				title: "Pokecenter"
+				type: "custom"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+	]
+	title: "Industrialization"
+}
