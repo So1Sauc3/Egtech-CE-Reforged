@@ -19,7 +19,7 @@ Currently in BETA! Features are NOT complete, NOT AN OFFICIAL RELEASE.
 
 - Result: .minecraft folder should have one copy of each of these files ```'config', 'kubejs', 'mods'```
 # Modlist
-```Performance```
+```Performance```\
 attributefix\
 betterchunkloading\
 betterfps\
@@ -43,7 +43,7 @@ smoothchunk\
 starlight\
 toofast\
 
-```Utility```
+```Utility```\
 appleskin - nutrition values\
 corpse - gravestone mod\
 curios - accesory slots\
@@ -67,19 +67,19 @@ voice chat - proximity voice\
 wi zoom - zoom function\
 journeymap - map\
 
-```Decoration```
+```Decoration```\
 chipped - chisel but for 1.18+\
 create deco - steampunk decorations\
 handcrafted - more decorations\
 
-```Terrain```
+```Terrain```\
 alex's caves - new cave biomes\
 incendium - new nether biomes\
 nullscape - new end biomes\
 regions unexplored - new biomes\
 tectonic - dramatic larger biomes\
 
-```Adventure```
+```Adventure```\
 alex's mobs - new mobs and bosses\
 better villages - overhauled village structures\
 cobblemon - pokemon in minecraft\
@@ -91,7 +91,7 @@ yung's better nether fortress - fortress overhaul\
 yung's better ocean monument - monument overhaul\
 yung's better stronghold - stronghold overhaul\
 
-```Survival```
+```Survival```\
 exposure - camera and photo taking\
 farmer's delight - interactive cooking and baking mod\
 majrusz's difficulty - scaling difficulty\
@@ -102,19 +102,19 @@ traveler's backpack - multifunctional backpack\
 tree chop - better tree harvesting\
 vinery - wine and stuff\
 
-```Magic```
+```Magic```\
 ars nouveau - diy spells\
 iron's spells - Electroblob's but updated\
 too many glyphs - more ars glyphs\
 
-```Technology```
+```Technology```\
 create - mechanical automation and construction\
 create enchant industry - enchantment automation\
 create misc & things - misc create\
 create slice & dice - automated FD\
 steam and rails - more train stuff\
 
-```Combat```
+```Combat```\
 better combat - animated combat\
 create sabers - lightsabers\
 parcool! - better movement\
