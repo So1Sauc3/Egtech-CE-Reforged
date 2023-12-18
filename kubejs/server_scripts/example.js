@@ -16,6 +16,8 @@ ServerEvents.recipes(event => {
     ])
     
     event.recipes.create.compacting('kubejs:oreo_thin', ['kubejs:oreo_wafer_top','kubejs:oreo_cream','kubejs:oreo_wafer_bottom']).superheated()
+    
+    event.recipes.create.haunting('create:zinc_ingot','iron_ingot')
 
     event.recipes.createMechanicalCrafting('minecraft:enchanted_golden_apple', [
 		' AAA ',

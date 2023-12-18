@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1A38B3C34C616DA7"]
 			icon: {
 				Count: 1b
 				id: "witherstormmod:amulet"
@@ -18,11 +19,6 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Bragging rights for the &6worthy&r"
-			tasks: [{
-				id: "5A0DBBDCDEF33664"
-				title: "placeholder"
-				type: "checkmark"
-			}]
 			title: "Server Titles"
 			x: 0.5d
 			y: 0.0d
@@ -91,6 +87,11 @@
 			dependencies: ["2C2F393F4233D064"]
 			icon: "witherstormmod:withered_nether_star"
 			id: "4F9C10D402745E6F"
+			rewards: [{
+				id: "722972D6C6AA053D"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "&6Defeat&r the Wither Storm"
 			tasks: [{
@@ -106,6 +107,11 @@
 			dependencies: ["2C2F393F4233D064"]
 			icon: "cobblemon:kings_rock"
 			id: "27BA082508099F06"
+			rewards: [{
+				id: "4C59A671AADD0738"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Conquer&r and control all bases"
 			tasks: [{
 				id: "67C5352531471C5B"
@@ -125,6 +131,11 @@
 				}
 			}
 			id: "18841976DC98ED44"
+			rewards: [{
+				id: "1922A4EFDCB2B44F"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Kill&r every player 10 times"
 			tasks: [{
 				id: "515BC26E18498AB9"
@@ -138,6 +149,11 @@
 			dependencies: ["2C2F393F4233D064"]
 			icon: "minecraft:stone_button"
 			id: "2F8417817B13E85F"
+			rewards: [{
+				id: "317B609F0FF3B3A1"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "Complete the &6Boss Rush&r challenge"
 			tasks: [{
 				id: "52463E6E91600810"
@@ -157,6 +173,11 @@
 				}
 			}
 			id: "0745B6A3816F231C"
+			rewards: [{
+				id: "791231343C85B84B"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "Equip and &6raise&r a guard villager army"
 			tasks: [{
 				id: "06398DDEFA71699A"
@@ -174,6 +195,11 @@
 				tag: { }
 			}
 			id: "39D60DC2516BBF23"
+			rewards: [{
+				id: "2B48A98C4E85C699"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "&6Set up&r an outpost in 50 Terralith Biomes"
 			tasks: [{
@@ -194,6 +220,11 @@
 				}
 			}
 			id: "6112E3D767D57A8F"
+			rewards: [{
+				id: "2BF13008BB510CB4"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "Discover and &6settle&r all of Alex's Caves"
 			tasks: [{
 				id: "2767C02DAA296F45"
@@ -207,6 +238,11 @@
 			dependencies: ["1D43CA94FBD733FD"]
 			icon: "alexsmobs:capsid"
 			id: "1AA2858F43DE5E5F"
+			rewards: [{
+				id: "2552D1071411F700"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Make&r a space base in every Nullscape biome"
 			tasks: [{
 				id: "7E358578E57AE42C"
@@ -220,6 +256,11 @@
 			dependencies: ["08D03A41B019A564"]
 			icon: "create:creative_crate"
 			id: "232DD0D7927B9646"
+			rewards: [{
+				id: "016D1B6C3645BA9A"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "&6Automate&r the Create Mod itself"
 			tasks: [{
@@ -234,6 +275,11 @@
 			dependencies: ["176E862A5A8CBD08"]
 			icon: "farmersdelight:squid_ink_pasta"
 			id: "292256AFDD9DAC31"
+			rewards: [{
+				id: "6C627927A359C732"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Gather&r every single consumable item"
 			tasks: [{
 				id: "078BBBA892117CBB"
@@ -247,6 +293,11 @@
 			dependencies: ["08D03A41B019A564"]
 			icon: "create:crafting_blueprint"
 			id: "358AFA831932B06A"
+			rewards: [{
+				id: "1FE772C03B0463DF"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Build&r a fully functional city"
 			tasks: [{
 				id: "521ECF0B21104E6F"
@@ -260,6 +311,11 @@
 			dependencies: ["1D43CA94FBD733FD"]
 			icon: "minecraft:cracked_stone_bricks"
 			id: "1E8CAAA70A7C510F"
+			rewards: [{
+				id: "2F2D588D23635A98"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "Discover and &6repurpose&r all major structures"
 			tasks: [{
 				id: "33A65D1725EAEB44"
@@ -273,6 +329,11 @@
 			dependencies: ["08D03A41B019A564"]
 			icon: "create:track"
 			id: "57A73A3759D605B1"
+			rewards: [{
+				id: "6180B62E26A38BDE"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Connect&r all player bases by rail"
 			tasks: [{
 				id: "739A08A552F90BC0"
@@ -292,6 +353,11 @@
 				}
 			}
 			id: "40AA0E5F36EBAC52"
+			rewards: [{
+				id: "3AFD63DA52028684"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Build&r and open a wizarding school"
 			tasks: [{
 				id: "5BFF37E08C7ACFBD"
@@ -305,6 +371,11 @@
 			dependencies: ["176E862A5A8CBD08"]
 			icon: "farmersdelight:ratatouille"
 			id: "7AAF29600ABAA77A"
+			rewards: [{
+				id: "530D5E9128BE5E40"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Produce&r 2 stacks of every Farmer's Delight food"
 			tasks: [{
 				id: "3297037DC7BFE435"
@@ -327,6 +398,11 @@
 				}
 			}
 			id: "2207637B104D5F13"
+			rewards: [{
+				id: "146EA4AEB6658DE4"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Obtain&r every single spell scroll"
 			tasks: [{
 				id: "08B8C1AE6A055C41"
@@ -340,6 +416,11 @@
 			dependencies: ["176E862A5A8CBD08"]
 			icon: "cobblemon:master_ball"
 			id: "1E07B7AC8C637A14"
+			rewards: [{
+				id: "19EB4F31F5667094"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "&6Catch&r every pokemon"
 			tasks: [{
@@ -360,6 +441,11 @@
 				}
 			}
 			id: "21FABD84FD052B69"
+			rewards: [{
+				id: "5FE68178A3DB2226"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Brew&r every wine"
 			tasks: [{
 				id: "388A35710632DB8F"
@@ -370,7 +456,30 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4386B2ED33401524"]
+			dependencies: [
+				"4386B2ED33401524"
+				"292256AFDD9DAC31"
+				"2207637B104D5F13"
+				"232DD0D7927B9646"
+				"2F8417817B13E85F"
+				"13D1EF46CC3CE001"
+				"40AA0E5F36EBAC52"
+				"1AA2858F43DE5E5F"
+				"18841976DC98ED44"
+				"7AAF29600ABAA77A"
+				"3E4E3FCC6473E361"
+				"27BA082508099F06"
+				"358AFA831932B06A"
+				"21FABD84FD052B69"
+				"4F9C10D402745E6F"
+				"0745B6A3816F231C"
+				"57A73A3759D605B1"
+				"1E8CAAA70A7C510F"
+				"1E07B7AC8C637A14"
+				"39D60DC2516BBF23"
+				"6112E3D767D57A8F"
+			]
+			hide_dependency_lines: true
 			icon: "witherstormmod:command_block_hoe"
 			id: "383ED070517AE0BC"
 			invisible: true
@@ -385,9 +494,14 @@
 					item: "tempad:tempad"
 					type: "item"
 				}
+				{
+					id: "112F201A039EC765"
+					item: "create:creative_motor"
+					type: "item"
+				}
 			]
-			shape: "gear"
-			size: 1.25d
+			shape: "octagon"
+			size: 2.0d
 			tasks: [{
 				id: "1E38BE0F28DEF39F"
 				title: "[Completionist]"
@@ -401,6 +515,11 @@
 			dependencies: ["1D43CA94FBD733FD"]
 			icon: "minecraft:piglin_head"
 			id: "13D1EF46CC3CE001"
+			rewards: [{
+				id: "3882B2776C8F8E32"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "Plunder and &6make liveable&r all of Incendium"
 			tasks: [{
 				id: "0ED310D4D2AB6011"
@@ -414,6 +533,11 @@
 			dependencies: ["08D03A41B019A564"]
 			icon: "alexscaves:nuclear_bomb"
 			id: "3E4E3FCC6473E361"
+			rewards: [{
+				id: "01A4A17D2CFC86B0"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
 			subtitle: "&6Automate&r nuclear bombs production"
 			tasks: [{
 				id: "41AB079A8E4ECF93"
@@ -426,7 +550,7 @@
 		}
 		{
 			dependencies: ["383ED070517AE0BC"]
-			description: ["N-Word Pass acquired"]
+			description: ["I am being forced by CDJarmour to leave this in."]
 			icon: "ars_nouveau:glyph_wither"
 			id: "68C0679FC0BE2B96"
 			invisible: true

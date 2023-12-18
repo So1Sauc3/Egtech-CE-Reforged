@@ -50,6 +50,12 @@
 			dependencies: ["77B782CBC201BF8D"]
 			description: ["This amulet allows you to &6track bound mobs&r as well as the Wither Storm. Applicable for many uses beyond simply escaping the Storm."]
 			id: "5E9EBF742A3ADAC0"
+			rewards: [{
+				count: 8
+				id: "086B504D175F2DEE"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
 			subtitle: "Craft an amulet."
 			tasks: [{
 				advancement: "witherstormmod:main/amulet"
@@ -64,12 +70,20 @@
 			dependencies: ["77B782CBC201BF8D"]
 			description: ["You sure seem to have a lot of free time, being able to observe the Wither Storm instead of running from or &6preparing&r for it."]
 			id: "3114786D6C664910"
-			rewards: [{
-				count: 2
-				id: "190863BA4F41ED5B"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "190863BA4F41ED5B"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1D4FDFD5448E0292"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Look at the Wither Storm through a spyglass"
 			tasks: [{
 				advancement: "witherstormmod:main/spyglass_at_wither_storm"
@@ -84,12 +98,20 @@
 			dependencies: ["77B782CBC201BF8D"]
 			description: ["A noble act, to &6ring a bell&r and notify others of the incoming danger."]
 			id: "1A67D0458FEBDA78"
-			rewards: [{
-				count: 10
-				id: "037ED215145E05B6"
-				item: "minecraft:bell"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "037ED215145E05B6"
+					item: "minecraft:bell"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3E18DCE3D4D6154C"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Warn nearby entities of the Wither Storm."
 			tasks: [{
 				advancement: "witherstormmod:main/ring_bell_near_storm"
@@ -104,11 +126,18 @@
 			dependencies: ["77B782CBC201BF8D"]
 			description: ["The Wither Storm inflicts wither sickness, which gradually &6decreases your maximum health&r over time. It is suggested that you avoid this effect if possible, as it is difficult to cure."]
 			id: "07C1CE4D329BB2C2"
-			rewards: [{
-				id: "1EB607809FA1F1AE"
-				item: "minecraft:enchanted_golden_apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1EB607809FA1F1AE"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "4C7830786DF85ACE"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Cure yourself of wither sickness."
 			tasks: [{
 				advancement: "witherstormmod:main/cured_sickened_mob"
@@ -123,17 +152,25 @@
 			dependencies: ["77B782CBC201BF8D"]
 			description: ["The Wither Storm's multiple heads, after reaching a certain stage, will develop tractor beams from its eyes that pick up blocks and entities to consume. If caught within the beam, you can potentially escape by &6damaging its eye with projectiles&r, hitting its head ~5 times, or launching a firework to divert its attention temporarily."]
 			id: "4ECB22385A2F46C7"
-			rewards: [{
-				id: "4EC05530808D53F8"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:long_slow_falling"
+			rewards: [
+				{
+					id: "4EC05530808D53F8"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 8
+					id: "362A171FF23298A0"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Escape the Wither Storm's tractor beam."
 			tasks: [{
 				advancement: "witherstormmod:main/escape_wither_storm"
@@ -192,12 +229,20 @@
 			dependencies: ["2A5958309E8348B2"]
 			description: ["This miniboss spawned by the Wither Storm in phase 5 holds the key to defeating the Storm. Kill it, and &6obtain the command block book&r, which is used in the recipe for the Formidibomb."]
 			id: "1983A8F4EC8F232A"
-			rewards: [{
-				count: 4
-				id: "24517A208C47C2A5"
-				item: "minecraft:golden_apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "24517A208C47C2A5"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74A7F701C9372AF3"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Encounter a Withered Symbiont."
 			tasks: [{
 				advancement: "witherstormmod:main/harbinger_of_cataclysmic_fates"
@@ -227,6 +272,12 @@
 				{
 					id: "3A655AD741DA7EBC"
 					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01745CF3292DDA5B"
+					item: "createdeco:brass_coin"
 					type: "item"
 				}
 			]
@@ -271,11 +322,19 @@
 			dependencies: ["6798B9377D241E67"]
 			description: ["as the Wither Storm falls for the last time, it &6yields the withered nether star&r, marking the end of early game, and the start of mid game progression."]
 			id: "1C65077EF2524447"
-			rewards: [{
-				id: "08289301738C2FD7"
-				item: "skilltree:wisdom_scroll"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "08289301738C2FD7"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "545662227AC4D824"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Defeat the Wither Storm, FR this time."
@@ -285,6 +344,7 @@
 				id: "773092D3A14EA31E"
 				type: "advancement"
 			}]
+			title: "One Story Ends, Another Begins"
 			x: 0.0d
 			y: -10.0d
 		}

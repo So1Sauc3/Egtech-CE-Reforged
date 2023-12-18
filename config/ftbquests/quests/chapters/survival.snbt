@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["23402BC19FF05D29"]
 			icon: "create:honeyed_apple"
 			id: "41FC19F8C75AC180"
 			rewards: [{
@@ -19,9 +20,8 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "07B06BA22B8CCDA5"
-				type: "dimension"
+				id: "4096D0681DFF602F"
+				type: "checkmark"
 			}]
 			title: "The Beginning"
 			x: 1.5d
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["41FC19F8C75AC180"]
-			description: ["Accessed via a keybind, you are able to enhance your natural stats through this ability tree. In order to get skill points, &6complete quests and challenges&r in the FTB Quests menu to be rewarded with wisdom scrolls, each granting &61 skill point&r. Skill trees can be &6reset&r with an amnesia scroll obtained through similar methods."]
+			description: ["Accessed via a keybind, you are able to enhance your natural stats through this ability tree. In order to get skill points, &6complete quests and challenges&r in the FTB Quests menu to be rewarded with wisdom scrolls, each granting &61 skill point&r. Skill trees can be &6reset&r at &685% efficiency&r with an amnesia scroll obtained through similar methods."]
 			icon: "skilltree:wisdom_scroll"
 			id: "771BDE04A27E9AD7"
 			rewards: [
@@ -211,15 +211,23 @@
 			description: ["The world has been altered forever by Tectonic and Regions Unexplored, combining large and &6dramatic terrain&r generation with a vast collection of &6new biomes&r to explore. Structures have been revamped and new ones added, from Yung's Better Structures to Better Villages and boss arenas from Lender's Cataclysm. The world is filled with unique adventures to undertake and terrain to &6explore&r. For now though, there's &6a bigger danger&r to be concerned about..."]
 			icon: "cobblemon:heavy_duty_boots"
 			id: "5D479A4CF975C84A"
-			rewards: [{
-				id: "500668D9E3E83BAE"
-				item: {
-					Count: 1b
-					id: "travelersbackpack:standard"
-					tag: { }
+			rewards: [
+				{
+					id: "500668D9E3E83BAE"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:standard"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "453F6C7015C149F6"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+			]
 			subtitle: "Regions Unexplored"
 			tasks: [{
 				id: "4F59AA6B0311E4A9"
@@ -297,6 +305,12 @@
 			description: ["Villagers have stepped up in their architectural prowess, creating more &6sophisticated&r and biome-specific &6buildings&r. These villages provide &6safehaven&r for all travelers who pass by, though it may only be &6temporary&r with the main threat looming in the distance."]
 			icon: "minecraft:red_bed"
 			id: "71FFD3B71F6E087C"
+			rewards: [{
+				count: 4
+				id: "30CD0A48617E46A4"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
 			subtitle: "Better Villages"
 			tasks: [{
 				id: "0AA330A579C76686"
@@ -313,6 +327,12 @@
 			description: ["Structures from eons ago lie quietly in the corners of the world, waiting for brave explorers to discover them. From ocean monuments to fortresses and &6strongholds&r, they have all been revamped and &6improved&r in both beauty and &6difficulty&r."]
 			icon: "minecraft:prismarine_brick_stairs"
 			id: "66ED5AFC1C4FC802"
+			rewards: [{
+				count: 8
+				id: "2172999847BF2E17"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
 			subtitle: "Yung's Structures"
 			tasks: [{
 				id: "651C363BF1E6CA33"
@@ -378,6 +398,7 @@
 		}
 		{
 			dependencies: ["771BDE04A27E9AD7"]
+			description: ["It's vein miner."]
 			icon: {
 				Count: 1b
 				id: "alexsmobs:ghostly_pickaxe"
@@ -413,6 +434,7 @@
 		}
 		{
 			dependencies: ["771BDE04A27E9AD7"]
+			description: ["No longer are you reliant on external programs to talk with other players. Simply walk up to them, &6unmute&r and begin speaking! Your &6volume&r is dependent on your &6distance&r from others."]
 			icon: "ars_nouveau:glyph_aoe"
 			id: "6B1C2B42CDF04F76"
 			subtitle: "Proximity Chat"
@@ -450,7 +472,22 @@
 		}
 		{
 			dependencies: ["579E7E1197C17F40"]
+			description: ["Entering the nether triggers a tidal wave of &6change&r across the world. The breaching of hell causes an influx of &6stronger mobs&r and more &6difficult mechanics&r. However, it also unlocks many more powerful parts of &6progression&r."]
 			id: "172ACAADF4827026"
+			rewards: [
+				{
+					count: 2
+					id: "7A53F7E8A01EFE7F"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "49429424E32CA0F6"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "The Nether"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "0AEB2A865AFB6300"
@@ -492,8 +529,16 @@
 		}
 		{
 			dependencies: ["3846633663A24D8E"]
+			description: ["The hoglin provides a plethora of &6cuts of meat&r that can be made into many &6hearty&r and delicious dishes with distinct smoky flavors."]
 			icon: "nethersdelight:hoglin_trophy"
 			id: "7498563C74A136EA"
+			rewards: [{
+				count: 2
+				id: "43E0523C3A3E867B"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Nether's Delight"
 			tasks: [
 				{
 					id: "63BABC230A9EE2F5"
@@ -522,8 +567,16 @@
 		}
 		{
 			dependencies: ["172ACAADF4827026"]
+			description: ["The &6piglins&r make their home in the depths of the nether, harboring a thriving community of &6bartering&r."]
 			icon: "minecraft:piglin_head"
 			id: "3335ECD135F35D9D"
+			rewards: [{
+				count: 8
+				id: "0C92A9E2C2719951"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Piglin Village"
 			tasks: [{
 				advancement: "incendium:misc/loot_piglin_village"
 				criterion: ""
@@ -535,11 +588,24 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["1CFCD44BA33FB788"]
+			dependencies: ["3335ECD135F35D9D"]
+			description: ["Locate the &6infernal altar&r and defeat the &6Blazing Inferno&r to obtain its powerful unique loot."]
 			icon: "minecraft:blaze_powder"
 			id: "49F03C92BE78D7AD"
-			shape: "octagon"
-			size: 1.5d
+			rewards: [
+				{
+					count: 8
+					id: "0BD3B305C2A4D67D"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "5BF0735170626D01"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			size: 1.0d
 			tasks: [{
 				advancement: "incendium:infernal_dunes/inferno/kill"
 				criterion: ""
@@ -547,8 +613,8 @@
 				type: "advancement"
 			}]
 			title: "Infernum"
-			x: 1.5d
-			y: 15.0d
+			x: -2.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5D479A4CF975C84A"]
@@ -563,10 +629,9 @@
 			}]
 			subtitle: "Alex's Mobs"
 			tasks: [{
-				advancement: "alexsmobs:alexsmobs/root"
-				criterion: ""
-				id: "482894D8EE7241D9"
-				type: "advancement"
+				id: "1B429FA6084BFF85"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
 			}]
 			title: "Creatures Galore"
 			x: 5.5d
@@ -732,6 +797,12 @@
 		{
 			dependencies: ["60B885C58E03B74F"]
 			id: "3F3C791D4A56C92F"
+			rewards: [{
+				count: 8
+				id: "335105EC5DA88572"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0504C97DFC8F25F6"
@@ -751,6 +822,12 @@
 		{
 			dependencies: ["60B885C58E03B74F"]
 			id: "35386EEBBFAD644B"
+			rewards: [{
+				count: 8
+				id: "73ACA5ECC9428376"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "39484937DAFCA146"
 				item: "cobblemon:pasture"
@@ -763,6 +840,12 @@
 		{
 			dependencies: ["5619CC97D22EE00E"]
 			id: "1C0F2F2AA6CDD133"
+			rewards: [{
+				count: 2
+				id: "14C3AE16A0D84130"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1984FED40514B4C9"
 				item: "ars_nouveau:apprentice_spell_book"
@@ -776,6 +859,12 @@
 			dependencies: ["5619CC97D22EE00E"]
 			icon: "ars_nouveau:creative_source_jar"
 			id: "5413568A291E5E56"
+			rewards: [{
+				count: 16
+				id: "752CED244823E3DE"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1AAF8506CD39ED27"
@@ -800,8 +889,16 @@
 		}
 		{
 			dependencies: ["3846633663A24D8E"]
+			description: ["The hellish ecosystem of the Nether gives rise to a variety of unique &6flora&r that can be made into several &6delicacies&r to enjoy."]
 			icon: "nethersdelight:magma_gelatin"
 			id: "0FE4BB064F871E3C"
+			rewards: [{
+				count: 16
+				id: "596FC78F906A247E"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Nether's Delight"
 			tasks: [
 				{
 					id: "395C3337B6D4ABEA"
@@ -815,32 +912,37 @@
 					type: "item"
 				}
 			]
+			title: "Hellish Delicacies"
 			x: 5.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["172ACAADF4827026"]
-			id: "1CFCD44BA33FB788"
-			tasks: [{
-				advancement: "incendium:infernal_dunes/inferno/root"
-				criterion: ""
-				id: "368CDFF0F1EB9083"
-				type: "advancement"
-			}]
-			title: "Infernal Altar"
-			x: 1.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["3335ECD135F35D9D"]
+			dependencies: ["075C687C98DA4D28"]
+			description: ["&6Conquer&r the throne of the &6Nether&r and take your place at its peak."]
 			icon: {
 				Count: 1b
-				id: "minecraft:gilded_blackstone"
+				id: "minecraft:netherite_axe"
 				tag: {
-					Enchantments: [{ }]
+					Damage: 0
 				}
 			}
 			id: "353F09944770AB10"
+			rewards: [
+				{
+					count: 8
+					id: "5A109A63362675C0"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "4B61B7C6BD939E15"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Conquerer"
 			tasks: [{
 				advancement: "incendium:ash_barrens/conquer_castle"
 				criterion: ""
@@ -848,12 +950,19 @@
 				type: "advancement"
 			}]
 			title: "King of Hell"
-			x: -2.5d
-			y: 10.0d
+			x: 1.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["3335ECD135F35D9D"]
+			description: ["Eradicate the &6pillager cult&r that has established their presence in the Nether by infiltrating the &6Sanctum&r."]
 			id: "588041406F3C5DEA"
+			rewards: [{
+				count: 8
+				id: "085AC6FB2401B454"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "incendium:quartz_flats/sanctum/vault_hunter"
 				criterion: ""
@@ -1058,11 +1167,21 @@
 			hide: true
 			icon: "kubejs:oreo_wafer_bottom"
 			id: "3654075A0944202F"
-			rewards: [{
-				id: "159AA885AC812BDA"
-				item: "kubejs:oreo_wafer_bottom"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "159AA885AC812BDA"
+					item: "kubejs:oreo_wafer_bottom"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "581466772F923598"
+					item: "createdeco:industrial_iron_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "1B059CDA4E617548"
 				type: "checkmark"
@@ -1084,6 +1203,27 @@
 			}]
 			x: 1.5d
 			y: 29.0d
+		}
+		{
+			dependencies: ["172ACAADF4827026"]
+			description: ["Discover the formidable &6fortress&r of the piglins, the true testament to their &6strengt&rh. Beware, the guards inside possess far more advanced &6technology and skill&r compared to others."]
+			id: "075C687C98DA4D28"
+			rewards: [{
+				count: 32
+				id: "658148A377C76982"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Forbidden Castle"
+			tasks: [{
+				advancement: "incendium:ash_barrens/enter_castle"
+				criterion: ""
+				id: "2BF5D11E653A3D62"
+				type: "advancement"
+			}]
+			title: "The True Fortress"
+			x: 1.5d
+			y: 12.5d
 		}
 	]
 	title: "Survival"

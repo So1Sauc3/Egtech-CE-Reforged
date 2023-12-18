@@ -254,8 +254,8 @@
 			icon: "majruszsdifficulty:undead_battle_standard"
 			id: "343F61B536B1C19E"
 			tasks: [{
-				id: "3F15610992A9CF49"
-				type: "custom"
+				id: "1A325769BD0C62B6"
+				type: "checkmark"
 			}]
 			title: "Majrusz's Difficulty"
 			x: 0.0d
@@ -271,8 +271,8 @@
 			}
 			id: "489F9E10D399F894"
 			tasks: [{
-				id: "18FCFA2F18A49B26"
-				type: "custom"
+				id: "361E23D41BF39351"
+				type: "checkmark"
 			}]
 			title: "Inventory Nerfs"
 			x: 6.0d
@@ -284,8 +284,8 @@
 			icon: "farmersdelight:apple_pie"
 			id: "7D05D414EAB9863B"
 			tasks: [{
-				id: "127E929F2E70023C"
-				type: "custom"
+				id: "015AAD632EB98B36"
+				type: "checkmark"
 			}]
 			title: "Slice of Life: Apple Pie"
 			x: 0.0d
@@ -297,8 +297,8 @@
 			icon: "supplementaries:flag_red"
 			id: "2BCEE2A4E0979D68"
 			tasks: [{
-				id: "400291CC9D90C86D"
-				type: "custom"
+				id: "73CD29BDFF8EEACC"
+				type: "checkmark"
 			}]
 			title: "FTB Teams"
 			x: -6.0d

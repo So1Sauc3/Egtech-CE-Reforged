@@ -9,8 +9,18 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"The Witherstorm's defeat unlocks countless new lines of &6progression&r. No longer being constantly &6hunted&r by such a destructive force, the player is able to begin constructing more &6permanent&r infrastructure and &6technology&r, becoming much more &6powerful&r in the process."
+				""
+				"NOTE: This chapter, progression-wise speaking, is technically completely &6optional&r. However, the infrastructure and technology introduced in this chapter will &6greatly help&r with acquiring endgame &6titles&r later on."
+			]
 			icon: "create:brass_hand"
 			id: "6BAF4536E7BA9C44"
+			rewards: [{
+				id: "28A5565870256EBF"
+				item: "create:hand_crank"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -27,10 +37,71 @@
 			dependencies: ["6EA2B9375D1B299B"]
 			icon: "create:attribute_filter"
 			id: "796FABE2FB932797"
-			tasks: [{
-				id: "38BF2A523ED6DDF8"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "6C8C33AB34326EEC"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "18A07F65CD2D25B3"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Item Logistics"
+			tasks: [
+				{
+					count: 16L
+					id: "4C02E270C71DBA28"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2A6945D59D18449E"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6D0B0E8204D229FB"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "13B4AD56EC88C945"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0427CDEADA230587"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "141E44A26BADAB7C"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6982D5B212E41B4E"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "505C95B4F3567B4F"
+					item: "create:display_board"
+					type: "item"
+				}
+			]
 			title: "Upgrades, people!"
 			x: 3.5d
 			y: -3.5d
@@ -39,12 +110,48 @@
 			dependencies: ["6379B1715D307863"]
 			icon: "create:brass_casing"
 			id: "16CC98907504E609"
+			rewards: [
+				{
+					count: 2
+					id: "52A92ADCDDBCF06E"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "36B54F601B066751"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "7781B6794E3A9189"
-				type: "custom"
-			}]
+			subtitle: "Tier II"
+			tasks: [
+				{
+					count: 32L
+					id: "62FD61E5C9939D6A"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "26F40AED823575C4"
+					item: "create:brass_sheet"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6FBA4B38C79054F7"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4D8F7B887FD3DD28"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
 			title: "Brass Age"
 			x: 5.0d
 			y: 0.0d
@@ -53,26 +160,109 @@
 			dependencies: ["756577571C98AADC"]
 			icon: "create:railway_casing"
 			id: "2D1501C3B0AA0236"
+			rewards: [
+				{
+					count: 4
+					id: "7FCE4E32D1A35E38"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "443E8E3AE786FC9D"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "665DE529B49B0D07"
-				type: "custom"
-			}]
+			subtitle: "Tier III"
+			tasks: [
+				{
+					count: 64L
+					id: "33DFC37F1229BBCF"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "265383056406192F"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "6FF6CE6520489190"
+					item: "create:controls"
+					type: "item"
+				}
+			]
 			title: "Logistical Age"
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["6BAF4536E7BA9C44"]
+			description: ["The andesite age opens up a huge range of possibilities, from automation of essential materials, to transportation "]
 			icon: "create:andesite_casing"
 			id: "27CEFE48FE894A28"
+			rewards: [
+				{
+					count: 2
+					id: "630945F9C448CC88"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "7D3336109CEDECEF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "22DBDF8916FC9A62"
-				type: "custom"
-			}]
+			subtitle: "Tier I"
+			tasks: [
+				{
+					count: 32L
+					id: "25580AFBEC3B66F1"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "51C01ECF439AC38C"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "745EC84022FFC36F"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "176D83EB42357C29"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0C399D353D7E5911"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7ABCF61F8925C3AD"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1CB7F8AC36BF076D"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
 			title: "Andesite Age"
 			x: 0.0d
 			y: 5.0d
@@ -81,12 +271,42 @@
 			dependencies: ["6BAF4536E7BA9C44"]
 			icon: "create:copper_casing"
 			id: "411067BDE0180961"
+			rewards: [
+				{
+					count: 2
+					id: "4E27EC77E06BBEB6"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "29FC5C41016D7CFF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "240A94997F12EB57"
-				type: "custom"
-			}]
+			subtitle: "Tier I"
+			tasks: [
+				{
+					count: 32L
+					id: "5AAEEDA5225F2927"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "444A6D40F54F9F51"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3838743729D591E4"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
 			title: "Copper Age"
 			x: -5.0d
 			y: 0.0d
@@ -95,11 +315,64 @@
 			dependencies: ["262D5052060140CE"]
 			icon: "kubejs:example_iron_farm"
 			id: "20B9C2DCCD629AC6"
-			tasks: [{
-				id: "3CC0205E9285E126"
-				item: "kubejs:example_iron_farm"
+			rewards: [{
+				count: 4
+				id: "6EB2662682C01491"
+				item: "createdeco:brass_coin"
 				type: "item"
 			}]
+			subtitle: "Iron Farm"
+			tasks: [
+				{
+					id: "5950C8567BE63043"
+					item: "kubejs:example_iron_farm"
+					type: "item"
+				}
+				{
+					id: "79818CA480CE812D"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "3B9DF291EEB474AF"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "60729ED0A2D6C363"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6EE696E340D46C38"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "389C06328ED488CE"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "5DDC60BBBBC78EE3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5A335A7132D1C25C"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "521A86AA0DCE7BCB"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
 			title: "The Cornerstone"
 			x: 3.5d
 			y: 3.5d
@@ -108,11 +381,72 @@
 			dependencies: ["145349610C0F4E6A"]
 			icon: "farmersdelight:rich_soil_farmland"
 			id: "08DED6B19C4BD9AE"
-			subtitle: "Make a &6crop farm&r"
-			tasks: [{
-				id: "3D994DBFC0276411"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "67E0E4B87D0E7908"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Crop Farm"
+			tasks: [
+				{
+					count: 128L
+					id: "390AB949A5CADB48"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "28CEEFE94BDF0BF7"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "493492B7DE02F013"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "6DD873CFC6233AF2"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "64983B48FCC48E32"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "40430360B67E18A1"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2904E4D43A58D62F"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "191A3A8D7C083968"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "63290A1D99C3C4AD"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
 			title: "McCormick"
 			x: -3.5d
 			y: 3.5d
@@ -121,10 +455,51 @@
 			dependencies: ["2103FAD6DF0B5ACC"]
 			icon: "create:chocolate_bucket"
 			id: "6A35EB1B7478D3E8"
-			tasks: [{
-				id: "0916BABE782458E6"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "7D6F19BEB8F420FD"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4480D71EFCDABD29"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Chocolate Automation"
+			tasks: [
+				{
+					advancement: "create:chocolate_bucket"
+					criterion: ""
+					id: "095D13AF93534D0A"
+					type: "advancement"
+				}
+				{
+					id: "0F18A4CD5814BD71"
+					item: "create:item_drain"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4AD0A5BE14D1C35B"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B4BF8DA5FA3245D"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "45A1E480A67986B4"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
 			title: "Wonka"
 			x: -3.5d
 			y: -3.5d
@@ -133,10 +508,37 @@
 			dependencies: ["27CEFE48FE894A28"]
 			icon: "minecraft:furnace_minecart"
 			id: "662BEB80FF47AB2F"
-			tasks: [{
-				id: "38CA80AAFF39533D"
-				type: "custom"
+			rewards: [{
+				count: 16
+				id: "578CE200059DA6D2"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Minecart Contraption"
+			tasks: [
+				{
+					id: "142398ED8FEA042B"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					id: "26706CFBF0229E19"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "322B50652E69B2A3"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1A2D20E4174919DD"
+					item: "minecraft:powered_rail"
+					type: "item"
+				}
+			]
 			title: "Physics Be Damned"
 			x: 0.0d
 			y: 7.0d
@@ -145,10 +547,35 @@
 			dependencies: ["27CEFE48FE894A28"]
 			icon: "create:mechanical_harvester"
 			id: "145349610C0F4E6A"
-			tasks: [{
-				id: "5290F39E39275CCF"
-				type: "custom"
+			rewards: [{
+				count: 16
+				id: "1F162092B1CD64F2"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Harvesting Utils"
+			tasks: [
+				{
+					id: "53570398689AAB81"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "67C39646DE12A8F3"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "09FD611CAB72F7ED"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "3959FF78055CC504"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+			]
 			title: "Basic Harvesting"
 			x: -2.0d
 			y: 4.5d
@@ -157,10 +584,56 @@
 			dependencies: ["08DED6B19C4BD9AE"]
 			icon: "minecraft:spruce_sapling"
 			id: "6546C7E521A7318A"
-			tasks: [{
-				id: "08B745379F06A8FB"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "70A3AF8CBA38FC1E"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Tree Farm"
+			tasks: [
+				{
+					count: 64L
+					id: "29A633A0E6AF1947"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "24FE231C7BD3700C"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4D0A35B3463FFB12"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "56832AB7AE5D8CD0"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "636AF78E79352300"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "23B60A8DA5E04522"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "62B2D992A9EAD3A9"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
 			title: "Sustainable Deforestation"
 			x: -4.5d
 			y: 2.0d
@@ -169,10 +642,42 @@
 			dependencies: ["27CEFE48FE894A28"]
 			icon: "create:mechanical_press"
 			id: "262D5052060140CE"
-			tasks: [{
-				id: "5E8457D4AC905207"
-				type: "custom"
+			rewards: [{
+				count: 16
+				id: "7A3C37BCE45951F7"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Processing Utils"
+			tasks: [
+				{
+					id: "52E1CF1FA71FDA0E"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "43E7DC8412132F72"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "6CC164F33BF0444F"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0417F4E039360044"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "523FE862538196A8"
+					item: "create:depot"
+					type: "item"
+				}
+			]
 			title: "Basic Processing"
 			x: 2.0d
 			y: 4.5d
@@ -181,10 +686,32 @@
 			dependencies: ["20B9C2DCCD629AC6"]
 			icon: "create:blaze_burner"
 			id: "6379B1715D307863"
-			tasks: [{
-				id: "4D043C97FF7863FD"
-				type: "custom"
+			rewards: [{
+				count: 32
+				id: "35BA9A78CD4EDC2F"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Blaze Burner"
+			tasks: [
+				{
+					id: "1BAC831664A75FF8"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1CA93EB0B0CDD5A4"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3F0FEE1614ECACE9"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
 			title: "Rekindled Embers"
 			x: 4.5d
 			y: 2.0d
@@ -193,10 +720,45 @@
 			dependencies: ["16CC98907504E609"]
 			icon: "create:polished_rose_quartz"
 			id: "6EA2B9375D1B299B"
-			tasks: [{
-				id: "106C89CDC6E53E8F"
-				type: "custom"
+			rewards: [{
+				count: 32
+				id: "14139F2264252F27"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Rose Quartz Automation"
+			tasks: [
+				{
+					count: 32L
+					id: "279061D4DAE72785"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "66832AEAC5B71618"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1641BC346BB45A8F"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0937FB599D5A3EE6"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
 			title: "Jewelsmith"
 			x: 4.5d
 			y: -2.0d
@@ -205,10 +767,50 @@
 			dependencies: ["796FABE2FB932797"]
 			icon: "create:powdered_obsidian"
 			id: "756577571C98AADC"
-			tasks: [{
-				id: "61EE92733B552311"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "11D42EA1AE4BCBCA"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7864CEBAD594657C"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Sturdy Plate Automation"
+			tasks: [
+				{
+					count: 64L
+					id: "7A41B3E961220A6F"
+					item: "create:powdered_obsidian"
+					type: "item"
+				}
+				{
+					id: "56D4C1E84D71B0A0"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0107B619649D010C"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4F0B832D9B4A0DB5"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2E2A17C2A9BA441F"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
 			title: "Spice Melange"
 			x: 2.0d
 			y: -4.5d
@@ -223,10 +825,81 @@
 				}
 			}
 			id: "5DD593D41C9F2CA4"
-			tasks: [{
-				id: "30769568D53866A0"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "7DA439C93B68AF31"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72D3AFA6E2C2937B"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "602A36FF8C9FC3DF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Potion Automation"
+			tasks: [
+				{
+					count: 4L
+					id: "200705E156F33929"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6E53EA26BA81A1A3"
+					item: "create:item_drain"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "268C3A0AB3A05D6E"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "67FC0A308FB3C197"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1B7012C6A5C9EB8E"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "5AFE21D1E10D7E80"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "62BC26A23E4E1B02"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "73281B8BE96BD280"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "parcool:energy_drink"
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Red Bull"
 			x: -2.0d
 			y: -4.5d
@@ -235,10 +908,33 @@
 			dependencies: ["411067BDE0180961"]
 			icon: "create:smart_fluid_pipe"
 			id: "2103FAD6DF0B5ACC"
-			tasks: [{
-				id: "1138F8BE1EE0DB55"
-				type: "custom"
+			rewards: [{
+				count: 16
+				id: "6219E1D6980DA99D"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Fluid Logistics"
+			tasks: [
+				{
+					count: 4L
+					id: "1448D4C5854E3505"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2D4664FB9DDC3763"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A34081DE699C84D"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+			]
 			title: "Pipe Dream"
 			x: -4.5d
 			y: -2.0d
@@ -247,10 +943,40 @@
 			dependencies: ["2D1501C3B0AA0236"]
 			icon: "create:track"
 			id: "41BC0E3DAD95B1F0"
-			tasks: [{
-				id: "345C3274A3F3B299"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "4483701AD99D5D1B"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51DD67B4EB676A3D"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Train Track Automation"
+			tasks: [
+				{
+					advancement: "create:track_crafting_factory"
+					criterion: ""
+					id: "6CEE87208EFC26A2"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "6743AA0D3A426E19"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "7E241468B466B2A1"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
 			title: "Iron Highway"
 			x: 0.0d
 			y: -7.0d
@@ -259,9 +985,25 @@
 			dependencies: ["796FABE2FB932797"]
 			icon: "create:mechanical_crafter"
 			id: "0EFC167C364D6E32"
+			rewards: [
+				{
+					count: 32
+					id: "5B17C5059622FF5C"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "020074E87D2A499F"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Mechanical Crafting"
 			tasks: [{
-				id: "0E31E85F7ED05F4E"
-				type: "custom"
+				id: "0CB07E4FEDE7C35B"
+				item: "create:mechanical_crafter"
+				type: "item"
 			}]
 			title: "Outside the Box"
 			x: 5.0d
@@ -271,9 +1013,18 @@
 			dependencies: ["16CC98907504E609"]
 			icon: "create:deployer"
 			id: "134F5DD1CD9EBDF3"
+			rewards: [{
+				count: 32
+				id: "3C155721CDDF5FEA"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Deployer"
 			tasks: [{
-				id: "53805CA44A52CC04"
-				type: "custom"
+				count: 4L
+				id: "1D4CDAC1D6C7A115"
+				item: "create:deployer"
+				type: "item"
 			}]
 			title: "Doppleganger"
 			x: 7.0d
@@ -283,10 +1034,39 @@
 			dependencies: ["20B9C2DCCD629AC6"]
 			icon: "minecraft:iron_block"
 			id: "0A6E73C67F3C85C0"
-			tasks: [{
-				id: "04F755AE46BE9917"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "3DB2B54ABF33D12C"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Upgraded Iron Farm"
+			tasks: [
+				{
+					count: 8L
+					id: "40DEB5BA5654A526"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "28C0FCD7A5E5EE0A"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BC7C9944A2C018A"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "58523DD3439E47FC"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
 			title: "Bessemer Process"
 			x: 5.0d
 			y: 5.0d
@@ -301,10 +1081,33 @@
 				}
 			}
 			id: "24DDD05A8A4CE94C"
-			tasks: [{
-				id: "529BF48692F4CE90"
-				type: "custom"
+			rewards: [{
+				count: 16
+				id: "4F689BA61424C06A"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Slicing Automation"
+			tasks: [
+				{
+					count: 2L
+					id: "3CDE9B01F07DD63D"
+					item: "sliceanddice:slicer"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "14B202B0DE9AA4F2"
+					item: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "FDA-Approved"
 			x: -5.0d
 			y: 5.0d
@@ -313,10 +1116,32 @@
 			dependencies: ["6A35EB1B7478D3E8"]
 			icon: "create_enchantment_industry:printer"
 			id: "43DD535889B35D48"
-			tasks: [{
-				id: "5C5EBE7843535087"
-				type: "custom"
+			rewards: [{
+				count: 16
+				id: "50D05C8D0608B0D3"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Book Automation"
+			tasks: [
+				{
+					id: "570F96A143C6F9C5"
+					item: "create_enchantment_industry:printer"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "031E11CCAE517D62"
+					item: "create_enchantment_industry:ink_bucket"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "214D3E1DD1A03EF7"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+			]
 			title: "New York Times"
 			x: -5.0d
 			y: -5.0d
@@ -325,9 +1150,18 @@
 			dependencies: ["411067BDE0180961"]
 			icon: "create:fluid_tank"
 			id: "49730DE1DEE6227D"
+			rewards: [{
+				count: 16
+				id: "354C2FC5492C7A44"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Fluid Tanks"
 			tasks: [{
-				id: "1F66E857627A3683"
-				type: "custom"
+				count: 27L
+				id: "4ABEA57A3DD1A30E"
+				item: "create:fluid_tank"
+				type: "item"
 			}]
 			title: "Fluid Silos"
 			x: -7.0d
@@ -337,10 +1171,62 @@
 			dependencies: ["662BEB80FF47AB2F"]
 			icon: "create:mechanical_drill"
 			id: "21FB21CBE8D9044A"
-			tasks: [{
-				id: "6E138A9401A1BC93"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "0A08CF46419D42F3"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "334C8164711B1B69"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Tunnel Bore"
+			tasks: [
+				{
+					count: 64L
+					id: "42C77056C9FFDCE3"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "73B9E02D82D8FC57"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "7D5959675216031F"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "330BAF058E17DE20"
+					item: "minecraft:furnace_minecart"
+					type: "item"
+				}
+				{
+					id: "285C962ACBD077C8"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "24729F67038162D1"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					advancement: "create:self_deploying"
+					criterion: ""
+					id: "1955D70CA9EF7C8D"
+					type: "advancement"
+				}
+			]
 			title: "Dwarvern Instincts"
 			x: 0.0d
 			y: 8.5d
@@ -349,10 +1235,27 @@
 			dependencies: ["21FB21CBE8D9044A"]
 			icon: "alexscaves:raw_scarlet_neodymium"
 			id: "37E1F99EBB32F216"
-			tasks: [{
-				id: "60708A00A798AA2D"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "5CA0B4F3DDDF2B61"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Magnetic Caves Quarry"
+			tasks: [
+				{
+					count: 4096L
+					id: "7C89BB78ABF07F6F"
+					item: "alexscaves:galena"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "62DD421A579B07E9"
+					item: "alexscaves:energized_galena_neutral"
+					type: "item"
+				}
+			]
 			title: "Magnetic Harvesting"
 			x: 2.0d
 			y: 9.5d
@@ -361,10 +1264,27 @@
 			dependencies: ["21FB21CBE8D9044A"]
 			icon: "alexscaves:uranium"
 			id: "1A47FF03AB791073"
-			tasks: [{
-				id: "056DC16409A4CAC9"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "59DD5D94CC32537E"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Toxic Caves Quarry"
+			tasks: [
+				{
+					count: 4096L
+					id: "527D4028D5BBEDAE"
+					item: "alexscaves:radrock"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "5949CD9C4F71D60A"
+					item: "alexscaves:radrock_uranium_ore"
+					type: "item"
+				}
+			]
 			title: "Radioactive Excavation"
 			x: -2.0d
 			y: 9.5d
@@ -373,10 +1293,68 @@
 			dependencies: ["134F5DD1CD9EBDF3"]
 			icon: "create:precision_mechanism"
 			id: "1B81A670B1813B55"
-			tasks: [{
-				id: "4E9BD9ACF273D164"
-				type: "custom"
+			rewards: [{
+				count: 4
+				id: "463E26BA35D16055"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Precision Mechanism Automation"
+			tasks: [
+				{
+					count: 8L
+					id: "5DECC34A6ABB7A02"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "3A3F5C1291E70F4E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "450D8E8AE9F405BB"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "1247DBF82ECEBC5F"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "17F3E097DD4DB989"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+				{
+					id: "2D07BB5AC798D78E"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "16BD322C73EFB879"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6882F5CC158F353D"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C2F479AE218A1E4"
+					item: "create:filter"
+					type: "item"
+				}
+			]
 			title: "Clockwork"
 			x: 8.5d
 			y: 0.0d
@@ -385,10 +1363,31 @@
 			dependencies: ["1B81A670B1813B55"]
 			icon: "create:mechanical_arm"
 			id: "1148D8A7F21AB37F"
-			tasks: [{
-				id: "7BF56BF1D5FD0CB4"
-				type: "custom"
+			rewards: [{
+				id: "0794F0462E0DDF35"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Mechanical Arm"
+			tasks: [
+				{
+					id: "219D8CFAF18D1D10"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "38FA20CACFD01D48"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "38A6080CB75E72D8"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+			]
 			title: "Micro Managing"
 			x: 9.5d
 			y: 2.0d
@@ -398,9 +1397,17 @@
 			hide: true
 			icon: "railways:remote_lens"
 			id: "60777AA73811863B"
+			rewards: [{
+				id: "435B1F603ED34D18"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Remote Lens"
 			tasks: [{
-				id: "391B6ACF10E90194"
-				type: "custom"
+				count: 2L
+				id: "289F807C86BD4757"
+				item: "railways:remote_lens"
+				type: "item"
 			}]
 			title: "Laziest Employee"
 			x: 12.0d
@@ -410,9 +1417,18 @@
 			dependencies: ["41BC0E3DAD95B1F0"]
 			icon: "create:track_station"
 			id: "5A1CC1834AABBF79"
+			rewards: [{
+				count: 2
+				id: "16C0107BEDD30FB2"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Train Station"
 			tasks: [{
-				id: "4C6FC6396ECD3826"
-				type: "custom"
+				advancement: "create:long_train"
+				criterion: ""
+				id: "395659412197343A"
+				type: "advancement"
 			}]
 			title: "Tank Engine"
 			x: 0.0d
@@ -422,10 +1438,50 @@
 			dependencies: ["5A1CC1834AABBF79"]
 			icon: "create:track_signal"
 			id: "2B3843C99F2935F2"
-			tasks: [{
-				id: "712B244918F81BC0"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "70F2C429E234725D"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Train Observer"
+			tasks: [
+				{
+					count: 4L
+					id: "4242A760FA787B31"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7EBF73E0BA62A51F"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "021599049127E285"
+					item: "railways:track_coupler"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "489F189F35272443"
+					item: "railways:track_switch_brass"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "72593D18B20FEDCA"
+					item: "railways:semaphore"
+					type: "item"
+				}
+				{
+					id: "157A3C8E7A292CCF"
+					item: "railways:conductor_whistle"
+					type: "item"
+				}
+			]
 			title: "Logistical Logistics"
 			x: 2.0d
 			y: -9.5d
@@ -433,6 +1489,12 @@
 		{
 			dependencies: ["5A1CC1834AABBF79"]
 			id: "0DB78B8AF8CAF3B7"
+			rewards: [{
+				id: "5A31390B3582DDA5"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Interdimensional Railway"
 			tasks: [{
 				advancement: "create:train_portal"
 				criterion: ""
@@ -447,9 +1509,26 @@
 			dependencies: ["49730DE1DEE6227D"]
 			icon: "create:steam_engine"
 			id: "04A68FB028F8D2E2"
+			rewards: [
+				{
+					count: 16
+					id: "529C6767735E595B"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59156CA720784DA8"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Steam Engine"
 			tasks: [{
-				id: "244C17CEB7E7A4B5"
-				type: "custom"
+				advancement: "create:steam_engine"
+				criterion: ""
+				id: "487D7C4CDC21E527"
+				type: "advancement"
 			}]
 			title: "Steampunker"
 			x: -8.5d
@@ -465,9 +1544,22 @@
 				}
 			}
 			id: "1C3673428B60D604"
+			rewards: [{
+				id: "5B87121C6D052E6C"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Potato Cannon"
 			tasks: [{
-				id: "1D05219281D340EB"
-				type: "custom"
+				id: "6472A318F3ECB34C"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			title: "Irish Weaponry"
 			x: -9.5d
@@ -477,9 +1569,17 @@
 			dependencies: ["04A68FB028F8D2E2"]
 			icon: "create:steam_whistle"
 			id: "708A5CE3B235579B"
+			rewards: [{
+				id: "0D8BCE343BA727A9"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Pipe Organ"
 			tasks: [{
-				id: "25AF6139B80A9F1B"
-				type: "custom"
+				advancement: "create:pipe_organ"
+				criterion: ""
+				id: "47FB4BDD200C31D9"
+				type: "advancement"
 			}]
 			title: "Toccata \\& Fugue"
 			x: -9.5d
@@ -489,9 +1589,18 @@
 			dependencies: ["0EFC167C364D6E32"]
 			icon: "create:crushing_wheel"
 			id: "215A260458BB6E70"
+			rewards: [{
+				count: 2
+				id: "2B49B378808D1D50"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Crushing Wheels"
 			tasks: [{
-				id: "0994C6311BD1B9DA"
-				type: "custom"
+				count: 2L
+				id: "37B5E4CD85D8E4EE"
+				item: "create:crushing_wheel"
+				type: "item"
 			}]
 			title: "The Grinder"
 			x: 5.5d
@@ -501,9 +1610,17 @@
 			dependencies: ["0EFC167C364D6E32"]
 			icon: "create:wand_of_symmetry"
 			id: "5701AB037731FE1D"
+			rewards: [{
+				count: 2
+				id: "38BE76FCFDB86185"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Wand of Symmetry"
 			tasks: [{
-				id: "64121CCA0E7924E8"
-				type: "custom"
+				id: "30DC6BDC0DEACFDB"
+				item: "create:wand_of_symmetry"
+				type: "item"
 			}]
 			title: "Magical Mechanics"
 			x: 7.5d
@@ -513,10 +1630,27 @@
 			dependencies: ["0A6E73C67F3C85C0"]
 			icon: "minecraft:barrier"
 			id: "56AC887986FACBCE"
-			tasks: [{
-				id: "46469ADBA64D3485"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "28D03001E71529CE"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Upgraded Tunnel Bore"
+			tasks: [
+				{
+					count: 256L
+					id: "7742F135E7FD3ED6"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					count: 81L
+					id: "519FA7B98EEE71FC"
+					item: "create:item_vault"
+					type: "item"
+				}
+			]
 			title: "World Eater"
 			x: 7.5d
 			y: 5.5d
@@ -525,10 +1659,27 @@
 			dependencies: ["0A6E73C67F3C85C0"]
 			icon: "create:item_vault"
 			id: "5510262C0A4664B5"
-			tasks: [{
-				id: "212C9227806135F5"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "5EE0CC151D8E0ED8"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Vault Storage"
+			tasks: [
+				{
+					count: 24L
+					id: "74F1D10094B87D89"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "1A048728F93E6ADF"
+					item: "createdeco:white_shipping_container"
+					type: "item"
+				}
+			]
 			title: "Amazon"
 			x: 5.5d
 			y: 7.5d
@@ -537,10 +1688,42 @@
 			dependencies: ["24DDD05A8A4CE94C"]
 			icon: "minecraft:porkchop"
 			id: "7128CD232ED99835"
-			tasks: [{
-				id: "1B304EFB4A28DF75"
-				type: "custom"
+			rewards: [{
+				count: 32
+				id: "0C6C600717675CB6"
+				item: "createdeco:copper_coin"
+				type: "item"
 			}]
+			subtitle: "Animal Farm"
+			tasks: [
+				{
+					id: "1519F7225E1373D6"
+					item: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678257C4F65E53BB"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "7F7E9FD8CA163EFC"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3F5C16F48D9E3AC4"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
 			title: "Orwell"
 			x: -5.5d
 			y: 7.5d
@@ -549,10 +1732,20 @@
 			dependencies: ["24DDD05A8A4CE94C"]
 			icon: "farmersdelight:raw_pasta"
 			id: "75EFDFCF8CD67071"
-			tasks: [{
-				id: "29A9FE63C8AA3A6D"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "64E4C4A85B73A623"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "04042854288C9CB3"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Pasta Automation"
 			title: "Italian Roots"
 			x: -7.5d
 			y: 5.5d
@@ -561,10 +1754,40 @@
 			dependencies: ["43DD535889B35D48"]
 			icon: "create_enchantment_industry:disenchanter"
 			id: "5A5FDAD46243BD80"
-			tasks: [{
-				id: "5C269ADF85D03329"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "496CC8410F0F72BA"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "451243452CBDE605"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Experience Automation"
+			tasks: [
+				{
+					id: "0BDEF7CFE4F6B616"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "16C41DC7C843F7A1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "50FDFAFF6D26C4D7"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
 			title: "Down the Drain"
 			x: -5.5d
 			y: -7.5d
@@ -573,10 +1796,32 @@
 			dependencies: ["43DD535889B35D48"]
 			icon: "create_things_and_misc:sprinkler"
 			id: "2869DA85197E3356"
-			tasks: [{
-				id: "24386D4B214B45AF"
-				type: "custom"
+			rewards: [{
+				id: "31BAAC20DB007570"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Sprinkler System"
+			tasks: [
+				{
+					count: 4L
+					id: "4ED6DB01B0F42FEC"
+					item: "create_things_and_misc:sprinkler"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "23183C64EEC3A3CD"
+					item: "sliceanddice:sprinkler"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "19823FD595964AC4"
+					item: "sliceanddice:fertilizer_bucket"
+					type: "item"
+				}
+			]
 			title: "Green Revolution"
 			x: -7.5d
 			y: -5.5d
@@ -586,9 +1831,17 @@
 			hide: true
 			icon: "create_enchantment_industry:enchanting_guide"
 			id: "78F18682F84D1A62"
+			rewards: [{
+				id: "4CC3E3E14A32786D"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Enchanting Automation"
 			tasks: [{
-				id: "39EB206AF1453AA8"
-				type: "custom"
+				advancement: "create_enchantment_industry:blazes_new_job"
+				criterion: ""
+				id: "221F6AF1620E18BC"
+				type: "advancement"
 			}]
 			title: "Automated Sorcery"
 			x: -7.0d
@@ -596,11 +1849,27 @@
 		}
 		{
 			dependencies: ["78F18682F84D1A62"]
+			icon: "create_enchantment_industry:hyper_experience_bottle"
 			id: "5E4A91120EE5B53C"
+			rewards: [
+				{
+					count: 2
+					id: "599480460500118C"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "4009811800C4FC07"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Hyper Experience Automation"
 			tasks: [{
-				icon: "create_enchantment_industry:hyper_experience_bottle"
-				id: "1E000FA0823E74A6"
-				type: "custom"
+				count: 64L
+				id: "23541DF3EF76C3BD"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
 			}]
 			title: "Overdrive"
 			x: -8.5d
@@ -611,9 +1880,16 @@
 			hide: true
 			icon: "create_things_and_misc:spout_gun"
 			id: "64D524C0E7358D56"
+			rewards: [{
+				id: "75E947EC7FFE62C7"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Spout Gun"
 			tasks: [{
-				id: "0615FE07FADBA361"
-				type: "custom"
+				id: "3175DA001D9E669F"
+				item: "create_things_and_misc:spout_gun"
+				type: "item"
 			}]
 			title: "Chemical Warfare"
 			x: -12.0d
@@ -622,25 +1898,70 @@
 		{
 			dependencies: ["1A47FF03AB791073"]
 			hide: true
+			icon: "alexscaves:nuclear_furnace_component"
 			id: "61D1BE0CC8B94F8C"
-			tasks: [{
-				icon: "alexscaves:nuclear_furnace_component"
-				id: "3F566F592F1BAA58"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "139F7A9E77D466F6"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Nuclear Furnace"
+			tasks: [
+				{
+					count: 8L
+					id: "5ACB6E2C9E7B6F85"
+					item: "alexscaves:nuclear_furnace_component"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "084C703C70D10DD5"
+					item: "alexscaves:metal_barrel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2C8F29A19F4DE8A2"
+					item: "alexscaves:uranium_rod"
+					type: "item"
+				}
+			]
 			title: "Kitchen Refurbishment"
 			x: -2.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["61D1BE0CC8B94F8C"]
+			icon: "alexscaves:nuclear_bomb"
 			id: "7BCB60126658EFE2"
-			tasks: [{
-				icon: "alexscaves:nuclear_bomb"
-				id: "5B0ED20B5DE2E19F"
-				title: "Destroyer of Worlds"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "150E25016EE500E5"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "0DC34BE0A3CB701E"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Nuclear Bomb"
+			tasks: [
+				{
+					id: "5D171C28D4605626"
+					item: "alexscaves:nuclear_bomb"
+					type: "item"
+				}
+				{
+					id: "767C361033C07001"
+					item: "alexscaves:remote_detonator"
+					type: "item"
+				}
+			]
+			title: "Destroyer of Worlds"
 			x: -2.0d
 			y: 14.5d
 		}
@@ -654,9 +1975,30 @@
 				}
 			}
 			id: "2510213C5E05832B"
+			rewards: [
+				{
+					count: 2
+					id: "0FACB925CBA3D2E9"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "48833F777101510D"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Blaze Balloon Cannon"
 			tasks: [{
-				id: "47A58CCC2D5A97A5"
-				type: "custom"
+				id: "4876AA1820DEF171"
+				item: {
+					Count: 1b
+					id: "create_things_and_misc:blaze_balloon_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			title: "Air Support"
 			x: -14.5d
@@ -666,11 +2008,29 @@
 			dependencies: ["1B81A670B1813B55"]
 			icon: "railways:red_conductor_cap"
 			id: "372E7A23B868826A"
-			tasks: [{
-				id: "5983C7AAB311D034"
-				title: "iRobot"
-				type: "custom"
+			rewards: [{
+				id: "76E6526C9A92B501"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Conductor"
+			tasks: [
+				{
+					id: "205589BDA7EF3D7F"
+					item: "railways:red_conductor_cap"
+					type: "item"
+				}
+				{
+					id: "47745859719AA5F0"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "745B36B409494F76"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
 			title: "Detroit"
 			x: 9.5d
 			y: -2.0d
@@ -680,35 +2040,64 @@
 			hide: true
 			icon: "create_things_and_misc:vibration_mechanism"
 			id: "327E616F92A2D7AB"
+			rewards: [{
+				id: "34DE5161E51426D5"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Vibration Mechanism"
 			tasks: [{
-				id: "0C4423489FBED346"
-				title: "Simple Harmonic Motion"
-				type: "custom"
+				count: 4L
+				id: "009B6468BFDCD977"
+				item: "create_things_and_misc:vibration_mechanism"
+				type: "item"
 			}]
 			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["327E616F92A2D7AB"]
+			icon: "create_things_and_misc:brass_speaker"
 			id: "52F24F031A8FF913"
+			rewards: [
+				{
+					id: "33488A3450751905"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "27B8E919AE44F76A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Brass Speaker"
 			tasks: [{
-				icon: "create_things_and_misc:brass_speaker"
-				id: "06E6EC543BC360F2"
-				title: "The Boombox"
-				type: "custom"
+				count: 2L
+				id: "21EA07F1FC4314DD"
+				item: "create_things_and_misc:brass_speaker"
+				type: "item"
 			}]
+			title: "The Boombox"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["327E616F92A2D7AB"]
+			icon: "create_things_and_misc:radar"
 			id: "2818B0B8BA66768C"
-			tasks: [{
-				icon: "create_things_and_misc:radar"
-				id: "255CF6A13116511B"
-				title: "Hacks!"
-				type: "custom"
+			rewards: [{
+				id: "1DFC4E64F9F812E1"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Radar"
+			tasks: [{
+				id: "3FFAB292622B8259"
+				item: "create_things_and_misc:radar"
+				type: "item"
+			}]
+			title: "Hacks!"
 			x: 12.0d
 			y: 2.0d
 		}
@@ -717,18 +2106,60 @@
 			hide: true
 			icon: "create_things_and_misc:card_reader"
 			id: "4C463E06A7ABBA44"
-			tasks: [{
-				id: "51BCE3863FF5773D"
-				title: "Securitycraft"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "7E0020C5B72E0FAC"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Card Reader"
+			tasks: [
+				{
+					count: 2L
+					id: "58F35246DCD0D26C"
+					item: "create_things_and_misc:card_reader"
+					type: "item"
+				}
+				{
+					id: "429AB0FFA89E0092"
+					item: "create_things_and_misc:card_press"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "35C45A779E893817"
+					item: "create_things_and_misc:empty_ticket"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5DDD0A2EB22B92A4"
+					item: "create_things_and_misc:empty_card"
+					type: "item"
+				}
+			]
+			title: "Securitycraft"
 			x: 6.5d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0DB78B8AF8CAF3B7"]
 			hide: true
 			id: "66A02C1743C5C0C3"
+			rewards: [
+				{
+					count: 4
+					id: "5316B85CD3575C92"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "06FC91CECD43E313"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Long Distance Railroad"
 			tasks: [{
 				advancement: "create:long_travel"
 				criterion: ""
@@ -744,51 +2175,155 @@
 			hide: true
 			icon: "railways:track_monorail"
 			id: "132CFE20981636C5"
-			tasks: [{
-				id: "62DE3D379D005903"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "07AE7274914E71C6"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
-			title: "Fallout Infrastructure"
+			subtitle: "Monorail Automation"
+			tasks: [{
+				count: 128L
+				id: "15F483CD343B4B3B"
+				item: "railways:track_monorail"
+				type: "item"
+			}]
+			title: "Tram Pass"
 			x: 2.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["132CFE20981636C5"]
+			icon: "railways:track_phantom"
 			id: "46FF39C5341E6EFF"
-			tasks: [{
-				icon: "railways:track_phantom"
-				id: "1F7E4FD2BD9E84A0"
-				title: "Cartoon Logic"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "15CB9167AAB83F6C"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Phantom Rail Automation"
+			tasks: [{
+				count: 128L
+				id: "589AD3F452F28354"
+				item: "railways:track_phantom"
+				type: "item"
+			}]
+			title: "Cartoon Logic"
 			x: 2.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["215A260458BB6E70"]
 			hide: true
+			icon: "kubejs:example_gold_farm"
 			id: "63C44B7922443BAA"
-			tasks: [{
-				id: "1D1175B42B6F9657"
-				item: "kubejs:example_gold_farm"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "1D7F9BDD303E446C"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A972EA2551F19DD"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Gold Farm"
+			tasks: [
+				{
+					id: "233B8FCB9F565587"
+					item: "kubejs:example_gold_farm"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1A253BB644C1525E"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "30B8E45C97FC51A2"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5B6C028FC62C2759"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "7ACA5FCDDD20094C"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "413304E3A79E4812"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "681A413CC1C150CB"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Transmutation"
 			x: 7.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["63C44B7922443BAA"]
-			icon: {
-				Count: 1b
-				id: "travelersbackpack:netherite"
-				tag: { }
-			}
+			icon: "minecraft:enchanted_golden_apple"
 			id: "0CE784718C439259"
-			tasks: [{
-				id: "0E35CF12E9DE591A"
-				title: "G.H. Bass \\& Co."
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "220D348C5F67C64A"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "3249E5B332A2EE76"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Enchanted Golden Apple Automation"
+			tasks: [
+				{
+					count: 21L
+					id: "7ABDBF98B4895F36"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "60FBA699327E3833"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "74EC737C84EAF928"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					advancement: "create:honey_drain"
+					criterion: ""
+					id: "45A6B5F42617B638"
+					type: "advancement"
+				}
+			]
+			title: "Fruit of Grisaia"
 			x: 7.5d
 			y: -11.5d
 		}
@@ -796,13 +2331,124 @@
 			dependencies: ["63C44B7922443BAA"]
 			icon: "cobblemon:ultra_ball"
 			id: "2B00701C154E8215"
-			tasks: [{
-				id: "4958BA35210FB959"
-				title: "Pokecenter"
-				type: "custom"
+			rewards: [{
+				count: 2
+				id: "2D4DFFD191D52241"
+				item: "createdeco:brass_coin"
+				type: "item"
 			}]
+			subtitle: "Pokeball Automation"
+			tasks: [
+				{
+					id: "0B44FBAD4A157111"
+					item: "cobblemon:black_apricorn_seed"
+					type: "item"
+				}
+				{
+					id: "46B84E61E4CEFA71"
+					item: "cobblemon:yellow_apricorn_seed"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1762A52ACA1AEC16"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "4008EDFFCB736445"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			title: "Pokemart"
 			x: 9.5d
 			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5E4A91120EE5B53C"
+				"2510213C5E05832B"
+				"7BCB60126658EFE2"
+				"52F24F031A8FF913"
+				"0CE784718C439259"
+				"46FF39C5341E6EFF"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "kubejs:oreo_wafer_top"
+			id: "732D46BC8F440C94"
+			rewards: [{
+				id: "503B0EFDF363240C"
+				item: "kubejs:oreo_wafer_top"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "246AAB4C84373AFA"
+				type: "checkmark"
+			}]
+			title: "Top Gear"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6EA2B9375D1B299B"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "create_sabers:brass_saber_blue"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "058C50E83ACEDF3F"
+			rewards: [{
+				count: 2
+				id: "0171F7FD19F434B3"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "53D15E83FE6546E1"
+					item: {
+						Count: 1b
+						id: "create_sabers:brass_saber_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78A7A17A4D95DFB4"
+					item: {
+						Count: 1b
+						id: "create_sabers:zinc_saber_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BCC232651BA6A9A"
+					item: {
+						Count: 1b
+						id: "create_sabers:copper_saber_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Jedi Order"
+			x: 6.5d
+			y: -2.0d
 		}
 	]
 	title: "Industrialization"
