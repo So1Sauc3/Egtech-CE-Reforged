@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["41FC19F8C75AC180"]
+			description: ["This chapter introduces features for the server economy, including a &6market&r to spend hard-earned coins, and a &6professions&r section once players enter &6midgame progression&r."]
 			icon: "minecraft:emerald_block"
 			id: "5EEF56A544D7B93B"
 			rewards: [{
@@ -20,6 +21,10 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
+			tasks: [{
+				id: "002895F9F599DA58"
+				type: "checkmark"
+			}]
 			title: "Capitalism"
 			x: 0.5d
 			y: 0.0d
@@ -29,6 +34,7 @@
 				"5EEF56A544D7B93B"
 				"1C65077EF2524447"
 			]
+			description: ["Professions offer alternative ways for players to obtain coins. They are &6repeatable&r quests that the player can use to gather more wealth."]
 			icon: "create:brown_toolbox"
 			id: "16728A6957A4C780"
 			shape: "gear"
@@ -122,7 +128,6 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "1ED9F3378524E752"
 					item: "createdeco:brass_coin"
 					type: "item"
@@ -294,7 +299,7 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 2
 					id: "255AF47C5B1354C7"
 					item: "createdeco:brass_coin"
 					type: "item"
@@ -599,6 +604,11 @@
 		}
 		{
 			dependencies: ["5EEF56A544D7B93B"]
+			description: [
+				"The market allows players to exchange coins for valuable items that will help them on their journey."
+				""
+				"&6Coins&r are divided into 3 &6tiers&r [copper, brass, netherite], and are &6NOT&r interchangeable with each other. Copper and brass coins are obtainable through professions and &6quests&r, while netherite coins are locked behind &6server titles&r."
+			]
 			icon: "farmersdelight:basket"
 			id: "0A2AC68EAC66D1CC"
 			rewards: [{
@@ -630,7 +640,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 2
 					id: "481C9B82177021F3"
 					item: "createdeco:brass_coin"
 					type: "item"
@@ -774,6 +784,11 @@
 		}
 		{
 			dependencies: ["0A2AC68EAC66D1CC"]
+			description: [
+				"Netherite coins are the highest &6tier&r coins in the game, with server titles granting up to a maximum of &6one per title&r. They &6cannot&r be obtained in any other way, and as such are extremely &6valuable&r. Use them &6wisely&r."
+				""
+				"&bNOTE&r: coins can be used for &6much more&r than simply buying items. They are great for using as &6leverage&r in trading and &6negotiating&r with other players."
+			]
 			icon: "createdeco:netherite_coin"
 			id: "6ECEFDA76B69CC7F"
 			shape: "octagon"
@@ -788,6 +803,11 @@
 		}
 		{
 			dependencies: ["0A2AC68EAC66D1CC"]
+			description: [
+				"Brass coins are the middle &6tier&r coins in the game, with the &6higher-level&r quests and professions granting them. They can be used to buy very useful items, as well as &6wisdom scrolls&r for leveling up the &6skill tree&r."
+				""
+				"&bNOTE&r: coins can be used for &6much more&r than simply buying items. They are great for using as &6leverage&r in trading and &6negotiating&r with other players."
+			]
 			icon: "createdeco:brass_coin"
 			id: "700EA94C031D57FA"
 			size: 1.25d
@@ -813,7 +833,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 16L
 				id: "080292BE5329F31C"
 				item: "createdeco:copper_coin"
 				type: "item"
@@ -836,7 +856,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 32L
 				id: "6211BD29EC18987B"
 				item: "createdeco:copper_coin"
 				type: "item"
@@ -870,6 +890,11 @@
 		}
 		{
 			dependencies: ["0A2AC68EAC66D1CC"]
+			description: [
+				"Copper coins are the lowest &6tier&r coins in the game, with most &6quests&r and professions granting them. They may not be the most valuable, but they can be used to buy &6useful&r items for your journey."
+				""
+				"&bNOTE&r: coins can be used for &6much more&r than simply buying items. They are great for using as &6leverage&r in trading and &6negotiating&r with other players."
+			]
 			icon: "createdeco:copper_coin"
 			id: "2A43BB1A248EE3F9"
 			size: 1.25d

@@ -12,7 +12,7 @@
 			description: [
 				"The Witherstorm's defeat unlocks countless new lines of &6progression&r. No longer being constantly &6hunted&r by such a destructive force, the player is able to begin constructing more &6permanent&r infrastructure and &6technology&r, becoming much more &6powerful&r in the process."
 				""
-				"NOTE: This chapter, progression-wise speaking, is technically completely &6optional&r. However, the infrastructure and technology introduced in this chapter will &6greatly help&r with acquiring endgame &6titles&r later on."
+				"&bNOTE&r: This chapter, progression-wise speaking, is technically completely &6optional&r. However, the infrastructure and technology introduced in this chapter will &6greatly help&r with acquiring endgame &6titles&r later on."
 			]
 			icon: "create:brass_hand"
 			id: "6BAF4536E7BA9C44"
@@ -35,6 +35,7 @@
 		}
 		{
 			dependencies: ["6EA2B9375D1B299B"]
+			description: ["Upgrade your existing machinery with &6item logistics&r support! New brass funnels and tunnels allow sorting and &6organization&r of item inputs. Farms like the iron farm can now benefit from automatic &6throttling&r of production rates and sorting of &6byproducts&r from the wanted products."]
 			icon: "create:attribute_filter"
 			id: "796FABE2FB932797"
 			rewards: [
@@ -108,6 +109,7 @@
 		}
 		{
 			dependencies: ["6379B1715D307863"]
+			description: ["The brass age brings with it &6complex mechanisms&r and systems to further &6improve&r existing contraptions, as well as very &6powerful machines&r that take industrialization to the next level."]
 			icon: "create:brass_casing"
 			id: "16CC98907504E609"
 			rewards: [
@@ -158,6 +160,7 @@
 		}
 		{
 			dependencies: ["756577571C98AADC"]
+			description: ["The logistical age is focused on one thing: &6trains&r. Far beyond simple methods of movement, they unlock a multitude of possibilities, from &6bulk item transportation&r across long distances, to moving &6masses of entities&r between locations, and more. Additionally, they are most definitely one of the most &6luxurious&r modes of travel by far."]
 			icon: "create:railway_casing"
 			id: "2D1501C3B0AA0236"
 			rewards: [
@@ -200,7 +203,7 @@
 		}
 		{
 			dependencies: ["6BAF4536E7BA9C44"]
-			description: ["The andesite age opens up a huge range of possibilities, from automation of essential materials, to transportation "]
+			description: ["The andesite age opens up a huge range of possibilities, from automation of essential &6materials&r, to &6transportation&r and &6kinetic&r contraptions."]
 			icon: "create:andesite_casing"
 			id: "27CEFE48FE894A28"
 			rewards: [
@@ -269,6 +272,7 @@
 		}
 		{
 			dependencies: ["6BAF4536E7BA9C44"]
+			description: ["The copper age allows manipulation of all things &6fluid-related&r, and includes an amazing &6SU generation source&r, as well as automation capabilities of a plethora of &6powerful&r items."]
 			icon: "create:copper_casing"
 			id: "411067BDE0180961"
 			rewards: [
@@ -313,6 +317,11 @@
 		}
 		{
 			dependencies: ["262D5052060140CE"]
+			description: [
+				"The iron farm is the &6foundation&r and cornerstone of all automation and industrialization. Additionally, a strong iron farm is an &6invaluable&r asset to any player, regardless of their commitment to the tech tree."
+				""
+				"&bConcept&r: An iron farm that uses a &6millstone&r to crush cobblestone into &6gravel&r, which is then washed by &6fans&r into &6iron nuggets&r and byproduct flint. Optional addition of packing nuggets into &6ingots&r via a press."
+			]
 			icon: "kubejs:example_iron_farm"
 			id: "20B9C2DCCD629AC6"
 			rewards: [{
@@ -321,6 +330,8 @@
 				item: "createdeco:brass_coin"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.25d
 			subtitle: "Iron Farm"
 			tasks: [
 				{
@@ -356,6 +367,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 128L
 					id: "5DDC60BBBBC78EE3"
 					item: "minecraft:iron_ingot"
@@ -379,6 +391,11 @@
 		}
 		{
 			dependencies: ["145349610C0F4E6A"]
+			description: [
+				"A simple yet extremely efficient and useful farm, necessary for all things &6agricultural&r in nature. A simple &6radial&r crop farm can supply years worth of harvests without players having to lift a finger."
+				""
+				"&bConcept&r: Radial crop farm, using a single &6water wheel&r to turn a &6mechanical bearing&r and spin around a line of &6harvesters&r in a circle. Collected crops are stored in the &6portable storage interface&r attached to the end of the line that transports its items to a matching one that's &6grounded&r."
+			]
 			icon: "farmersdelight:rich_soil_farmland"
 			id: "08DED6B19C4BD9AE"
 			rewards: [{
@@ -453,6 +470,7 @@
 		}
 		{
 			dependencies: ["2103FAD6DF0B5ACC"]
+			description: ["Build your own chocolate &6factory&r by automating chocolate production. Maybe even build a &6giant pool&r of chocolate to swim in..."]
 			icon: "create:chocolate_bucket"
 			id: "6A35EB1B7478D3E8"
 			rewards: [
@@ -506,6 +524,7 @@
 		}
 		{
 			dependencies: ["27CEFE48FE894A28"]
+			description: ["Minecart contraptions provide dynamic interactions with the world using &6moving structures&r anchored on &6rails and carts&r. Utilized in everywhere from tree farms to roller coasters and mass harvesters."]
 			icon: "minecraft:furnace_minecart"
 			id: "662BEB80FF47AB2F"
 			rewards: [{
@@ -545,6 +564,7 @@
 		}
 		{
 			dependencies: ["27CEFE48FE894A28"]
+			description: ["These machines are essential to interacting with the world and &6harvesting&r raw materials."]
 			icon: "create:mechanical_harvester"
 			id: "145349610C0F4E6A"
 			rewards: [{
@@ -582,6 +602,11 @@
 		}
 		{
 			dependencies: ["08DED6B19C4BD9AE"]
+			description: [
+				"Gone are the days of manually leveling a &6forest&r for a single building project. With a simple tree farm, or even better a &62x2&r large tree farm, one can completely automate &6wood production&r and save the environment simultaneously."
+				""
+				"&bConcept&r: Tree farm that uses &6deployers&r to place saplings, bonemeal them using &6composted bonemeal&r (see crop farm), and harvest grown trees using &6mechanical saws&r. Collected drops are &6funneled&r into storage, saplings are &6reused&r."
+			]
 			icon: "minecraft:spruce_sapling"
 			id: "6546C7E521A7318A"
 			rewards: [{
@@ -640,6 +665,7 @@
 		}
 		{
 			dependencies: ["27CEFE48FE894A28"]
+			description: ["These machines are essential to &6refining&r and &6processing&r raw materials into &6useful&r items and technology."]
 			icon: "create:mechanical_press"
 			id: "262D5052060140CE"
 			rewards: [{
@@ -684,6 +710,7 @@
 		}
 		{
 			dependencies: ["20B9C2DCCD629AC6"]
+			description: ["Harness the fiery infernos of &6hell&r to forge stronger &6alloys&r for &6complex&r innovations."]
 			icon: "create:blaze_burner"
 			id: "6379B1715D307863"
 			rewards: [{
@@ -718,6 +745,7 @@
 		}
 		{
 			dependencies: ["16CC98907504E609"]
+			description: ["Automate creation of rose quartz and unlock production of complex &6logic&r items using &6electron tubes&r, by creating a &6quartz farm&r and processing line to &6refine&r the raw crystals."]
 			icon: "create:polished_rose_quartz"
 			id: "6EA2B9375D1B299B"
 			rewards: [{
@@ -765,6 +793,7 @@
 		}
 		{
 			dependencies: ["796FABE2FB932797"]
+			description: ["Automate sturdy plate production using an &6assembly line method&r, sourcing lava from an infinite (&610k+ blocks source&r) lava pool, and a &6powdered obsidian&r farm."]
 			icon: "create:powdered_obsidian"
 			id: "756577571C98AADC"
 			rewards: [
@@ -785,7 +814,7 @@
 				{
 					count: 64L
 					id: "7A41B3E961220A6F"
-					item: "create:powdered_obsidian"
+					item: "create:sturdy_sheet"
 					type: "item"
 				}
 				{
@@ -811,12 +840,13 @@
 					type: "item"
 				}
 			]
-			title: "Spice Melange"
+			title: "Heavy Duty"
 			x: 2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["6A35EB1B7478D3E8"]
+			description: ["Expand into the medical and alchemical industry by automating &6potion production&r. An especially &6lucrative&r field, where player &6reliance&r on potions such as energy drinks yields a &6prospective market&r."]
 			icon: {
 				Count: 1b
 				id: "minecraft:potion"
@@ -906,6 +936,7 @@
 		}
 		{
 			dependencies: ["411067BDE0180961"]
+			description: ["These machines are essential to interacting with fluids and implementing &6logic&r to pipe systems."]
 			icon: "create:smart_fluid_pipe"
 			id: "2103FAD6DF0B5ACC"
 			rewards: [{
@@ -941,6 +972,7 @@
 		}
 		{
 			dependencies: ["2D1501C3B0AA0236"]
+			description: ["Automate train track production using an &6assembly line method&r, and produce enough &6tracks&r to begin building your own &6infrastructure&r empire."]
 			icon: "create:track"
 			id: "41BC0E3DAD95B1F0"
 			rewards: [
@@ -983,6 +1015,7 @@
 		}
 		{
 			dependencies: ["796FABE2FB932797"]
+			description: ["Upgrade from the &6age-old&r crafting table by expanding the crafting grid to &6near-infinite sizes&r with mechanical crafters. Unlocks an abundance of &6new recipes&r exclusive the the larger crafting grid."]
 			icon: "create:mechanical_crafter"
 			id: "0EFC167C364D6E32"
 			rewards: [
@@ -1011,6 +1044,7 @@
 		}
 		{
 			dependencies: ["16CC98907504E609"]
+			description: ["Obtain deployers, one of the most &6fundamentally useful&r machines for automating every part of production, capable of mimicking &6player interactions&r."]
 			icon: "create:deployer"
 			id: "134F5DD1CD9EBDF3"
 			rewards: [{
@@ -1032,6 +1066,7 @@
 		}
 		{
 			dependencies: ["20B9C2DCCD629AC6"]
+			description: ["Upgrade your iron farm to a proper industrial factory by &6replacing&r the measly millstones with &6powerful&r crushing wheels. Iron production is no longer &6bottlenecked&r by slow processing of cobblestone into gravel."]
 			icon: "minecraft:iron_block"
 			id: "0A6E73C67F3C85C0"
 			rewards: [{
@@ -1061,6 +1096,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 128L
 					id: "58523DD3439E47FC"
 					item: "minecraft:iron_block"
@@ -1073,6 +1109,7 @@
 		}
 		{
 			dependencies: ["08DED6B19C4BD9AE"]
+			description: ["Obtain a slicer, gateway to &6automation&r of several Farmer's Delight &6foods&r."]
 			icon: {
 				Count: 1b
 				id: "create_things_and_misc:brass_knife"
@@ -1114,6 +1151,7 @@
 		}
 		{
 			dependencies: ["6A35EB1B7478D3E8"]
+			description: ["Printers are deceptively simple machines that allow automation of book production. However, their &6potential&r is far larger than simply copying articles for a newspaper, when they are supplied with &6liquid experience&r instead of ink."]
 			icon: "create_enchantment_industry:printer"
 			id: "43DD535889B35D48"
 			rewards: [{
@@ -1148,6 +1186,7 @@
 		}
 		{
 			dependencies: ["411067BDE0180961"]
+			description: ["Store collected fluids in bulk &6fluid silos&r that can &6store&r much more than the humble bucket."]
 			icon: "create:fluid_tank"
 			id: "49730DE1DEE6227D"
 			rewards: [{
@@ -1169,6 +1208,11 @@
 		}
 		{
 			dependencies: ["662BEB80FF47AB2F"]
+			description: [
+				"An unbelievably strong tool for &6mining&r, this efficient method of mineral collection paves the way for &6automation&r of countless items and mass collection of &6underground resources&r."
+				""
+				"&bConcept&r: Minecart contraption, powered by &6furnace minecart&r, uses &6deployers&r to place rails in front of itself and a &6trough&r to recycle the rails behind itself. Install drills in front of the contraption."
+			]
 			icon: "create:mechanical_drill"
 			id: "21FB21CBE8D9044A"
 			rewards: [
@@ -1233,6 +1277,7 @@
 		}
 		{
 			dependencies: ["21FB21CBE8D9044A"]
+			description: ["Utilize the tunnel bore to &6extract&r mass quantities of &6galena&r and various other resources from the &6magnetic caves&r, able to be refined into a plethora of useful items."]
 			icon: "alexscaves:raw_scarlet_neodymium"
 			id: "37E1F99EBB32F216"
 			rewards: [{
@@ -1262,6 +1307,7 @@
 		}
 		{
 			dependencies: ["21FB21CBE8D9044A"]
+			description: ["Utilize the tunnel bore to &6extract&r mass quantities of &6radrock&r and various other resources from the &6toxic caves&r, able to be &6refined&r into a plethora of useful items."]
 			icon: "alexscaves:uranium"
 			id: "1A47FF03AB791073"
 			rewards: [{
@@ -1291,6 +1337,11 @@
 		}
 		{
 			dependencies: ["134F5DD1CD9EBDF3"]
+			description: [
+				"Obtain the precision mechanism, the steampunk equivalent of a &6microchip&r that unlocks &6highly sophisticated&r items and machinery for further &6detailed&r control over your factory."
+				""
+				"&bConcept&r: The &6assembly line&r, using a chain of various machinery to &6apply components&r to a base item travelling across a belt or surface. Able to &6loop&r around for recipes that require &6repeated&r steps."
+			]
 			icon: "create:precision_mechanism"
 			id: "1B81A670B1813B55"
 			rewards: [{
@@ -1302,25 +1353,25 @@
 			subtitle: "Precision Mechanism Automation"
 			tasks: [
 				{
-					count: 8L
+					count: 10L
 					id: "5DECC34A6ABB7A02"
 					item: "create:precision_mechanism"
 					type: "item"
 				}
 				{
-					count: 40L
+					count: 50L
 					id: "3A3F5C1291E70F4E"
 					item: "create:cogwheel"
 					type: "item"
 				}
 				{
-					count: 40L
+					count: 50L
 					id: "450D8E8AE9F405BB"
 					item: "create:large_cogwheel"
 					type: "item"
 				}
 				{
-					count: 40L
+					count: 50L
 					id: "1247DBF82ECEBC5F"
 					item: "minecraft:iron_nugget"
 					type: "item"
@@ -1394,6 +1445,7 @@
 		}
 		{
 			dependencies: ["372E7A23B868826A"]
+			description: ["Gain the vision of a conductor by binding a remote lens to its &6goggles&r. Allows &6remote surveillance&r of locations thousands of blocks away. Useful for &6spying&r..."]
 			hide: true
 			icon: "railways:remote_lens"
 			id: "60777AA73811863B"
@@ -1404,7 +1456,6 @@
 			}]
 			subtitle: "Remote Lens"
 			tasks: [{
-				count: 2L
 				id: "289F807C86BD4757"
 				item: "railways:remote_lens"
 				type: "item"
@@ -1415,6 +1466,7 @@
 		}
 		{
 			dependencies: ["41BC0E3DAD95B1F0"]
+			description: ["Assemble your first large functional train, a &6highly efficient&r transportation method for &6long-distance&r travel and movement of &6many entities&r."]
 			icon: "create:track_station"
 			id: "5A1CC1834AABBF79"
 			rewards: [{
@@ -1436,6 +1488,7 @@
 		}
 		{
 			dependencies: ["5A1CC1834AABBF79"]
+			description: ["These machines are undoubtably useful for detecting and directing train &6traffic flow&r, as well as integrating &6stationary machinery&r into the workflow of trains."]
 			icon: "create:track_signal"
 			id: "2B3843C99F2935F2"
 			rewards: [{
@@ -1488,6 +1541,7 @@
 		}
 		{
 			dependencies: ["5A1CC1834AABBF79"]
+			description: ["Expand your train network across &6dimensions&r by running a train track &6through a portal&r."]
 			id: "0DB78B8AF8CAF3B7"
 			rewards: [{
 				id: "5A31390B3582DDA5"
@@ -1507,6 +1561,7 @@
 		}
 		{
 			dependencies: ["49730DE1DEE6227D"]
+			description: ["Enter the age of steam with the creation of a robust &6steam engine&r, capable of &6powering&r far more machinery than alternate sources of &6SU generation&r."]
 			icon: "create:steam_engine"
 			id: "04A68FB028F8D2E2"
 			rewards: [
@@ -1536,6 +1591,7 @@
 		}
 		{
 			dependencies: ["04A68FB028F8D2E2"]
+			description: ["Food wars but &6literally&r. A &6backtank&r is recommended for prolonged use."]
 			icon: {
 				Count: 1b
 				id: "create:potato_cannon"
@@ -1567,6 +1623,7 @@
 		}
 		{
 			dependencies: ["04A68FB028F8D2E2"]
+			description: ["Fill the world with &6heavenly music&r by creating a &6pipe organ&r, and host a concert with friends!"]
 			icon: "create:steam_whistle"
 			id: "708A5CE3B235579B"
 			rewards: [{
@@ -1587,6 +1644,7 @@
 		}
 		{
 			dependencies: ["0EFC167C364D6E32"]
+			description: ["Upgrade the millstone to proper &6industrial capacity&r by obtaining a set of crushing wheels, unlocking &6new recipes&r for resource refinement and substantially &6speeding up&r material production."]
 			icon: "create:crushing_wheel"
 			id: "215A260458BB6E70"
 			rewards: [{
@@ -1608,6 +1666,7 @@
 		}
 		{
 			dependencies: ["0EFC167C364D6E32"]
+			description: ["Take geometric building to the next level by obtaining a wand of symmetry, capable of &6mirroring&r block placement and breaking up to &68 times&r."]
 			icon: "create:wand_of_symmetry"
 			id: "5701AB037731FE1D"
 			rewards: [{
@@ -1628,6 +1687,7 @@
 		}
 		{
 			dependencies: ["0A6E73C67F3C85C0"]
+			description: ["Upgrade the tunnel bore into a &6chunk eater&r, capable of processing vast quantities of &6raw materials&r and storing them inside large &6vaults&r."]
 			icon: "minecraft:barrier"
 			id: "56AC887986FACBCE"
 			rewards: [{
@@ -1657,6 +1717,7 @@
 		}
 		{
 			dependencies: ["0A6E73C67F3C85C0"]
+			description: ["Upgrade your bulk storage using vaults and containers, essential for &6large-scale&r storage projects and amazingly convenient for &6bulk item transportation&r."]
 			icon: "create:item_vault"
 			id: "5510262C0A4664B5"
 			rewards: [{
@@ -1686,6 +1747,11 @@
 		}
 		{
 			dependencies: ["24DDD05A8A4CE94C"]
+			description: [
+				"Animal farms are very simple in concept and great in &6scalability&r. Automation of animal farms will provide a large influx of &6raw food products&r ready for cooking, very &6convenient&r."
+				""
+				"&bConcept&r: Animal breeding using &6deployers&r to feed animals their respective &6foods&r. Sort mature/juvenile using &6hitbox sizes&r."
+			]
 			icon: "minecraft:porkchop"
 			id: "7128CD232ED99835"
 			rewards: [{
@@ -1730,6 +1796,7 @@
 		}
 		{
 			dependencies: ["24DDD05A8A4CE94C"]
+			description: ["Venture into the food industry by automating &6dough&r production, then &6process&r the dough into raw pasta via a slicer."]
 			icon: "farmersdelight:raw_pasta"
 			id: "75EFDFCF8CD67071"
 			rewards: [
@@ -1746,12 +1813,19 @@
 				}
 			]
 			subtitle: "Pasta Automation"
+			tasks: [{
+				count: 512L
+				id: "7BB45F5301894105"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
 			title: "Italian Roots"
 			x: -7.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["43DD535889B35D48"]
+			description: ["Become a post-industrialization era wizard by automating production of liquid experience. &6Experience&r can be gathered in several ways, from collecting experience nuggets from &6ore processing&r lines, to channeling &6mob farm entities&r into crushing wheels."]
 			icon: "create_enchantment_industry:disenchanter"
 			id: "5A5FDAD46243BD80"
 			rewards: [
@@ -1794,6 +1868,7 @@
 		}
 		{
 			dependencies: ["43DD535889B35D48"]
+			description: ["Upgrade your crop farms by automating &6liquid fertilizer&r production and implementing a &6sprinkler system&r to distribute fertilizer across all of your fields for &6higher yields&r."]
 			icon: "create_things_and_misc:sprinkler"
 			id: "2869DA85197E3356"
 			rewards: [{
@@ -1828,6 +1903,7 @@
 		}
 		{
 			dependencies: ["5A5FDAD46243BD80"]
+			description: ["Hire new workers with &6fiery&r tempers for your enchant factory, and &6instruct&r them on how to manipulate magic&6."]
 			hide: true
 			icon: "create_enchantment_industry:enchanting_guide"
 			id: "78F18682F84D1A62"
@@ -1849,6 +1925,7 @@
 		}
 		{
 			dependencies: ["78F18682F84D1A62"]
+			description: ["Ascend to a &6higher&r level of enchanting (literally) by obtaining a &6large reserve&r of hyper experience, capable of making things glow and surpassing the &6tier limits&r on many enchantments."]
 			icon: "create_enchantment_industry:hyper_experience_bottle"
 			id: "5E4A91120EE5B53C"
 			rewards: [
@@ -1877,6 +1954,7 @@
 		}
 		{
 			dependencies: ["1C3673428B60D604"]
+			description: ["Engage in violating the &6Geneva Suggestion&r by using a spout gun with harmful fluids."]
 			hide: true
 			icon: "create_things_and_misc:spout_gun"
 			id: "64D524C0E7358D56"
@@ -1897,6 +1975,7 @@
 		}
 		{
 			dependencies: ["1A47FF03AB791073"]
+			description: ["Obtain the necessary items to set up a nuclear furnace, a considerably &6faster&r upgrade to its vanilla counterpart, at the expense of requiring &6waste maintenance&r. "]
 			hide: true
 			icon: "alexscaves:nuclear_furnace_component"
 			id: "61D1BE0CC8B94F8C"
@@ -1933,6 +2012,7 @@
 		}
 		{
 			dependencies: ["61D1BE0CC8B94F8C"]
+			description: ["Enter the &6atomic age&r with the creation of the strongest single block &6explosive&r source in the modpack. Great &6leverage&r for negotiations!"]
 			icon: "alexscaves:nuclear_bomb"
 			id: "7BCB60126658EFE2"
 			rewards: [
@@ -1967,6 +2047,7 @@
 		}
 		{
 			dependencies: ["64D524C0E7358D56"]
+			description: ["They're not much help, but they do look very &6adorable&r."]
 			icon: {
 				Count: 1b
 				id: "create_things_and_misc:blaze_balloon_fire"
@@ -2006,6 +2087,7 @@
 		}
 		{
 			dependencies: ["1B81A670B1813B55"]
+			description: ["Imbue a block of andesite casing with &6life&r by placing a &6conductor's cap&r onto it. The resulting conductor can be used to &6direct&r trains, switch track lines, and more! Conductor production can be automated..."]
 			icon: "railways:red_conductor_cap"
 			id: "372E7A23B868826A"
 			rewards: [{
@@ -2037,6 +2119,7 @@
 		}
 		{
 			dependencies: ["1B81A670B1813B55"]
+			description: ["Obtain the vibration mechanism, gateway to &6audio&r-centered machinery."]
 			hide: true
 			icon: "create_things_and_misc:vibration_mechanism"
 			id: "327E616F92A2D7AB"
@@ -2057,6 +2140,7 @@
 		}
 		{
 			dependencies: ["327E616F92A2D7AB"]
+			description: ["Broadcast messages by obtaining speakers, useful in several applications from public &6announcements&r to &6train arrival&r notifications."]
 			icon: "create_things_and_misc:brass_speaker"
 			id: "52F24F031A8FF913"
 			rewards: [
@@ -2084,6 +2168,7 @@
 		}
 		{
 			dependencies: ["327E616F92A2D7AB"]
+			description: ["Gain advanced &6eyesight&r by obtaining a radar, capable of &6highlighting&r nearby entities even through blocks."]
 			icon: "create_things_and_misc:radar"
 			id: "2818B0B8BA66768C"
 			rewards: [{
@@ -2103,6 +2188,7 @@
 		}
 		{
 			dependencies: ["16CC98907504E609"]
+			description: ["Make your base &6safer&r by implementing a security system of ID cards and scanners, greatly useful for &6multiplayer&r scenarios and preventing damage to &6personal property&r."]
 			hide: true
 			icon: "create_things_and_misc:card_reader"
 			id: "4C463E06A7ABBA44"
@@ -2144,16 +2230,18 @@
 		}
 		{
 			dependencies: ["0DB78B8AF8CAF3B7"]
+			description: ["A great excuse to begin an &6infrastructure&r project to connect bases together!"]
 			hide: true
 			id: "66A02C1743C5C0C3"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "5316B85CD3575C92"
 					item: "createdeco:brass_coin"
 					type: "item"
 				}
 				{
+					count: 3
 					id: "06FC91CECD43E313"
 					item: "skilltree:wisdom_scroll"
 					type: "item"
@@ -2172,6 +2260,7 @@
 		}
 		{
 			dependencies: ["2B3843C99F2935F2"]
+			description: ["Suspend your train network over the terrain by moving the \"&6tracks&r\" to &6above&r the carriages."]
 			hide: true
 			icon: "railways:track_monorail"
 			id: "132CFE20981636C5"
@@ -2194,6 +2283,7 @@
 		}
 		{
 			dependencies: ["132CFE20981636C5"]
+			description: ["Lead your train network into the &6cartoon world&r by having a train run on \"&6thin air&r\"."]
 			icon: "railways:track_phantom"
 			id: "46FF39C5341E6EFF"
 			rewards: [{
@@ -2215,6 +2305,11 @@
 		}
 		{
 			dependencies: ["215A260458BB6E70"]
+			description: [
+				"The gold farm is THE mark of a robust &6industrialized&r base, requiring a long chain of &6resource refinement&r to seemingly magically &6transmute&r common cobblestone into pure gold, free of any alchemical processes. A badge of true commitment to the create tech tree."
+				""
+				"&bConcept&r: A gold farm uses cobblestone as input, &6crushing&r into gravel, &6crushing&r into sand, &6washing&r into clay, &6packing&r into clay blocks, &6blasting&r into terracotta, &6crushing&r into red sand, and finally &6washing&r into gold nuggets. Remember to implement handling of &6byproducts&r in the steps to get the max efficiency out of the farm."
+			]
 			hide: true
 			icon: "kubejs:example_gold_farm"
 			id: "63C44B7922443BAA"
@@ -2232,6 +2327,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.25d
 			subtitle: "Gold Farm"
 			tasks: [
 				{
@@ -2269,7 +2366,8 @@
 					type: "item"
 				}
 				{
-					count: 128L
+					consume_items: true
+					count: 512L
 					id: "681A413CC1C150CB"
 					item: "minecraft:gold_ingot"
 					type: "item"
@@ -2281,6 +2379,7 @@
 		}
 		{
 			dependencies: ["63C44B7922443BAA"]
+			description: ["Enter the &6endgame&r of factory production by automating production of &6enchanted golden apples&r, via output from a gold farm, apple production from a tree farm, and honey production from a &6honey&r farm using mechanical pumps."]
 			icon: "minecraft:enchanted_golden_apple"
 			id: "0CE784718C439259"
 			rewards: [
@@ -2329,6 +2428,7 @@
 		}
 		{
 			dependencies: ["63C44B7922443BAA"]
+			description: ["Partake in the commercial industry by automating production of &6ultra balls&r, a staple to any pokemon trainer's toolkit. Combine output from a gold farm with that of an &6apricorn farm&r, built by fixing deployers to &6growing buds&r of apricorn trees."]
 			icon: "cobblemon:ultra_ball"
 			id: "2B00701C154E8215"
 			rewards: [{
@@ -2396,6 +2496,7 @@
 		}
 		{
 			dependencies: ["6EA2B9375D1B299B"]
+			description: ["Become a jedi master by using mechanical &6crafters&r to create 3 varients of steampunk &6lightsabers&r, each with their own &6special effects&r."]
 			hide: true
 			icon: {
 				Count: 1b

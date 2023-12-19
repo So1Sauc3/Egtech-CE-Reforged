@@ -67,18 +67,6 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
-			icon: "minecraft:totem_of_undying"
-			id: "439C07A04B4A4195"
-			tasks: [{
-				id: "57E15633B34A28A7"
-				type: "checkmark"
-			}]
-			title: "Guard Villagers"
-			x: -2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["23402BC19FF05D29"]
 			icon: "cataclysm:flame_eye"
 			id: "1062D9F848C93792"
 			tasks: [{
@@ -97,7 +85,7 @@
 				id: "70715BD5EB17A80F"
 				type: "checkmark"
 			}]
-			title: "FTB Quests/Chunks"
+			title: "FTB Mods"
 			x: -4.0d
 			y: -2.0d
 		}
@@ -184,26 +172,8 @@
 				id: "7AE9D80E602612EC"
 				type: "checkmark"
 			}]
-			title: "Farmer's / Nether's Delight"
+			title: "Farmer's / Nether's Delight \\& Vinery"
 			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["23402BC19FF05D29"]
-			icon: {
-				Count: 1b
-				id: "vinery:cherry_wine"
-				tag: {
-					Year: 0
-				}
-			}
-			id: "5508CA884C229492"
-			tasks: [{
-				id: "2F75B8D1F680BBD7"
-				type: "checkmark"
-			}]
-			title: "Vinery"
-			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -258,25 +228,8 @@
 				type: "checkmark"
 			}]
 			title: "Majrusz's Difficulty"
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["23402BC19FF05D29"]
-			hide: true
-			icon: {
-				Count: 1b
-				id: "travelersbackpack:standard"
-				tag: { }
-			}
-			id: "489F9E10D399F894"
-			tasks: [{
-				id: "361E23D41BF39351"
-				type: "checkmark"
-			}]
-			title: "Inventory Nerfs"
-			x: 6.0d
-			y: 0.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
@@ -288,21 +241,8 @@
 				type: "checkmark"
 			}]
 			title: "Slice of Life: Apple Pie"
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["23402BC19FF05D29"]
-			hide: true
-			icon: "supplementaries:flag_red"
-			id: "2BCEE2A4E0979D68"
-			tasks: [{
-				id: "73CD29BDFF8EEACC"
-				type: "checkmark"
-			}]
-			title: "FTB Teams"
-			x: -6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 4.0d
 		}
 	]
 	title: "Tutorials"

@@ -15,6 +15,8 @@ ServerEvents.recipes(event => {
         'minecraft:gold_ingot'
     ])
     
+    event.recipes.create.splashing('gold_nugget', 'red_sand')
+
     event.recipes.create.compacting('kubejs:oreo_thin', ['kubejs:oreo_wafer_top','kubejs:oreo_cream','kubejs:oreo_wafer_bottom']).superheated()
     
     event.recipes.create.haunting('create:zinc_ingot','iron_ingot')

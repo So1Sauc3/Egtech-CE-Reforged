@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "Modpack Name"
+	title: "Egtech CE Reforged"
 	version: 13
 }

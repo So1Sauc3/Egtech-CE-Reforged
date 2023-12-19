@@ -53,7 +53,7 @@
 ["Amnesia Scroll"]
 	#How much levels (percentage) player lose using amnesia scroll
 	#Range: 0.0 ~ 1.0
-	"Amnesia scroll penalty" = 0.0
+	"Amnesia scroll penalty" = 0.1
 	"Drop amnesia scrolls from the Ender Dragon" = false
 
 [Experience]
