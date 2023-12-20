@@ -1,1 +1,22 @@
-{}
+{
+  "kubejs.ponder.tag.example_farms": "Example Farms",
+  "kubejs.ponder.tag.example_farms.description": "Made by _Soi",
+  "kubejs.ponder.scene_gold_farm.header": "Basic gold farm",
+  "kubejs.ponder.scene_gold_farm.text_1": "Simple cobblestone generator, using a drill to harvest blocks",
+  "kubejs.ponder.scene_gold_farm.text_10": "Just don\u0027t forget to wire everything up to spin the correct direction...",
+  "kubejs.ponder.scene_gold_farm.text_2": "2 sets of crushing wheels, crushing into gravel then into sand, clay balls, and flint",
+  "kubejs.ponder.scene_gold_farm.text_3": "Wash sand to obtain more clay balls",
+  "kubejs.ponder.scene_gold_farm.text_4": "Separate the byproduct flint from the clay output by filtering",
+  "kubejs.ponder.scene_gold_farm.text_5": "Press the clay balls into clay blocks",
+  "kubejs.ponder.scene_gold_farm.text_6": "Blast the clay blocks to obtain terracotta",
+  "kubejs.ponder.scene_gold_farm.text_7": "Crush the terracotta to obtain red sand",
+  "kubejs.ponder.scene_gold_farm.text_8": "Finally, wash the red sand to obtain golden nuggets",
+  "kubejs.ponder.scene_gold_farm.text_9": "Behold: successful transmutation from mere stone into pure golden nuggets",
+  "kubejs.ponder.scene_iron_farm.header": "Basic iron farm",
+  "kubejs.ponder.scene_iron_farm.text_1": "Inventory slots all filled with at least 1 iron nugget/flint for a primitive filter",
+  "kubejs.ponder.scene_iron_farm.text_2": "Fan to wash gravel into iron nuggets and flint",
+  "kubejs.ponder.scene_iron_farm.text_3": "Adding more fans and increasing rotation speed will speed up processing",
+  "kubejs.ponder.scene_iron_farm.text_4": "The main bottleneck in this farm is the millstone, grinding cobble into gravel",
+  "kubejs.ponder.scene_iron_farm.text_5": "Simple cobblestone generator, using a drill to harvest blocks",
+  "kubejs.ponder.scene_iron_farm.text_6": "This example is highly inefficient, but expandable for better rates"
+}

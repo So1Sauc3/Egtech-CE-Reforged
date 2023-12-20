@@ -331,7 +331,7 @@
 				""
 				"&bChanges&r: Tweaked difficulty scaling and mob grouping."
 			]
-			hide: true
+			hide: false
 			icon: "majruszsdifficulty:undead_battle_standard"
 			id: "343F61B536B1C19E"
 			tasks: [{
@@ -351,7 +351,7 @@
 				""
 				"&bChanges&r: Tweaked stat bonus scaling."
 			]
-			hide: true
+			hide: false
 			icon: "farmersdelight:apple_pie"
 			id: "7D05D414EAB9863B"
 			tasks: [{

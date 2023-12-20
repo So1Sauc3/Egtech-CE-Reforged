@@ -196,7 +196,7 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "63AA206E905D5775"
 					item: "create:track"
 					type: "item"
@@ -984,6 +984,15 @@
 				tag: { }
 			}
 			id: "5054A774DB32281A"
+			rewards: [{
+				id: "2F51C5EECA8141E3"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
 			subtitle: "1x Warp Scroll"
 			tasks: [{
 				consume_items: true
