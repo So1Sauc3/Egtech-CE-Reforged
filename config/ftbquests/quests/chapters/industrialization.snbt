@@ -525,6 +525,7 @@
 		{
 			dependencies: ["27CEFE48FE894A28"]
 			description: ["Minecart contraptions provide dynamic interactions with the world using &6moving structures&r anchored on &6rails and carts&r. Utilized in everywhere from tree farms to roller coasters and mass harvesters."]
+			hide: true
 			icon: "minecraft:furnace_minecart"
 			id: "662BEB80FF47AB2F"
 			rewards: [{
@@ -565,6 +566,7 @@
 		{
 			dependencies: ["27CEFE48FE894A28"]
 			description: ["These machines are essential to interacting with the world and &6harvesting&r raw materials."]
+			hide: true
 			icon: "create:mechanical_harvester"
 			id: "145349610C0F4E6A"
 			rewards: [{
@@ -666,6 +668,7 @@
 		{
 			dependencies: ["27CEFE48FE894A28"]
 			description: ["These machines are essential to &6refining&r and &6processing&r raw materials into &6useful&r items and technology."]
+			hide: false
 			icon: "create:mechanical_press"
 			id: "262D5052060140CE"
 			rewards: [{
@@ -711,6 +714,7 @@
 		{
 			dependencies: ["20B9C2DCCD629AC6"]
 			description: ["Harness the fiery infernos of &6hell&r to forge stronger &6alloys&r for &6complex&r innovations."]
+			hide: true
 			icon: "create:blaze_burner"
 			id: "6379B1715D307863"
 			rewards: [{
@@ -746,6 +750,7 @@
 		{
 			dependencies: ["16CC98907504E609"]
 			description: ["Automate creation of rose quartz and unlock production of complex &6logic&r items using &6electron tubes&r, by creating a &6quartz farm&r and processing line to &6refine&r the raw crystals."]
+			hide: true
 			icon: "create:polished_rose_quartz"
 			id: "6EA2B9375D1B299B"
 			rewards: [{
@@ -937,6 +942,7 @@
 		{
 			dependencies: ["411067BDE0180961"]
 			description: ["These machines are essential to interacting with fluids and implementing &6logic&r to pipe systems."]
+			hide: true
 			icon: "create:smart_fluid_pipe"
 			id: "2103FAD6DF0B5ACC"
 			rewards: [{
@@ -973,6 +979,7 @@
 		{
 			dependencies: ["2D1501C3B0AA0236"]
 			description: ["Automate train track production using an &6assembly line method&r, and produce enough &6tracks&r to begin building your own &6infrastructure&r empire."]
+			hide: true
 			icon: "create:track"
 			id: "41BC0E3DAD95B1F0"
 			rewards: [
@@ -1045,6 +1052,7 @@
 		{
 			dependencies: ["16CC98907504E609"]
 			description: ["Obtain deployers, one of the most &6fundamentally useful&r machines for automating every part of production, capable of mimicking &6player interactions&r."]
+			hide: true
 			icon: "create:deployer"
 			id: "134F5DD1CD9EBDF3"
 			rewards: [{
@@ -1067,6 +1075,7 @@
 		{
 			dependencies: ["20B9C2DCCD629AC6"]
 			description: ["Upgrade your iron farm to a proper industrial factory by &6replacing&r the measly millstones with &6powerful&r crushing wheels. Iron production is no longer &6bottlenecked&r by slow processing of cobblestone into gravel."]
+			hide: true
 			icon: "minecraft:iron_block"
 			id: "0A6E73C67F3C85C0"
 			rewards: [{
@@ -1187,6 +1196,7 @@
 		{
 			dependencies: ["411067BDE0180961"]
 			description: ["Store collected fluids in bulk &6fluid silos&r that can &6store&r much more than the humble bucket."]
+			hide: true
 			icon: "create:fluid_tank"
 			id: "49730DE1DEE6227D"
 			rewards: [{
@@ -2241,7 +2251,7 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 4
 					id: "06FC91CECD43E313"
 					item: "skilltree:wisdom_scroll"
 					type: "item"

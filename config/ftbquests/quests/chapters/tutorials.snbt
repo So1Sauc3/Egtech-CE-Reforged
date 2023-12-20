@@ -9,7 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This tab of FTB Quests is meant to &6provide additional help&r to anyone confused with the game mechanics or progression of the mods and the pack. _Soi would &6appreciate it greatly&r if you are able to check this before asking him questions, thanks!"]
+			description: [
+				"This tab of FTB Quests is meant to &6provide additional help&r to anyone confused with the game mechanics or progression of the mods and the pack. _Soi would &6appreciate it greatly&r if you are able to check this before asking him questions, thanks!"
+				""
+				"&bNOTE&r: absolutely &6massive spoilers&r ahead, if you want to enjoy the full &6experience&r of any mod, try to rely as &6little&r on external &6documentation&r as possible. Come here only if you are completely stuck."
+				""
+				"&bP.S.&r: I know links aren't clickable right now, working on finding a fix for that in the near future."
+			]
 			icon: "minecraft:bookshelf"
 			id: "23402BC19FF05D29"
 			rewards: [{
@@ -31,6 +37,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Wither storm boss, persistent entity, tracks one player at a time, grows in stages, can only be defeated in later stages."
+				""
+				"&bDocumentation&r: https://minecraft-archive.fandom.com/wiki/Wither_Storm"
+				""
+				"&bChanges&r: tweaked witherstorm AI modes, stage progression speed"
+			]
 			icon: "witherstormmod:withered_nether_star"
 			id: "31CBE977F814C99F"
 			tasks: [{
@@ -43,6 +56,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Custom weapons and weapon types. Weapons have different attack animations and styles, swing hitboxes shown using F3+B."
+				""
+				"&bDocumentation&r: Runic Grimoire"
+				""
+				"&bChanges&r: Unique weapons are only obtained through achieving server titles. The first person to complete each title gets to choose an unique weapon. Nobody else can choose that weapon afterwards. Runic tablets cannot be found in chests."
+			]
 			icon: "simplyswords:runic_tablet"
 			id: "64976A7E2DBDF109"
 			tasks: [{
@@ -55,6 +75,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Changes end terrain generation, adds new biomes using vanilla blocks. Extends end terrain generation vertically."
+				""
+				"&bDocumentation&r: https://www.stardustlabs.net/nullscape"
+				""
+				"&bChanges&r: N/A"
+			]
 			icon: "minecraft:end_portal_frame"
 			id: "676D18DB7AAD6603"
 			tasks: [{
@@ -67,6 +94,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bBosses&r: Located in structures throughout world, each has unique fight mechanics. Learn more in the Arms Race chapter of Mid Game."
+				""
+				"&bDocumentation&r: https://youtu.be/VkvGGGiPdg8?si=kgC9DqXgzCdFahIU"
+				""
+				"&bChanges&r: N/A"
+			]
 			icon: "cataclysm:flame_eye"
 			id: "1062D9F848C93792"
 			tasks: [{
@@ -79,6 +113,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Quests adds questing system. Chunks adds player team claiming and forceloading GUI. Teams adds player teams."
+				""
+				"&bDocumentation&r: Quest book, README.md in https://github.com/FTBTeam/FTB-Teams https://help.ftb.team/help/en-gb/5-ftb-quests "
+				""
+				"&bChanges&r: Player teams must have a maximum group count of 1 per team."
+			]
 			icon: "ftbquests:book"
 			id: "5D25EEE0A26E5B84"
 			tasks: [{
@@ -91,6 +132,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Adds mechanical technology, power in the form of rotational energy and stress units. Endless automation capabilities and compatibility with numerous mods."
+				""
+				"&bDocumentation&r: Ponders (long hold W on items to see holographic explanations), and https://create.fandom.com/wiki/Create_Mod_Wiki"
+				""
+				"&bChanges&r: Buffed red sand washing recipes, created iron haunting into zinc recipe, created oreo thin compacting recipe, created enchanted golden apple mechanical crafting recipe, created example farm ponders."
+			]
 			icon: "create:brass_hand"
 			id: "557055197EA31176"
 			tasks: [{
@@ -103,6 +151,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Miscellaneous utilities mod that adds various blocks and items, ranging from decoration to redstone, exploration, and more."
+				""
+				"&bDocumentation&r: https://youtu.be/Qt2UkAojgAw?si=ZPsvObLKM34OYTaa"
+				""
+				"&bChanges&r: N/A"
+			]
 			icon: "supplementaries:globe"
 			id: "787FDA4B5F38EF6C"
 			tasks: [{
@@ -115,6 +170,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Adds a new spellcrafting system. Mana equivalent is called source, obtained from flora in the wild and from farms that can be set up. Adds new bosses to fight."
+				""
+				"&bDocumentation&r: worn notebook, https://www.arsnouveau.wiki/"
+				""
+				"&bChanges&r: Removed warp scroll crafting recipe, now obtained through quests market. Rebalanced certain items, buffed certain generation features."
+			]
 			icon: "ars_nouveau:archmage_spell_book"
 			id: "59C971661ABDE083"
 			tasks: [{
@@ -127,6 +189,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Adds new spells and structures. Ingredients can be found in magical structures and in chests. Spells can be used as scrolls, in books, or imbued into weapons."
+				""
+				"&bDocumentation&r: https://iron431.github.io/Irons-Spellbooks-Docs/"
+				""
+				"&bChanges&r: Tweaked item loot tables"
+			]
 			icon: {
 				Count: 1b
 				id: "irons_spellbooks:scroll"
@@ -148,6 +217,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Adds new pokemon that spawn naturally in the world, able to be caught and trained. Pokemon spawns are determined by biome type, nearby specific blocks, etc."
+				""
+				"&bDocumentation&r: https://wiki.cobblemon.com/index.php/Main_Page"
+				""
+				"&bChanges&r: N/A"
+			]
 			icon: "cobblemon:poke_ball"
 			id: "30767AEC24E07B3D"
 			tasks: [{
@@ -160,6 +236,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Adds new food items and cooking methods. Ingredients can be found in the wild in both overworld and nether. Automation capabilities using mechanical slicers from Slice and Dice."
+				""
+				"&bDocumentation&r: https://farmersdelight.fandom.com/wiki/Farmer%27s_Delight_Wiki https://youtu.be/BY-c9gAiqMM?si=bsX2MGe0lHzINsd8 https://youtu.be/Rk9L8jMjeTc?si=bw6zit0rr0UApm9r"
+				""
+				"&bChanges&r: N/A"
+			]
 			icon: {
 				Count: 1b
 				id: "farmersdelight:netherite_knife"
@@ -178,6 +261,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Adds new mobs to the game with mechanics tied to them. New interactions between entities and the world. Adds 5 new cave biomes with their own contained ecosystems, and new items to go with them."
+				""
+				"&bDocumentation&r: Animal dictionary, cave compendium, https://alexscaves.wiki.gg/wiki/Main_Page"
+				""
+				"&bChanges&r: tweaked cave biome generation rates and size generation, rebalanced certain items."
+			]
 			icon: {
 				Count: 1b
 				id: "alexscaves:cave_tablet"
@@ -196,6 +286,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Adds custom biomes to the overworld and nether. New blocks, wood types, etc."
+				""
+				"&bDocumentation&r: https://youtu.be/ATBoo8KXdiU?si=N4K-cv_RjW_mQg_E"
+				""
+				"&bChanges&r: N/A"
+			]
 			icon: "regions_unexplored:apple_oak_sapling"
 			id: "7BC471DF095435A6"
 			tasks: [{
@@ -208,6 +305,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Changes nether terrain generation. Adds new biomes and structures using vanilla blocks. Custom gear can be found."
+				""
+				"&bDocumentation&r: https://www.stardustlabs.net/incendium https://youtu.be/CUYM1DHmPT8?si=SJ2FU6D1WV_M4fSj"
+				""
+				"&bChanges&r: N/A"
+			]
 			icon: "minecraft:blaze_powder"
 			id: "2546FD635D65B864"
 			tasks: [{
@@ -220,6 +324,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: 3 game stages [normal, expert, master]. Stage changes triggered by entering nether and defeating ender dragon. World scales in difficulty with respect to player progression."
+				""
+				"&bDocumentation&r: https://majruszs-progressive-difficulty.fandom.com/wiki/Majrusz%27s_Progressive_Difficulty_Wiki"
+				""
+				"&bChanges&r: Tweaked difficulty scaling and mob grouping."
+			]
 			hide: true
 			icon: "majruszsdifficulty:undead_battle_standard"
 			id: "343F61B536B1C19E"
@@ -233,6 +344,13 @@
 		}
 		{
 			dependencies: ["23402BC19FF05D29"]
+			description: [
+				"&bMechanics&r: Player attributes and effects such as health, strength, speed, mining speed, etc. scale off of diet diversity and heartiness. Eat more nourishing food with greater saturation stats consistently to increase stats. Unhealthy diet causes stat bonuses to drop off."
+				""
+				"&bDocumentation&r: README.md on https://github.com/anthxnymc/Spice-of-Life-Apple-Pie"
+				""
+				"&bChanges&r: Tweaked stat bonus scaling."
+			]
 			hide: true
 			icon: "farmersdelight:apple_pie"
 			id: "7D05D414EAB9863B"

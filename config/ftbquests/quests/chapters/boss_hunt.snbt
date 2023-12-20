@@ -122,6 +122,7 @@
 		{
 			dependencies: ["6F548D96921647F9"]
 			description: ["Defeat the &6Netherite Monstrosity&r and obtain its main drop, upgrading both your weapon and your &6pickaxe&r."]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "cataclysm:infernal_forge"
@@ -198,6 +199,7 @@
 		{
 			dependencies: ["14C6F7933BB9AC92"]
 			description: ["Best the wild regions of the &6primoridial caves&r by &6taming&r its king with a crude weapon."]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "alexscaves:primitive_club"
@@ -246,6 +248,7 @@
 		{
 			dependencies: ["14C6F7933BB9AC92"]
 			description: ["Pacify the toxic caves by defeating its &6tankiest brute&r and obtain &6alien-like&r weaponry."]
+			hide: true
 			icon: "alexscaves:raygun"
 			id: "6966E8C8EA3D65AB"
 			rewards: [
@@ -317,6 +320,7 @@
 		{
 			dependencies: ["788967565DF39863"]
 			description: ["Summon and defeat the &6Wilden Chimera&r, unlocking access to &6higher grade&r spell glyphs and items."]
+			hide: true
 			icon: "ars_nouveau:wilden_tribute"
 			id: "56B05809C650FAC3"
 			rewards: [
@@ -549,6 +553,7 @@
 		{
 			dependencies: ["391467814141A620"]
 			description: ["Engage in peaceful trading with the &6Deep Ones&r, and obtain various ocean-themed weapons."]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "alexscaves:sea_staff"
@@ -713,6 +718,7 @@
 		{
 			dependencies: ["14C6F7933BB9AC92"]
 			description: ["Neutralize the magnetic caves by defeating a &6guardian&r golem, and use its &6heart&r to craft magnetic gear."]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "alexscaves:galena_gauntlet"
@@ -772,6 +778,7 @@
 		{
 			dependencies: ["14C6F7933BB9AC92"]
 			description: ["Challenge and eradicate the &6cultists'&r ultimate &6summon,&r and obtain &6pure darkness&r capable of being woven into powerful weapons."]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "alexscaves:hood_of_darkness"

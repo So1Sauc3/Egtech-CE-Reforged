@@ -10,15 +10,32 @@
 	quests: [
 		{
 			dependencies: ["1A38B3C34C616DA7"]
+			description: [
+				"Server titles are difficult end game &6achievements&r for players to work towards. When a player achieves the &6requirements&r for a server title, they (for most of the titles) are required to &6submit proof&r of completion to &6#quest-submission&r in the Discord. "
+				""
+				"When &6approved&r, the title will be granted, which shows up as a &6suffix&r to their username in chat, and they are rewarded with items, custom effects, netherite coins, and more."
+				""
+				"Additionally, for &6each&r title, the &6first&r person to obtain that title will be given a choice to choose a &6unique weapon&r from the Simply Swords mod, or the &6galaxy brass saber&r from the Create Sabers mod. There can &6only be one&r of each unique weapon that exists in the world."
+			]
 			icon: {
 				Count: 1b
 				id: "witherstormmod:amulet"
 				tag: { }
 			}
 			id: "4386B2ED33401524"
+			rewards: [{
+				id: "3606B85689EB3956"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Bragging rights for the &6worthy&r"
+			tasks: [{
+				id: "1603F7E1C6589821"
+				title: "READ THE DESCRIPTION"
+				type: "checkmark"
+			}]
 			title: "Server Titles"
 			x: 0.5d
 			y: 0.0d
@@ -85,19 +102,38 @@
 		}
 		{
 			dependencies: ["2C2F393F4233D064"]
+			description: [
+				"&bCriteria&r:"
+				"- obtain the achievement \"&6One Story Ends, Another Begins&r\""
+				""
+				"&bSubmit&r:"
+				"- &6advancement&r"
+				""
+				"&bRules&r:"
+				"- you cannot request a &6unique weapon&r from obtaining this server title."
+			]
 			icon: "witherstormmod:withered_nether_star"
 			id: "4F9C10D402745E6F"
-			rewards: [{
-				id: "722972D6C6AA053D"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "722972D6C6AA053D"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleHero @s"
+					icon: "minecraft:nether_star"
+					id: "136E51B9E5BF887D"
+					type: "command"
+				}
+			]
 			size: 1.25d
 			subtitle: "&6Defeat&r the Wither Storm"
 			tasks: [{
-				id: "6823D015C2F5ED28"
-				title: "Hero"
-				type: "custom"
+				advancement: "witherstormmod:main/wither_storm_defeated"
+				criterion: ""
+				id: "2182580966020ACD"
+				type: "advancement"
 			}]
 			title: "[Hero]"
 			x: 0.5d
@@ -105,24 +141,52 @@
 		}
 		{
 			dependencies: ["2C2F393F4233D064"]
+			description: [
+				"&bCriteria&r:"
+				"- &6claim&r using FTB teams all other players' would-be &6spawnpoints&r in their main bases &6simultaneously&r"
+				"- position must be held for &61 full minecraft day&r starting from when the &6final&r base is claimed"
+				""
+				"&bSubmit&r:"
+				"- &6video&r proof of all player bases intact and claimed by you"
+				""
+				"&bRules&r:"
+				"- players may use &6violent or non-violent&r methods"
+				"- bases (and especially would-be spawnpoint locations) must be &6>50% intact&r in order for countdown to progress"
+			]
 			icon: "cobblemon:kings_rock"
 			id: "27BA082508099F06"
-			rewards: [{
-				id: "4C59A671AADD0738"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4C59A671AADD0738"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleGreat @p"
+					icon: "minecraft:nether_star"
+					id: "774EFC82B5EE9E0D"
+					type: "command"
+				}
+			]
 			subtitle: "&6Conquer&r and control all bases"
-			tasks: [{
-				id: "67C5352531471C5B"
-				type: "custom"
-			}]
 			title: "[The Great]"
 			x: -0.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2C2F393F4233D064"]
+			description: [
+				"&bCriteria&r:"
+				"- get &6kill&r credit &610 times&r for every player on the server"
+				""
+				"&bSubmit&r:"
+				"- &6video&r proof of every kill, properly displaying &6kill credit&r in the chat (bonus points for making a &6montage&r)"
+				""
+				"&bRules&r:"
+				"- kill credit must &6be obtained&r for the kill to count"
+				"- &6collaboration&r to kill is allowed, but only &6one player&r can be credited with each kill"
+				"- once a player is killed, additional &6\"spawn kills\" do not count&r until 1 full minecraft &6day&r after they first died"
+			]
 			icon: {
 				Count: 1b
 				id: "simplyswords:runic_katana"
@@ -131,40 +195,72 @@
 				}
 			}
 			id: "18841976DC98ED44"
-			rewards: [{
-				id: "1922A4EFDCB2B44F"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1922A4EFDCB2B44F"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleAss @s"
+					icon: "minecraft:nether_star"
+					id: "0643C6DEE9E3EAD1"
+					type: "command"
+				}
+			]
 			subtitle: "&6Kill&r every player 10 times"
-			tasks: [{
-				id: "515BC26E18498AB9"
-				type: "custom"
-			}]
 			title: "[Assassin]"
 			x: 1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2C2F393F4233D064"]
+			description: [
+				"&bCriteria&r:"
+				"- defeat all &6bosses&r featured in the &6Arms Race&r chapter of Mid Game in under &63 hours&r"
+				""
+				"&bSubmit&r:"
+				"- &6video&r proof of killing every boss consecutively, cannot be edited"
+				""
+				"&bRules&r:"
+				"- logging out will pause timer, but you must inform the server you are doing the challenge and logging out"
+				"- cannot be done collaboratively (for now)"
+			]
 			icon: "minecraft:stone_button"
 			id: "2F8417817B13E85F"
-			rewards: [{
-				id: "317B609F0FF3B3A1"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "317B609F0FF3B3A1"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleRock @s"
+					icon: "minecraft:nether_star"
+					id: "31C5B58328A8D634"
+					type: "command"
+				}
+			]
 			subtitle: "Complete the &6Boss Rush&r challenge"
-			tasks: [{
-				id: "52463E6E91600810"
-				type: "custom"
-			}]
 			title: "[Rock]"
 			x: 2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2C2F393F4233D064"]
+			description: [
+				"&bCriteria&r:"
+				"- have more than &6100 guard villagers&r under your command"
+				"- guards must be gathered in &6one place&r and equipped with at least &6full iron gear&r"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof showing all guards in one place (can use F3 screen to display &6entity count&r for clarification)"
+				""
+				"&bRules&r:"
+				"- guards cannot be &6under-equipped&r"
+				"- you must be able to &6command&r the guards"
+				"- a &62/3 majority&r of the guards must have been &6created&r by you"
+			]
 			icon: {
 				Count: 1b
 				id: "create_sabers:brass_saber_galaxy"
@@ -173,45 +269,77 @@
 				}
 			}
 			id: "0745B6A3816F231C"
-			rewards: [{
-				id: "791231343C85B84B"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "791231343C85B84B"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleEmp @p"
+					icon: "minecraft:nether_star"
+					id: "5D5D4F5414E14650"
+					type: "command"
+				}
+			]
 			subtitle: "Equip and &6raise&r a guard villager army"
-			tasks: [{
-				id: "06398DDEFA71699A"
-				type: "custom"
-			}]
 			title: "[Empire]"
 			x: -1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1D43CA94FBD733FD"]
+			description: [
+				"&bCriteria&r:"
+				"- make a &6liveable&r, &6aesthetically acceptable&r outpost in &650 unique&r overworld biomes"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of outposts in the 50 unique overworld biomes"
+				""
+				"&bRules&r:"
+				"- &6outposts&r must be done by you"
+				"- &6liveable&r is defined as: no &6hostile&r entities/environment, ample space, safe &6respawn&r point, sustainable &6food&r source \\& &6fuel&r source, organized &6storage&r system"
+				"- &6aesthetically acceptable&r is defined by &6player review&r: if build aesthetics are &6debatable&r, a vote is held between other players, &6simple majority&r wins"
+			]
 			icon: {
 				Count: 1b
 				id: "travelersbackpack:dragon"
 				tag: { }
 			}
 			id: "39D60DC2516BBF23"
-			rewards: [{
-				id: "2B48A98C4E85C699"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2B48A98C4E85C699"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titlePio @s"
+					icon: "minecraft:nether_star"
+					id: "21C45965CA60ECDB"
+					type: "command"
+				}
+			]
 			size: 1.25d
-			subtitle: "&6Set up&r an outpost in 50 Terralith Biomes"
-			tasks: [{
-				id: "5EA073EE7A572EDC"
-				type: "custom"
-			}]
+			subtitle: "&6Set up&r an outpost in 50 Unique Biomes"
 			title: "[Pioneer]"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1D43CA94FBD733FD"]
+			description: [
+				"&bCriteria&r:"
+				"- make a &6liveable&r, &6aesthetically acceptable&r campsite in all &65 cave biomes&r added by &6Alex's Caves&r"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of campsites in all Alex's Caves biomes"
+				""
+				"&bRules&r:"
+				"- &6campsites&r must be done by you"
+				"- &6liveable&r is defined as: no &6hostile&r entities/environment, ample space, safe &6respawn&r point, sustainable &6food&r source \\& &6fuel&r source, organized &6storage&r system"
+				"- &6aesthetically acceptable&r is defined by &6player review&r: if build aesthetics are &6debatable&r, a vote is held between other players, &6simple majority&r wins"
+			]
 			icon: {
 				Count: 1b
 				id: "alexscaves:cave_tablet"
@@ -220,131 +348,243 @@
 				}
 			}
 			id: "6112E3D767D57A8F"
-			rewards: [{
-				id: "2BF13008BB510CB4"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2BF13008BB510CB4"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleSpel @s"
+					icon: "minecraft:nether_star"
+					id: "46F5837EC5CCB7CC"
+					type: "command"
+				}
+			]
 			subtitle: "Discover and &6settle&r all of Alex's Caves"
-			tasks: [{
-				id: "2767C02DAA296F45"
-				type: "custom"
-			}]
 			title: "[Spelunker]"
 			x: 6.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1D43CA94FBD733FD"]
+			description: [
+				"&bCriteria&r:"
+				"- make a &6liveable&r, &6aesthetically acceptable&r base in every biome added by &6Nullscape&r"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of bases in all &6end biomes&r added by Nullscape"
+				""
+				"&bRules&r:"
+				"- &6bases&r must be done by you"
+				"- &6liveable&r is defined as: no &6hostile&r entities/environment, ample space, safe &6respawn&r point, sustainable &6food&r source \\& &6fuel&r source, organized &6storage&r system"
+				"- &6aesthetically acceptable&r is defined by &6player review&r: if build aesthetics are &6debatable&r, a vote is held between other players, &6simple majority&r wins"
+			]
 			icon: "alexsmobs:capsid"
 			id: "1AA2858F43DE5E5F"
-			rewards: [{
-				id: "2552D1071411F700"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2552D1071411F700"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleAstro @s"
+					icon: "minecraft:nether_star"
+					id: "4C8C13B0CB7F2EB6"
+					type: "command"
+				}
+			]
 			subtitle: "&6Make&r a space base in every Nullscape biome"
-			tasks: [{
-				id: "7E358578E57AE42C"
-				type: "custom"
-			}]
 			title: "[Astroneer]"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["08D03A41B019A564"]
+			description: [
+				"&bCriteria&r:"
+				"- build a &6factory(s)&r that is able to automatically produce all &6automatable machines&r added in the Create mod"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of factory production and item storage"
+				""
+				"&bRules&r:"
+				"- factory must be built by you"
+				"- &7machines&r in this case is defined as all &6automatable&r items in the Create mod, excluding purely &6decorative/nonfunctional&r building blocks/items"
+				"- &6automating&r one item qualifies as automating its &6component&r items, but &6not&r the other way around"
+			]
 			icon: "create:creative_crate"
 			id: "232DD0D7927B9646"
-			rewards: [{
-				id: "016D1B6C3645BA9A"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "016D1B6C3645BA9A"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleCrea @s"
+					icon: "minecraft:nether_star"
+					id: "15723D0E55556B77"
+					type: "command"
+				}
+			]
 			size: 1.25d
 			subtitle: "&6Automate&r the Create Mod itself"
-			tasks: [{
-				id: "003391A29AF1CA7C"
-				type: "custom"
-			}]
 			title: "[Creator]"
 			x: -7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["176E862A5A8CBD08"]
+			description: [
+				"&bCriteria&r:"
+				"- obtain at least &6one&r of every single &6consumable&r item"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of all &6consumable&r items"
+				""
+				"&bRules&r:"
+				"- \"&6consumable&r\" in this case is defined as any &6potion&r item or item that restores &6hunger/saturation&r"
+			]
 			icon: "farmersdelight:squid_ink_pasta"
 			id: "292256AFDD9DAC31"
-			rewards: [{
-				id: "6C627927A359C732"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6C627927A359C732"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleConno @s"
+					icon: "minecraft:nether_star"
+					id: "4768760CD7D1B127"
+					type: "command"
+				}
+			]
 			subtitle: "&6Gather&r every single consumable item"
-			tasks: [{
-				id: "078BBBA892117CBB"
-				type: "custom"
-			}]
 			title: "[Connoisseur]"
 			x: -0.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["08D03A41B019A564"]
+			description: [
+				"&bCriteria&r:"
+				"- build a &6liveable&r, &6aesthetically acceptable&r, &6functional&r city"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of the entire city, including &6functional&r parts"
+				""
+				"&bRules&r:"
+				"- &6liveable&r is defined as: no &6hostile&r entities/environment, ample space, safe &6respawn&r point, sustainable &6food&r source \\& &6fuel&r source, organized &6storage&r system"
+				"- &6aesthetically acceptable&r is defined by &6player review&r: if build aesthetics are &6debatable&r, a vote is held between other players, &6simple majority&r wins"
+				"- &6functional&r in this case is defined as a minimum of &62&r sustainable food sources, &61&r industry in the form of a factory producing sellable items, &64&r individual fully furnished liveable houses, &61&r central meeting area or town hall, and &61&r amenity/recreational areas."
+			]
 			icon: "create:crafting_blueprint"
 			id: "358AFA831932B06A"
-			rewards: [{
-				id: "1FE772C03B0463DF"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1FE772C03B0463DF"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleArch @s"
+					icon: "minecraft:nether_star"
+					id: "3EECA27B78676D83"
+					type: "command"
+				}
+			]
 			subtitle: "&6Build&r a fully functional city"
-			tasks: [{
-				id: "521ECF0B21104E6F"
-				type: "custom"
-			}]
 			title: "[Architect]"
 			x: -5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1D43CA94FBD733FD"]
+			description: [
+				"&bCriteria&r:"
+				"- make at least &6one&r instance of every &6structure&r added by &6Yung's mods&r and &6Lender's Cataclysm&r liveable"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of all specified structures made liveable"
+				""
+				"&bRules&r:"
+				"- &6work&r must be done by you"
+				"- &6liveable&r is defined as: no &6hostile&r entities/environment, ample space, safe &6respawn&r point, sustainable &6food&r source \\& &6fuel&r source, organized &6storage&r system"
+				"- must make use of the &6full&r extent of each structure"
+			]
 			icon: "minecraft:cracked_stone_bricks"
 			id: "1E8CAAA70A7C510F"
-			rewards: [{
-				id: "2F2D588D23635A98"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2F2D588D23635A98"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleUsur @s"
+					icon: "minecraft:nether_star"
+					id: "0574CD17BAAF532D"
+					type: "command"
+				}
+			]
 			subtitle: "Discover and &6repurpose&r all major structures"
-			tasks: [{
-				id: "33A65D1725EAEB44"
-				type: "custom"
-			}]
 			title: "[Usurper]"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["08D03A41B019A564"]
+			description: [
+				"&bCriteria&r:"
+				"- build a &6rail system&r that connects all player' &6main bases&r within the overworld and nether dimension together by a &6functional&r rail line"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of rail system showing connections"
+				""
+				"&bRules&r:"
+				"- &6rail system&r must be built by you"
+				"- &6functional&r in this case is defined as a minimum of &61&r train station per base, and &6railroads&r that are able to be &6traversed&r completely by train"
+			]
 			icon: "create:track"
 			id: "57A73A3759D605B1"
-			rewards: [{
-				id: "6180B62E26A38BDE"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6180B62E26A38BDE"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .title66 @s"
+					icon: "minecraft:nether_star"
+					id: "3802202BE89F1545"
+					type: "command"
+				}
+			]
 			subtitle: "&6Connect&r all player bases by rail"
-			tasks: [{
-				id: "739A08A552F90BC0"
-				type: "custom"
-			}]
 			title: "[66]"
 			x: -5.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["08D03A41B019A564"]
+			description: [
+				"&bCriteria&r:"
+				"- build a &6liveable&r, &6aesthetically acceptable&r, &6functional wizarding&r school"
+				"- have at least &62 players&r enroll in the school"
+				""
+				"&bSubmit&r:"
+				"- video/photo proof of the school and all rooms"
+				"- video/photo proof of players being taught magic"
+				""
+				"&bRules&r:"
+				"- &6school&r must be built by you"
+				"- &6liveable&r is defined as: no &6hostile&r entities/environment, ample space, safe &6respawn&r point, sustainable &6food&r source \\& &6fuel&r source, organized &6storage&r system"
+				"- &6aesthetically acceptable&r is defined by &6player review&r: if build aesthetics are &6debatable&r, a vote is held between other players, &6simple majority&r wins"
+				"- &6functional&r in this case is defined as a minimum of &68&r properly supplied classrooms, &61&r library, &61&r great hall, &61&r dungeon, &62&r dormitories"
+			]
 			icon: {
 				Count: 1b
 				id: "irons_spellbooks:electromancer_helmet"
@@ -353,40 +593,71 @@
 				}
 			}
 			id: "40AA0E5F36EBAC52"
-			rewards: [{
-				id: "3AFD63DA52028684"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3AFD63DA52028684"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleHead @s"
+					icon: "minecraft:nether_star"
+					id: "420705368760AF8E"
+					type: "command"
+				}
+			]
 			subtitle: "&6Build&r and open a wizarding school"
-			tasks: [{
-				id: "5BFF37E08C7ACFBD"
-				type: "custom"
-			}]
 			title: "[Headmaster]"
 			x: -4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["176E862A5A8CBD08"]
+			description: [
+				"&bCriteria&r:"
+				"- have a &6factory&r that is able to produce &6Farmer's&r \\& &6Nether's Delight&r food items"
+				"- obtain &62 stacks&r of every &6food&r item added by &6Farmer's&r \\& &6Nether's Delight&r"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of all required items"
+				"- &6video/photo&r proof of the factory production lines"
+				""
+				"&bRules&r:"
+				"- the &6factory&r does not need to be physically &6built&r by you, as long as you have &650%+ legal ownership&r of it through official contracts/negotiations, etc."
+				"- &6food&r items in this case are defined as any item that restores &6hunger/saturation&r"
+			]
 			icon: "farmersdelight:ratatouille"
 			id: "7AAF29600ABAA77A"
-			rewards: [{
-				id: "530D5E9128BE5E40"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "530D5E9128BE5E40"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titlePizza @s"
+					icon: "minecraft:nether_star"
+					id: "2CAB7D6E3EC7924F"
+					type: "command"
+				}
+			]
 			subtitle: "&6Produce&r 2 stacks of every Farmer's Delight food"
-			tasks: [{
-				id: "3297037DC7BFE435"
-				type: "custom"
-			}]
 			title: "[Big Pizza]"
 			x: -1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["176E862A5A8CBD08"]
+			description: [
+				"&bCriteria&r:"
+				"- obtain at least &6one&r of every &6spell&r scroll of every &6rarity&r in &6Iron's Spellbooks&r"
+				""
+				"&bSubmit&r:"
+				"- &6video&r proof showing each spell's respective scrolls of all rarities"
+				""
+				"&bRules&r:"
+				"- it is &6not required&r for you to be the one that &6crafted&r the scrolls"
+			]
 			icon: {
 				Count: 1b
 				id: "irons_spellbooks:scroll"
@@ -398,41 +669,71 @@
 				}
 			}
 			id: "2207637B104D5F13"
-			rewards: [{
-				id: "146EA4AEB6658DE4"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "146EA4AEB6658DE4"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleSorc @s"
+					icon: "minecraft:nether_star"
+					id: "5FFF9D2136D5E084"
+					type: "command"
+				}
+			]
 			subtitle: "&6Obtain&r every single spell scroll"
-			tasks: [{
-				id: "08B8C1AE6A055C41"
-				type: "custom"
-			}]
 			title: "[Sorcerer]"
 			x: 2.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["176E862A5A8CBD08"]
+			description: [
+				"&bCriteria&r:"
+				"- your &6PC&r must contain at least &6one&r of every obtainable &6pokemon&r in survival"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of PC containing all necessary pokemon"
+				""
+				"&bRules&r:"
+				"- &6duplicates&r do &6not&r count towards the final total"
+				"- &6shiny&r pokemon variants are &6not required&r and count as &6normal&r"
+			]
 			icon: "cobblemon:master_ball"
 			id: "1E07B7AC8C637A14"
-			rewards: [{
-				id: "19EB4F31F5667094"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19EB4F31F5667094"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titlePoke @s"
+					icon: "minecraft:nether_star"
+					id: "13668A1FF9DEDE37"
+					type: "command"
+				}
+			]
 			size: 1.25d
 			subtitle: "&6Catch&r every pokemon"
-			tasks: [{
-				id: "7AA119887291E99E"
-				type: "custom"
-			}]
 			title: "[Pokemaster]"
 			x: 0.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["176E862A5A8CBD08"]
+			description: [
+				"&bCriteria&r:"
+				"- obtain at least &6one&r of every single &6Vinery wine&r item"
+				"- all &6wines&r must be aged to at least &64 years&r"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of all wine items and their aging stage"
+				""
+				"&bRules&r:"
+				"- it is &6not required&r for you to be the one that &6brewed&r the wines."
+			]
 			icon: {
 				Count: 1b
 				id: "vinery:bottle_mojang_noir"
@@ -441,16 +742,20 @@
 				}
 			}
 			id: "21FABD84FD052B69"
-			rewards: [{
-				id: "5FE68178A3DB2226"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5FE68178A3DB2226"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleVint @s"
+					icon: "minecraft:nether_star"
+					id: "2E28C7704BF61609"
+					type: "command"
+				}
+			]
 			subtitle: "&6Brew&r every wine"
-			tasks: [{
-				id: "388A35710632DB8F"
-				type: "custom"
-			}]
 			title: "[Vintner]"
 			x: 1.5d
 			y: 6.0d
@@ -479,6 +784,7 @@
 				"39D60DC2516BBF23"
 				"6112E3D767D57A8F"
 			]
+			description: ["&cggwp&r"]
 			hide_dependency_lines: true
 			icon: "witherstormmod:command_block_hoe"
 			id: "383ED070517AE0BC"
@@ -499,13 +805,23 @@
 					item: "create:creative_motor"
 					type: "item"
 				}
+				{
+					id: "270FB125493CD456"
+					item: "ars_nouveau:creative_source_jar"
+					type: "item"
+				}
+				{
+					id: "38F5BA66EE50550F"
+					item: "minecraft:barrier"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "1E38BE0F28DEF39F"
-				title: "[Completionist]"
-				type: "custom"
+				id: "6DA2654C8CB264EC"
+				title: "You absolute madlad."
+				type: "checkmark"
 			}]
 			title: "Completionist"
 			x: -8.125d
@@ -513,37 +829,67 @@
 		}
 		{
 			dependencies: ["1D43CA94FBD733FD"]
+			description: [
+				"&bCriteria&r:"
+				"- complete all advancements in the &6Incendium&r tab"
+				"- make at least one instance of every &6structure&r in Incendium &6liveable&r"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of completed advancements"
+				"- &6video/photo&r proof of all specified structures made &6liveable&r"
+				""
+				"&bRules&r:"
+				"- work must be done by you"
+				"- &6liveable&r is defined as: no &6hostile&r entities/environment, ample space, safe &6respawn&r point, sustainable &7food&r source \\& &6fuel&r source, organized &6storage&r system"
+			]
 			icon: "minecraft:piglin_head"
 			id: "13D1EF46CC3CE001"
-			rewards: [{
-				id: "3882B2776C8F8E32"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3882B2776C8F8E32"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleUkill @s"
+					icon: "minecraft:nether_star"
+					id: "2D12003406B688B9"
+					type: "command"
+				}
+			]
 			subtitle: "Plunder and &6make liveable&r all of Incendium"
-			tasks: [{
-				id: "0ED310D4D2AB6011"
-				type: "custom"
-			}]
 			title: "[Ultrakill]"
 			x: 5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["08D03A41B019A564"]
+			description: [
+				"&bCriteria&r:"
+				"- build a factory &6production&r line that fully automates the &6nuclear bomb&r from &6Alex's Caves&r"
+				""
+				"&bSubmit&r:"
+				"- &6video/photo&r proof of the production line and output"
+				""
+				"&bRules&r:"
+				"- &6factory&r must be built by you"
+			]
 			icon: "alexscaves:nuclear_bomb"
 			id: "3E4E3FCC6473E361"
-			rewards: [{
-				id: "01A4A17D2CFC86B0"
-				item: "createdeco:netherite_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "01A4A17D2CFC86B0"
+					item: "createdeco:netherite_coin"
+					type: "item"
+				}
+				{
+					command: "/team join .titleAtom @s"
+					icon: "minecraft:nether_star"
+					id: "4D803DC52205DC42"
+					type: "command"
+				}
+			]
 			subtitle: "&6Automate&r nuclear bombs production"
-			tasks: [{
-				id: "41AB079A8E4ECF93"
-				title: "[Oppenheimer]"
-				type: "custom"
-			}]
 			title: "[Atomic]"
 			x: -4.0d
 			y: -2.0d
@@ -582,6 +928,12 @@
 			hide_text_until_complete: true
 			id: "116BEAC14D8DCC28"
 			invisible: true
+			rewards: [{
+				command: "/team join .title @p"
+				icon: "minecraft:nether_star"
+				id: "7647A907241844D4"
+				type: "command"
+			}]
 			tasks: [{
 				disable_toast: true
 				id: "34DD5CF8F1575DDF"

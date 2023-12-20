@@ -265,6 +265,7 @@
 		{
 			dependencies: ["172ACAADF4827026"]
 			description: ["In the fiery regions of the underworld, Nether's Delight enables the cultivation and &6cooking&r of its &6unique fauna&r and flora, from a plethora of hoglin dishes to strider delicacies. Just remember to bring fire resistance, and if you can't stand the &6heat&r, get out of the kitchen."]
+			hide: true
 			icon: "nethersdelight:stuffed_hoglin"
 			id: "3846633663A24D8E"
 			rewards: [
@@ -568,6 +569,7 @@
 		{
 			dependencies: ["172ACAADF4827026"]
 			description: ["The &6piglins&r make their home in the depths of the nether, harboring a thriving community of &6bartering&r."]
+			hide: true
 			icon: "minecraft:piglin_head"
 			id: "3335ECD135F35D9D"
 			rewards: [{
@@ -619,6 +621,7 @@
 		{
 			dependencies: ["5D479A4CF975C84A"]
 			description: ["The world is filled with strange and familiar &6creatures&r alike, across all dimensions and in every biome. Every mob has a purpose, unique and hidden &6mechanics&r to discover, and &6items&r to obtain from its drops. "]
+			hide: true
 			icon: "alexsmobs:blobfish"
 			id: "098FC4D3E4568A0A"
 			rewards: [{
@@ -640,6 +643,7 @@
 		{
 			dependencies: ["5D479A4CF975C84A"]
 			description: ["High up in &6wizard towers&r and deep inside swamp witch huts, various &6magical apparatus&r can be found. When combined, they create beautiful and powerful &6spells&r of all kinds. Master them and become the ultimate wizard or witch!"]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "irons_spellbooks:pyromancer_helmet"
@@ -707,6 +711,7 @@
 		{
 			dependencies: ["5D479A4CF975C84A"]
 			description: ["Pokemon of astounding &6varieties&r and innumerable numbers now populate the &6lands&r. Can you find them all?"]
+			hide: true
 			icon: "cobblemon:poke_ball"
 			id: "60B885C58E03B74F"
 			rewards: [{
@@ -736,6 +741,7 @@
 		{
 			dependencies: ["5D479A4CF975C84A"]
 			description: ["From humble beginnings to immeasurable heights, Ars Nouveau provides &6endless possibilities&r for prospecting wizards and witches to &6fabricate&r their own specialized and powerful &6spells&r for every occasion."]
+			hide: true
 			icon: "ars_nouveau:novice_spell_book"
 			id: "5619CC97D22EE00E"
 			rewards: [{
@@ -1207,6 +1213,7 @@
 		{
 			dependencies: ["172ACAADF4827026"]
 			description: ["Discover the formidable &6fortress&r of the piglins, the true testament to their &6strengt&rh. Beware, the guards inside possess far more advanced &6technology and skill&r compared to others."]
+			hide: true
 			id: "075C687C98DA4D28"
 			rewards: [{
 				count: 32

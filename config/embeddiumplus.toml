@@ -10,7 +10,7 @@
 		"Render Fog" = true
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
 		"Use Borderless Fullscreen" = "FULLSCREEN"
-		"Cloud Height [Raw, Default 256]" = 256
+		"Cloud Height [Raw, Default 256]" = 364
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
 		"Hide JEI Until Searching" = true
 		"Enable Extended Server View Distance" = true
@@ -18,7 +18,7 @@
 	[Settings."True Darkness"]
 		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
 		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "DARK"
-		"Use True Darkness" = true
+		"Use True Darkness" = false
 
 		[Settings."True Darkness".Advanced]
 			#Range: 0.0 ~ 1.0
@@ -40,12 +40,12 @@
 			"Dark End?" = false
 
 	[Settings."Entity Distance"]
-		"Enable Max Distance Checks" = true
+		"Enable Max Distance Checks" = false
 		#List of entities to not cull based on distance.
 		#Example: "minecraft:bat"
 		"Entity Whitelist" = []
 		"(Entity) Max Vertical Render Distance [Raw, Default 32]" = 32
 		"(Entity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096
-		"(TileEntity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096
+		"(TileEntity) Max Horizontal Render Distance [Squared, Default 64^2]" = 2304
 		"(TileEntity) Max Vertical Render Distance [Raw, Default 32]" = 32
 
