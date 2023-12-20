@@ -7,7 +7,7 @@ Currently in BETA! Features are NOT complete, NOT AN OFFICIAL RELEASE.
 # Download Instructions
 - CLICK the green ```<>code``` button and DOWNLOAD as a zip file (shown in Downloads folder as ```Egtech-CE-Reforged-0.1.0.ZIP```)
 
-- PRESS WINDOWS+R to open up runtime prompt and ENTER ```%appdata%/.minecraft/``` to access the .minecraft folder
+- PRESS ```WINDOWS+R``` to open up runtime prompt and ENTER ```%appdata%/.minecraft/``` to access the .minecraft folder
 - DELETE or REMOVE(to another location) all folders in .minecraft with names ```'config', 'kubejs', or 'mods'```
 
 - UNZIP ```Egtech-CE-Reforged-0.1.0.ZIP``` to obtain the ```Egtech-CE-Reforged-0.1.0``` folder (4 files inside)
