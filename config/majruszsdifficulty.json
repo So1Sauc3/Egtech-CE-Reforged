@@ -98,8 +98,8 @@
     },
     "creeper_spawn_charged": {
       "is_enabled": true,
-      "required_game_stage": "normal",
-      "chance": 0.125,
+      "required_game_stage": "expert",
+      "chance": 0.15,
       "is_scaled_by_crd": true
     },
     "creeper_spawn_debuffed": {
@@ -405,7 +405,7 @@
     }
   },
   "blood_moon": {
-    "is_enabled": false,
+    "is_enabled": true,
     "night_trigger_chance": 0.0666,
     "spawn_rate_multiplier": 2.0,
     "crd_penalty": 0.5
