@@ -41,13 +41,14 @@ modernfix\
 radium\
 smoothchunk\
 starlight\
-toofast\
+toofast
 
 ```Utility```\
 appleskin - nutrition values\
 corpse - gravestone mod\
 curios - accesory slots\
 default options - preconfigured keybinds and settings\
+Discord Integration - discord chat connection\
 ftb chunks - chunk claiming and loading\
 ftb quests - quests\
 ftb teams - team creation\
@@ -62,22 +63,21 @@ lootjs - custom loot tables\
 nature's compass - biome location\
 patchouli - info books\
 supplementaries - vanilla+ deco/util mod\
-vein mining - vein mining\
 voice chat - proximity voice\
 wi zoom - zoom function\
-journeymap - map\
+journeymap - map
 
 ```Decoration```\
 chipped - chisel but for 1.18+\
 create deco - steampunk decorations\
-handcrafted - more decorations\
+handcrafted - more decorations
 
 ```Terrain```\
 alex's caves - new cave biomes\
 incendium - new nether biomes\
 nullscape - new end biomes\
 regions unexplored - new biomes\
-tectonic - dramatic larger biomes\
+tectonic - dramatic larger biomes
 
 ```Adventure```\
 alex's mobs - new mobs and bosses\
@@ -89,7 +89,7 @@ lender's cataclysm - bosses and structures\
 lootr - clientside chests\
 yung's better nether fortress - fortress overhaul\
 yung's better ocean monument - monument overhaul\
-yung's better stronghold - stronghold overhaul\
+yung's better stronghold - stronghold overhaul
 
 ```Survival```\
 exposure - camera and photo taking\
@@ -100,23 +100,23 @@ serene seasons - season cycle\
 SoL apple pie - food diversity\
 traveler's backpack - multifunctional backpack\
 tree chop - better tree harvesting\
-vinery - wine and stuff\
+vinery - wine and stuff
 
 ```Magic```\
 ars nouveau - diy spells\
 iron's spells - Electroblob's but updated\
-too many glyphs - more ars glyphs\
+too many glyphs - more ars glyphs
 
 ```Technology```\
 create - mechanical automation and construction\
 create enchant industry - enchantment automation\
 create misc & things - misc create\
 create slice & dice - automated FD\
-steam and rails - more train stuff\
+steam and rails - more train stuff
 
 ```Combat```\
 better combat - animated combat\
 create sabers - lightsabers\
 parcool! - better movement\
 passive skill tree - skill tree\
-simply swords - more weapons\
+simply swords - more weapons
