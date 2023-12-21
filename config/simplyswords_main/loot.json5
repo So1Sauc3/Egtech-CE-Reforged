@@ -4,7 +4,7 @@
 	"enableTheWatcher": false,
 	"standardLootTableWeight": 0.029999999329447746,
 	"rareLootTableWeight": 0.019999999552965164,
-	"runicLootTableWeight": 0.019999999552965164,
+	"runicLootTableWeight": 0.0,
 	"uniqueLootTableWeight": 0.0,
 	"enableWatchingWarglaive": false,
 	"enableLongswordOfThePlague": false,

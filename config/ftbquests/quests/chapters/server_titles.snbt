@@ -169,6 +169,12 @@
 				}
 			]
 			subtitle: "&6Conquer&r and control all bases"
+			tasks: [{
+				id: "41C05DFE8AA3D931"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[The Great]"
 			x: -0.5d
 			y: -6.0d
@@ -209,6 +215,12 @@
 				}
 			]
 			subtitle: "&6Kill&r every player 10 times"
+			tasks: [{
+				id: "359C7C7E79D3CB3A"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Assassin]"
 			x: 1.5d
 			y: -6.0d
@@ -242,6 +254,12 @@
 				}
 			]
 			subtitle: "Complete the &6Boss Rush&r challenge"
+			tasks: [{
+				id: "2756F50007D90105"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Rock]"
 			x: 2.5d
 			y: -4.5d
@@ -283,6 +301,12 @@
 				}
 			]
 			subtitle: "Equip and &6raise&r a guard villager army"
+			tasks: [{
+				id: "67C0F38613E3ABAB"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Empire]"
 			x: -1.5d
 			y: -4.5d
@@ -322,6 +346,12 @@
 			]
 			size: 1.25d
 			subtitle: "&6Set up&r an outpost in 50 Unique Biomes"
+			tasks: [{
+				id: "45900CF93AC0ED65"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Pioneer]"
 			x: 8.0d
 			y: 0.0d
@@ -362,6 +392,12 @@
 				}
 			]
 			subtitle: "Discover and &6settle&r all of Alex's Caves"
+			tasks: [{
+				id: "1C71349536F9F94E"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Spelunker]"
 			x: 6.5d
 			y: 1.0d
@@ -396,6 +432,12 @@
 				}
 			]
 			subtitle: "&6Make&r a space base in every Nullscape biome"
+			tasks: [{
+				id: "252A884E58F1C63F"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Astroneer]"
 			x: 6.5d
 			y: -1.0d
@@ -431,6 +473,12 @@
 			]
 			size: 1.25d
 			subtitle: "&6Automate&r the Create Mod itself"
+			tasks: [{
+				id: "596E815243843BB6"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Creator]"
 			x: -7.0d
 			y: 0.0d
@@ -463,6 +511,12 @@
 				}
 			]
 			subtitle: "&6Gather&r every single consumable item"
+			tasks: [{
+				id: "6D55F4E64ECCC109"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Connoisseur]"
 			x: -0.5d
 			y: 6.0d
@@ -497,6 +551,12 @@
 				}
 			]
 			subtitle: "&6Build&r a fully functional city"
+			tasks: [{
+				id: "2B4D12A15ACAAB4B"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Architect]"
 			x: -5.5d
 			y: -1.0d
@@ -531,6 +591,12 @@
 				}
 			]
 			subtitle: "Discover and &6repurpose&r all major structures"
+			tasks: [{
+				id: "722064DB79A221F3"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Usurper]"
 			x: 5.0d
 			y: 2.0d
@@ -564,6 +630,12 @@
 				}
 			]
 			subtitle: "&6Connect&r all player bases by rail"
+			tasks: [{
+				id: "3EFF7034EC1EB6AD"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[66]"
 			x: -5.5d
 			y: 1.0d
@@ -607,6 +679,12 @@
 				}
 			]
 			subtitle: "&6Build&r and open a wizarding school"
+			tasks: [{
+				id: "4454D9275B94275F"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Headmaster]"
 			x: -4.0d
 			y: 2.0d
@@ -642,6 +720,12 @@
 				}
 			]
 			subtitle: "&6Produce&r 2 stacks of every Farmer's Delight food"
+			tasks: [{
+				id: "0D9AA2DCC81B8335"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Big Pizza]"
 			x: -1.5d
 			y: 4.5d
@@ -683,6 +767,12 @@
 				}
 			]
 			subtitle: "&6Obtain&r every single spell scroll"
+			tasks: [{
+				id: "00FCC4E57FB37A49"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Sorcerer]"
 			x: 2.5d
 			y: 4.5d
@@ -717,6 +807,12 @@
 			]
 			size: 1.25d
 			subtitle: "&6Catch&r every pokemon"
+			tasks: [{
+				id: "18232BB757C9FC63"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Pokemaster]"
 			x: 0.5d
 			y: 7.5d
@@ -756,6 +852,12 @@
 				}
 			]
 			subtitle: "&6Brew&r every wine"
+			tasks: [{
+				id: "66ED2DC897D8FFFF"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Vintner]"
 			x: 1.5d
 			y: 6.0d
@@ -858,6 +960,12 @@
 				}
 			]
 			subtitle: "Plunder and &6make liveable&r all of Incendium"
+			tasks: [{
+				id: "7EC47536206C3637"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Ultrakill]"
 			x: 5.0d
 			y: -2.0d
@@ -890,6 +998,12 @@
 				}
 			]
 			subtitle: "&6Automate&r nuclear bombs production"
+			tasks: [{
+				id: "2E3DA418E1750B06"
+				item: "minecraft:structure_block"
+				title: "Submit to #quest-submission"
+				type: "item"
+			}]
 			title: "[Atomic]"
 			x: -4.0d
 			y: -2.0d
@@ -928,12 +1042,6 @@
 			hide_text_until_complete: true
 			id: "116BEAC14D8DCC28"
 			invisible: true
-			rewards: [{
-				command: "/team join .title @p"
-				icon: "minecraft:nether_star"
-				id: "7647A907241844D4"
-				type: "command"
-			}]
 			tasks: [{
 				disable_toast: true
 				id: "34DD5CF8F1575DDF"

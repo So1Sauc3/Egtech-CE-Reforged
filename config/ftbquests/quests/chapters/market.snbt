@@ -32,7 +32,7 @@
 		{
 			dependencies: [
 				"5EEF56A544D7B93B"
-				"1C65077EF2524447"
+				"41FC19F8C75AC180"
 			]
 			description: ["Professions offer alternative ways for players to obtain coins. They are &6repeatable&r quests that the player can use to gather more wealth."]
 			icon: "create:brown_toolbox"
@@ -49,7 +49,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["16728A6957A4C780"]
+			dependencies: [
+				"16728A6957A4C780"
+				"6F548D96921647F9"
+			]
 			description: [""]
 			hide: true
 			icon: {
@@ -76,37 +79,54 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "1E2FD485A5B7128C"
 					item: "cataclysm:amethyst_crab_meat"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "7602BE91CC11ABB4"
 					item: "alexsmobs:centipede_leg"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "54DB03BCEB88F0D4"
 					item: "alexsmobs:crocodile_scute"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "13FAD7E664B4E7B4"
 					item: "alexsmobs:blood_sac"
 					type: "item"
 				}
 				{
-					consume_items: true
+					count: 8L
+					id: "1B032425B69AFC58"
+					item: "alexsmobs:fish_bones"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7A4C65F06E8F33CF"
+					item: "alexsmobs:serrated_shark_tooth"
+					type: "item"
+				}
+				{
 					count: 4L
-					id: "4C50591428FD9B7D"
-					item: "alexsmobs:shark_tooth"
+					id: "532D98714D247CC2"
+					item: "alexsmobs:straddlite"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0EDF5D444797536E"
+					item: "alexsmobs:bone_serpent_tooth"
 					type: "item"
 				}
 			]
@@ -116,7 +136,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["16728A6957A4C780"]
+			dependencies: [
+				"16728A6957A4C780"
+				"08DED6B19C4BD9AE"
+			]
 			hide: true
 			icon: "farmersdelight:stove"
 			id: "46177E4DF7265409"
@@ -136,36 +159,40 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "54345BE8E29D735A"
 					item: "create:honeyed_apple"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 8L
 					id: "0FF84EADEC7893DA"
 					item: "farmersdelight:apple_pie"
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 4L
-					id: "479B440D0D70B2A7"
-					item: "farmersdelight:dumplings"
+					count: 8L
+					id: "240CCA6EE0AC8CED"
+					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 4L
-					id: "585DF4312E9A8618"
-					item: "farmersdelight:egg_sandwich"
+					count: 8L
+					id: "4252333CC25D3667"
+					item: "farmersdelight:mushroom_rice"
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 4L
-					id: "555B4B7D485ECC47"
-					item: "farmersdelight:salmon_roll"
+					count: 8L
+					id: "11A57CF2C7D3F50B"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6CE30916A7B948E9"
+					item: "farmersdelight:shepherds_pie"
 					type: "item"
 				}
 			]
@@ -175,7 +202,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["16728A6957A4C780"]
+			dependencies: [
+				"16728A6957A4C780"
+				"2D1501C3B0AA0236"
+			]
 			hide: true
 			icon: "create:large_cogwheel"
 			id: "56684AB35C1F6332"
@@ -196,28 +226,28 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 8L
+					count: 16L
 					id: "63AA206E905D5775"
 					item: "create:track"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2L
+					count: 4L
 					id: "7A1512B9D92D2E58"
 					item: "create:gearbox"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2L
+					count: 4L
 					id: "2776185CD46B1C3F"
 					item: "create:precision_mechanism"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 2L
+					count: 4L
 					id: "08DC0791C3C1BB7A"
 					item: "create:gantry_carriage"
 					type: "item"
@@ -231,9 +261,15 @@
 				}
 				{
 					consume_items: true
-					count: 2L
+					count: 4L
 					id: "3FA26AEA415F249C"
 					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "195A2553E63BADF9"
+					item: "create:smart_chute"
 					type: "item"
 				}
 			]
@@ -243,7 +279,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["16728A6957A4C780"]
+			dependencies: [
+				"16728A6957A4C780"
+				"172ACAADF4827026"
+			]
 			hide: true
 			icon: "minecraft:enchanting_table"
 			id: "7A2D516827C91001"
@@ -269,7 +308,7 @@
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "3E9EEA0C789330CC"
 					item: "minecraft:experience_bottle"
 					type: "item"
@@ -281,7 +320,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["16728A6957A4C780"]
+			dependencies: [
+				"16728A6957A4C780"
+				"5DD593D41C9F2CA4"
+			]
 			hide: true
 			icon: {
 				Count: 1b
@@ -378,7 +420,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["16728A6957A4C780"]
+			dependencies: [
+				"16728A6957A4C780"
+				"172ACAADF4827026"
+			]
 			hide: true
 			icon: "minecraft:anvil"
 			id: "763D59CC904D0FA5"
@@ -449,6 +494,50 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4428661D29F2FBD8"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F3A540E8095A2BC"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E2312B68846112A"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "400865F724D1B4F4"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Blacksmith"
 			x: -3.5d
@@ -469,56 +558,56 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 8L
+					count: 32L
 					id: "3DE18404739233C7"
 					item: "create:cut_andesite_bricks"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "7525F701499EDFD2"
 					item: "create:andesite_pillar"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "18ED6E1537B9C067"
 					item: "handcrafted:andesite_pillar_trim"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 8L
+					count: 32L
 					id: "7D6F14CD48ABCCE4"
 					item: "minecraft:polished_deepslate"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "16ACDD3C29EE033B"
 					item: "create:deepslate_pillar"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "3C2ABD8B594E6EB6"
 					item: "handcrafted:deepslate_corner_trim"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 8L
+					count: 32L
 					id: "6EBA9FEA6D441860"
 					item: "minecraft:bricks"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 8L
+					count: 16L
 					id: "491EC5987E87AA2F"
 					item: "minecraft:mud_bricks"
 					type: "item"
@@ -543,56 +632,56 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "6DF9EEFEFB0F9EE9"
 					item: "handcrafted:dark_oak_corner_trim"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "4962642A957BC0D9"
 					item: "handcrafted:dark_oak_pillar_trim"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "2834B8D1B27FA7C9"
 					item: "handcrafted:spruce_chair"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "421A531DD2B4A09B"
 					item: "handcrafted:spruce_table"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 6L
+					count: 16L
 					id: "10F40A475E50A073"
 					item: "handcrafted:birch_cupboard"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "3EA652A58A37D41A"
 					item: "handcrafted:birch_shelf"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 32L
 					id: "6EC26DA100BC6A23"
 					item: "minecraft:bookshelf"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "2F7175B04ABEF0A4"
 					item: "minecraft:chiseled_bookshelf"
 					type: "item"
@@ -628,7 +717,11 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["16728A6957A4C780"]
+			dependencies: [
+				"16728A6957A4C780"
+				"3C6AA3F0F6CCB741"
+				"01C634A27C66DC8D"
+			]
 			hide: true
 			icon: "alexscaves:tremorsaurus_egg"
 			id: "3FBD95DD7312B55F"
@@ -649,39 +742,35 @@
 			tasks: [
 				{
 					consume_items: true
+					count: 4L
 					id: "018065FC6741E7F8"
 					item: "alexscaves:tremorsaurus_egg"
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 4L
 					id: "23CA7E64B49B4284"
 					item: "alexscaves:relicheirus_egg"
 					type: "item"
 				}
 				{
 					consume_items: true
-					id: "78CBB74782AEF4EE"
-					item: "alexscaves:subterranodon_egg"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "6DF242E88A98FB79"
-					item: "minecraft:sniffer_egg"
-					type: "item"
-				}
-				{
-					consume_items: true
+					count: 4L
 					id: "29849EADFEA5802F"
 					item: "alexsmobs:emu_egg"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "5EABCFEC6E5D52D5"
 					item: "minecraft:turtle_egg"
+					type: "item"
+				}
+				{
+					id: "5387D7C0A149ADC1"
+					item: "cataclysm:abyssal_egg"
 					type: "item"
 				}
 			]
