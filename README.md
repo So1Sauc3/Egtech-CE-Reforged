@@ -9,7 +9,7 @@ version ```1.0.0```
 - DELETE or REMOVE(to another location) all folders in ```.minecraft``` with names ```'config', 'kubejs', or 'mods'```
 
 - UNZIP ```Egtech-CE-Reforged-1.0.0.ZIP``` to obtain the ```Egtech-CE-Reforged-1.0.0``` folder (4 files inside)
-- DELETE the remaining ```Egtech-CE-Reforged-0.1.0.ZIP``` folder
+- DELETE the remaining ```Egtech-CE-Reforged-1.0.0.ZIP``` folder
 
 - OPEN the ```Egtech-CE-Reforged-1.0.0``` folder
 - DELETE the ```README.md``` file
