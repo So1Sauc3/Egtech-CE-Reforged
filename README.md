@@ -69,6 +69,7 @@ journeymap - map
 chipped - chisel but for 1.18+\
 create deco - steampunk decorations\
 handcrafted - more decorations
+simply light - more light blocks
 
 ```Terrain```\
 alex's caves - new cave biomes\
