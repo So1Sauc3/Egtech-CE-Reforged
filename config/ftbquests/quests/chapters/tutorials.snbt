@@ -19,8 +19,8 @@
 			icon: "minecraft:bookshelf"
 			id: "23402BC19FF05D29"
 			rewards: [{
-				id: "10C3EC31CFF9618A"
-				item: "skilltree:wisdom_scroll"
+				id: "45D782206B0A20A6"
+				item: "minecraft:apple"
 				type: "item"
 			}]
 			shape: "hexagon"

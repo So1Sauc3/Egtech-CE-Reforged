@@ -1245,6 +1245,49 @@
 			x: -8.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["2A43BB1A248EE3F9"]
+			description: ["Removing mistakes."]
+			hide_dependency_lines: true
+			icon: "skilltree:vacucite"
+			id: "482BB3E6C2B97544"
+			rewards: [{
+				id: "5CBC1096413D306A"
+				item: "skilltree:vacucite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 48L
+				id: "1FD402CC54C82ECB"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "Vacucite"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["700EA94C031D57FA"]
+			description: ["Colorful augments to existing gear."]
+			hide_dependency_lines: true
+			icon: "skilltree:iriscite"
+			id: "4D509C05E179F3CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "218F9890FA960E81"
+				table_id: 5174926021477806819L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 48L
+				id: "0B79BF014F2AA642"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Skill Tree Gem"
+			x: 5.0d
+			y: -9.0d
+		}
 	]
 	title: "Market"
 }

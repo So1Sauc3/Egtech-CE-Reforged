@@ -1,0 +1,18 @@
+{
+	id: "47D107CC711C32E3"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "skilltree:ruby" }
+		{ item: "skilltree:onyx" }
+		{ item: "skilltree:moonstone" }
+		{ item: "skilltree:citrine" }
+		{ item: "skilltree:adamite" }
+		{ item: "skilltree:jade" }
+		{ item: "skilltree:sapphire" }
+		{ item: "skilltree:tourmaline" }
+		{ item: "skilltree:turquoise" }
+		{ item: "skilltree:iriscite" }
+	]
+	title: "Skill Tree Gems"
+}
