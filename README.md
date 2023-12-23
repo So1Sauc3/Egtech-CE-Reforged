@@ -6,7 +6,7 @@ version ```1.0.3```
 - CLICK the green ```<>code``` button and DOWNLOAD as a zip file (shown in Downloads folder as ```Egtech-CE-Reforged-1.0.3.ZIP```)
 
 - PRESS ```WINDOWS+R``` to open up runtime prompt and ENTER ```%appdata%/.minecraft/``` to access the .minecraft folder
-- DELETE or REMOVE(to another location) all folders in ```.minecraft``` with names ```'config', 'kubejs', or 'mods'```
+- DELETE or REMOVE(to another location) any and all folders in ```.minecraft``` with names ```'config', 'kubejs', or 'mods'```
 
 - MOVE the 3 files ```'config', 'kubejs', 'mods'``` OUT of the ```Egtech-CE-Reforged-1.0.3.ZIP``` folder and INTO the ```.minecraft``` folder
 - DELETE the remaining ```Egtech-CE-Reforged-1.0.3.ZIP``` folder
