@@ -34,7 +34,7 @@ gamma:1.0
 renderDistance:7
 simulationDistance:5
 entityDistanceScaling:0.5
-guiScale:2
+guiScale:3
 particles:1
 maxFps:80
 graphicsMode:0
@@ -84,7 +84,7 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.37251655629139074
+soundCategory_master:0.6059602649006622
 soundCategory_music:0.0
 soundCategory_record:0.31338027
 soundCategory_weather:0.14084508
