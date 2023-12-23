@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1C65077EF2524447"]
 			description: [
 				"The Witherstorm's defeat unlocks countless new lines of &6progression&r. No longer being constantly &6hunted&r by such a destructive force, the player is able to begin constructing more &6permanent&r infrastructure and &6technology&r, becoming much more &6powerful&r in the process."
 				""
@@ -24,10 +25,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				advancement: "witherstormmod:main/wither_storm_defeated"
-				criterion: ""
-				id: "01F6A37E9BF07D12"
-				type: "advancement"
+				id: "7F012112868EBB52"
+				item: "witherstormmod:withered_nether_star"
+				type: "item"
 			}]
 			title: "The Turn of the Century"
 			x: 0.0d

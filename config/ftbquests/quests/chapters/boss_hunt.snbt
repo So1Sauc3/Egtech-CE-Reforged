@@ -9,15 +9,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1C65077EF2524447"]
 			description: ["The Witherstorm's defeat unlocks countless new lines of &6progression&r. No longer being constantly &6hunted&r by such a destructive force, the player is able to begin &6exploring&r the world in greater detail and challenge new, strong &6bosses&r, becoming much more &6powerful&r in the process."]
 			id: "15C68D60EA501F59"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				advancement: "witherstormmod:main/wither_storm_defeated"
-				criterion: ""
-				id: "74F9AE6C3C8559ED"
-				type: "advancement"
+				id: "5F0AF5F203A81395"
+				item: "witherstormmod:withered_nether_star"
+				type: "item"
 			}]
 			title: "Savior"
 			x: 0.5d

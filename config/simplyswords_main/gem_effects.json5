@@ -1,5 +1,5 @@
 {
-	"enableEcho": true,
+	"enableEcho": false,
 	"enableBerserk": true,
 	"enableRadiance": true,
 	"enableOnslaught": true,

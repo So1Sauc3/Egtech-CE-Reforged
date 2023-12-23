@@ -208,7 +208,7 @@
 		}
 		{
 			dependencies: ["41FC19F8C75AC180"]
-			description: ["The world has been altered forever by Tectonic and Regions Unexplored, combining large and &6dramatic terrain&r generation with a vast collection of &6new biomes&r to explore. Structures have been revamped and new ones added, from Yung's Better Structures to Better Villages and boss arenas from Lender's Cataclysm. The world is filled with unique adventures to undertake and terrain to &6explore&r. For now though, there's &6a bigger danger&r to be concerned about..."]
+			description: ["The world has been altered forever by Tectonic and Regions Unexplored, combining large and &6dramatic terrain&r generation with a vast collection of &6new biomes&r to explore. Structures have been revamped and new ones added, from Yung's Better Structures to Better Villages and boss arenas from Lender's Cataclysm. The world is filled with unique adventures to undertake and terrain to &6explore&r."]
 			icon: "cobblemon:heavy_duty_boots"
 			id: "5D479A4CF975C84A"
 			rewards: [
@@ -303,7 +303,7 @@
 		}
 		{
 			dependencies: ["579E7E1197C17F40"]
-			description: ["Villagers have stepped up in their architectural prowess, creating more &6sophisticated&r and biome-specific &6buildings&r. These villages provide &6safehaven&r for all travelers who pass by, though it may only be &6temporary&r with the main threat looming in the distance."]
+			description: ["Villagers have stepped up in their architectural prowess, creating more &6sophisticated&r and biome-specific &6buildings&r. These villages provide &6safehaven&r for all travelers who pass by, but take care not to linger too long and become completely reliant on the village."]
 			icon: "minecraft:red_bed"
 			id: "71FFD3B71F6E087C"
 			rewards: [{
