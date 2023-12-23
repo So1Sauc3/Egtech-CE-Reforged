@@ -1,6 +1,6 @@
 # Egtech-CE-Reforged
 A Soi Sauce modpack.\
-version ```1.0.2```
+version ```1.0.3```
 
 # Download Instructions
 - CLICK the green ```<>code``` button and DOWNLOAD as a zip file (shown in Downloads folder as ```Egtech-CE-Reforged-1.0.3.ZIP```)
