@@ -25,6 +25,7 @@ entityculling\
 embeddium\
 embeddium++\
 fastload\
+fastasyncworldsave\
 ferritecore\
 gpumemleakfix\
 immediatelyfast\
