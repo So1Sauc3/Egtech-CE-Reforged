@@ -36,4 +36,5 @@ ServerEvents.recipes(event => {
 LootJS.modifiers(event => {
     event.addLootTableModifier(/.*/)
         .removeLoot('tempad:he_who_remains_tempad')
+        .removeLoot('ars_nouveau:warp_scroll')
 })
