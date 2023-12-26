@@ -339,9 +339,10 @@
 			size: 1.5d
 			subtitle: "Defeat the Wither Storm, FR this time."
 			tasks: [{
-				id: "55C280A09C12D996"
-				item: "witherstormmod:withered_nether_star"
-				type: "item"
+				advancement: "witherstormmod:main/wither_storm_defeated"
+				criterion: ""
+				id: "2A47D22FD60C2760"
+				type: "advancement"
 			}]
 			title: "One Story Ends, Another Begins"
 			x: 0.0d

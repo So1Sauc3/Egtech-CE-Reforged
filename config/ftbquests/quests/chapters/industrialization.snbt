@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1C65077EF2524447"]
+			dependencies: ["172ACAADF4827026"]
 			description: [
 				"The Witherstorm's defeat unlocks countless new lines of &6progression&r. No longer being constantly &6hunted&r by such a destructive force, the player is able to begin constructing more &6permanent&r infrastructure and &6technology&r, becoming much more &6powerful&r in the process."
 				""
@@ -2145,6 +2145,7 @@
 				item: "create_things_and_misc:vibration_mechanism"
 				type: "item"
 			}]
+			title: "Simple Harmonic Motion"
 			x: 11.0d
 			y: 0.0d
 		}
