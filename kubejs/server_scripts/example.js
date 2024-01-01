@@ -3,7 +3,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'createdeco:copper_coin' })
     event.remove({ output: 'createdeco:netherite_coin' })
     event.remove({ output: 'ars_nouveau:warp_scroll' })
+    event.remove({ output: 'ars_nouveau:enchantment' })
     event.remove({ output: 'tempad:tempad' })
+    
     
     event.shapeless('kubejs:example_iron_farm', [
     'create:empty_schematic',
@@ -33,6 +35,9 @@ ServerEvents.recipes(event => {
 		C: 'create:honeyed_apple'
 	})
 })
+MoreJSEvents.filterEnchantedBookTrade((event) => {
+    event.remove("ars_elemental:soulbound");
+});
 LootJS.modifiers(event => {
     event.addLootTableModifier(/.*/)
         .removeLoot('tempad:he_who_remains_tempad')
