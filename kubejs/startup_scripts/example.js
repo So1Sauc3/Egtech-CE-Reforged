@@ -9,7 +9,7 @@ StartupEvents.registry('item', e => {
 })
 const EnchantedBookItem = Java.loadClass("net.minecraft.world.item.EnchantedBookItem");
 global.onAnvilUpdate = (event) => {
-    if (!event.left.hasTag("simplyswords:uniques")) {
+    if (!event.left.hasTag("simplyswords:uniques") && !event.left.hasTag("travelersbackpack:custom_travelers_backpack")) {
         return;
     }
 
