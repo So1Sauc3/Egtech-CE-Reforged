@@ -1,15 +1,15 @@
 # Egtech-CE-Reforged
 A Soi Sauce modpack.\
-version ```1.1.1```
+version ```1.2.0```
 
 # Download Instructions
-- CLICK the green ```<>code``` button and DOWNLOAD as a zip file (shown in Downloads folder as ```Egtech-CE-Reforged-1.1.1.ZIP```)
+- CLICK the green ```<>code``` button and DOWNLOAD as a zip file (shown in Downloads folder as ```Egtech-CE-Reforged-1.2.0.ZIP```)
 
 - PRESS ```WINDOWS+R``` to open up runtime prompt and ENTER ```%appdata%/.minecraft/``` to access the .minecraft folder
 - DELETE or REMOVE(to another location) any and all folders in ```.minecraft``` with names ```'config', 'kubejs', or 'mods'```
 
-- MOVE the 3 files ```'config', 'kubejs', 'mods'``` OUT of the ```Egtech-CE-Reforged-1.1.1.ZIP``` folder and INTO the ```.minecraft``` folder
-- DELETE the remaining ```Egtech-CE-Reforged-1.1.0.ZIP``` folder
+- MOVE the 3 files ```'config', 'kubejs', 'mods'``` OUT of the ```Egtech-CE-Reforged-1.2.0.ZIP``` folder and INTO the ```.minecraft``` folder
+- DELETE the remaining ```Egtech-CE-Reforged-1.2.0.ZIP``` folder
 
 - Result: ```.minecraft``` folder should have one copy of each of these files ```'config', 'kubejs', 'mods'```
 # Modlist
@@ -33,8 +33,10 @@ letmedespawn\
 maxhealthfix\
 memoryleakfix\
 modernfix\
+noseenotick\
 radium\
 smoothchunk\
+structureessentials\
 starlight\
 toofast
 
@@ -63,9 +65,11 @@ wi zoom - zoom function\
 journeymap - map
 
 ```Decoration```\
+amw plushies - plushy gambling\
 chipped - chisel but for 1.18+\
 create deco - steampunk decorations\
-handcrafted - more decorations
+handcrafted - more decorations\
+plushies\
 simply light - more light blocks
 
 ```Terrain```\
@@ -90,9 +94,11 @@ yung's better stronghold - stronghold overhaul
 ```Survival```\
 exposure - camera and photo taking\
 farmer's delight - interactive cooking and baking mod\
+immersive aircraft - air travel\
 majrusz's difficulty - scaling difficulty\
 nether's delight - nether FD additions\
 serene seasons - season cycle\
+small ships - cool sea travel\
 SoL apple pie - food diversity\
 traveler's backpack - multifunctional backpack\
 tree chop - better tree harvesting\
@@ -100,6 +106,7 @@ vinery - wine and stuff
 
 ```Magic```\
 ars nouveau - diy spells\
+ars creo - create compat for ars\
 iron's spells - Electroblob's but updated\
 too many glyphs - more ars glyphs
 
