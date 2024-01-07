@@ -55,5 +55,4 @@ LootJS.modifiers(event => {
     event.addLootTableModifier(/.*/)
         .removeLoot('tempad:he_who_remains_tempad')
         .removeLoot('ars_nouveau:warp_scroll')
-        .removeLoot('minecraft:enchanted_book{Enchantments: [{id:"ars_elemental:soulbound", lvl:1}]}')
 })
