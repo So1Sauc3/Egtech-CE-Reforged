@@ -17,11 +17,18 @@
 			]
 			icon: "create:brass_hand"
 			id: "6BAF4536E7BA9C44"
-			rewards: [{
-				id: "28A5565870256EBF"
-				item: "create:hand_crank"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "28A5565870256EBF"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "6165BAC996FC5C98"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -175,6 +182,11 @@
 					item: "skilltree:wisdom_scroll"
 					type: "item"
 				}
+				{
+					id: "63FFE84A67DB577D"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -324,12 +336,19 @@
 			]
 			icon: "kubejs:example_iron_farm"
 			id: "20B9C2DCCD629AC6"
-			rewards: [{
-				count: 4
-				id: "6EB2662682C01491"
-				item: "createdeco:brass_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6EB2662682C01491"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "7D15CFBFCB01152C"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.25d
 			subtitle: "Iron Farm"
@@ -1354,12 +1373,19 @@
 			]
 			icon: "create:precision_mechanism"
 			id: "1B81A670B1813B55"
-			rewards: [{
-				count: 4
-				id: "463E26BA35D16055"
-				item: "createdeco:brass_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "463E26BA35D16055"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "49C67A6BBC1B78D7"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
 			subtitle: "Precision Mechanism Automation"
 			tasks: [
 				{
@@ -1585,6 +1611,11 @@
 					count: 2
 					id: "59156CA720784DA8"
 					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "4752E0701F8FFBC3"
+					item: "a_man_with_plushies:plush_box"
 					type: "item"
 				}
 			]

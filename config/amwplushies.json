@@ -1,0 +1,6 @@
+{
+  "mobs_can_drop_plush_boxes": false,
+  "plush_boxes_spawn_particles": true,
+  "play_sound_when_a_plush_box_is_open": true,
+  "plush_box_drop_chance": 1
+}

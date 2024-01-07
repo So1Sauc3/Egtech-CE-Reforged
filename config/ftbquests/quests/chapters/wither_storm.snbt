@@ -334,6 +334,11 @@
 					item: "createdeco:brass_coin"
 					type: "item"
 				}
+				{
+					id: "0C6015879AB5149F"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 1.5d

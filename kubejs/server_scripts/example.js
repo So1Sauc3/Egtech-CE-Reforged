@@ -5,8 +5,21 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'ars_nouveau:warp_scroll' })
     event.remove({ output: 'ars_nouveau:enchantment' })
     event.remove({ output: 'tempad:tempad' })
+    event.remove({ output: 'witherstormmod:amulet' })
+    event.remove({ output: 'a_man_with_plushies:golden_plush_box' })
+    event.remove({ output: 'a_man_with_plushies:plush_box' })
     
-    
+    event.shaped('a_man_with_plushies:plush_box', [
+        'ABA', 
+        'CDC',
+        'ABA'  
+    ], {
+        A: 'minecraft:spruce_slab', 
+        B: 'minecraft:red_wool',
+        C: 'minecraft:diamond',
+        D: 'minecraft:nether_star'   
+    })
+
     event.shapeless('kubejs:example_iron_farm', [
     'create:empty_schematic',
     'minecraft:iron_ingot'
@@ -42,4 +55,5 @@ LootJS.modifiers(event => {
     event.addLootTableModifier(/.*/)
         .removeLoot('tempad:he_who_remains_tempad')
         .removeLoot('ars_nouveau:warp_scroll')
+        .removeLoot('minecraft:enchanted_book{Enchantments: [{id:"ars_elemental:soulbound", lvl:1}]}')
 })

@@ -780,30 +780,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["700EA94C031D57FA"]
-			description: ["Every master wizard/witch's necessity."]
-			hide_dependency_lines: true
-			icon: "irons_spellbooks:legendary_ink"
-			id: "2EEB5E8D3EFE322D"
-			rewards: [{
-				count: 2
-				id: "48F5D57D3798E41E"
-				item: "irons_spellbooks:legendary_ink"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "0083E44E5603726E"
-				item: "createdeco:brass_coin"
-				type: "item"
-			}]
-			title: "Legendary Ink"
-			x: 7.0d
-			y: -5.0d
-		}
-		{
-			can_repeat: true
 			dependencies: ["2A43BB1A248EE3F9"]
 			description: ["For all of your runesmithing needs!"]
 			hide_dependency_lines: true
@@ -822,7 +798,7 @@
 				type: "item"
 			}]
 			title: "Runestone"
-			x: -6.0d
+			x: -8.0d
 			y: -5.0d
 		}
 		{
@@ -868,8 +844,8 @@
 				type: "item"
 			}]
 			title: "Runic Tablet"
-			x: 5.0d
-			y: -7.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0A2AC68EAC66D1CC"]
@@ -911,29 +887,6 @@
 		{
 			can_repeat: true
 			dependencies: ["2A43BB1A248EE3F9"]
-			description: ["Excellent essential desktop decoration."]
-			hide_dependency_lines: true
-			icon: "supplementaries:globe"
-			id: "5B76CD4A74C6E282"
-			rewards: [{
-				id: "7CDCA494ECC102D5"
-				item: "supplementaries:globe"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "080292BE5329F31C"
-				item: "createdeco:copper_coin"
-				type: "item"
-			}]
-			title: "Globe"
-			x: -4.0d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["2A43BB1A248EE3F9"]
 			description: ["More explosives never not hurt anyone."]
 			hide_dependency_lines: true
 			icon: "supplementaries:bomb_blue"
@@ -952,7 +905,7 @@
 			}]
 			title: "Blue Bomb"
 			x: -6.0d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -974,8 +927,8 @@
 				type: "item"
 			}]
 			title: "Wisdom Scroll"
-			x: 9.0d
-			y: -5.0d
+			x: 5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0A2AC68EAC66D1CC"]
@@ -1242,10 +1195,11 @@
 				type: "item"
 			}]
 			title: "Amnesia Scroll"
-			x: -8.0d
-			y: -5.0d
+			x: -4.0d
+			y: -7.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2A43BB1A248EE3F9"]
 			description: ["Removing mistakes."]
 			hide_dependency_lines: true
@@ -1263,11 +1217,12 @@
 				type: "item"
 			}]
 			title: "Vacucite"
-			x: -4.0d
-			y: -9.0d
+			x: -6.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["700EA94C031D57FA"]
+			can_repeat: true
+			dependencies: ["2A43BB1A248EE3F9"]
 			description: ["Colorful augments to existing gear."]
 			hide_dependency_lines: true
 			icon: "skilltree:iriscite"
@@ -1279,14 +1234,69 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 48L
-				id: "0B79BF014F2AA642"
-				item: "createdeco:brass_coin"
+				count: 128L
+				id: "6BF836C7BA05E8B1"
+				item: "createdeco:copper_coin"
 				type: "item"
 			}]
 			title: "Skill Tree Gem"
-			x: 5.0d
+			x: -4.0d
 			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700EA94C031D57FA"]
+			description: ["gAmBlINg"]
+			hide_dependency_lines: true
+			icon: "a_man_with_plushies:golden_plush_box"
+			id: "1BAD8A9E69CEE024"
+			rewards: [{
+				id: "2D57652B1881369B"
+				item: "a_man_with_plushies:golden_plush_box"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "38F3FADB86A63653"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Golden Plush Box"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["700EA94C031D57FA"]
+			description: [
+				"Shipping Address"
+				""
+				"&bNOTE&r: This is a one time purchase ONLY"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "witherstormmod:amulet"
+				tag: { }
+			}
+			id: "5DCDC67870839173"
+			rewards: [{
+				id: "5C242FD154B01073"
+				item: {
+					Count: 1b
+					id: "witherstormmod:amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "217CB64A9AA90A49"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Amulet"
+			x: 5.0d
+			y: -7.0d
 		}
 	]
 	title: "Market"

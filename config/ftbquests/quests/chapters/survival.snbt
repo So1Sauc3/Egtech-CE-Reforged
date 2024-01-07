@@ -12,11 +12,18 @@
 			dependencies: ["23402BC19FF05D29"]
 			icon: "create:honeyed_apple"
 			id: "41FC19F8C75AC180"
-			rewards: [{
-				id: "37AD0020C20CAE04"
-				item: "create:honeyed_apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "37AD0020C20CAE04"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					id: "1CDD11A3579AF86E"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -503,12 +510,19 @@
 			dependencies: ["5D479A4CF975C84A"]
 			description: ["It is an extremely hurtful feeling to conquer a structure and vanquish its foes, only to see that its loot has already been taken by an adventurer before you. With &6client-side chests&r, this becomes a thing of the &6past&r!"]
 			id: "579E7E1197C17F40"
-			rewards: [{
-				count: 32
-				id: "15AE6F72CDD1AF3C"
-				item: "minecraft:chest"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "15AE6F72CDD1AF3C"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "0145E4A313D4CFF1"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
 			subtitle: "Lootr"
 			tasks: [
 				{
@@ -803,12 +817,19 @@
 		{
 			dependencies: ["60B885C58E03B74F"]
 			id: "3F3C791D4A56C92F"
-			rewards: [{
-				count: 8
-				id: "335105EC5DA88572"
-				item: "createdeco:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "335105EC5DA88572"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					id: "04E914AD30DA2F01"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0504C97DFC8F25F6"
@@ -846,12 +867,19 @@
 		{
 			dependencies: ["5619CC97D22EE00E"]
 			id: "1C0F2F2AA6CDD133"
-			rewards: [{
-				count: 2
-				id: "14C3AE16A0D84130"
-				item: "createdeco:brass_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "14C3AE16A0D84130"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "24F8BCE9107147E2"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1984FED40514B4C9"
 				item: "ars_nouveau:apprentice_spell_book"
@@ -943,6 +971,11 @@
 				{
 					id: "4B61B7C6BD939E15"
 					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "260FDC4D11D0BB0E"
+					item: "a_man_with_plushies:plush_box"
 					type: "item"
 				}
 			]

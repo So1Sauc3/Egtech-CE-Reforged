@@ -12,6 +12,11 @@
 			dependencies: ["172ACAADF4827026"]
 			description: ["The Witherstorm's defeat unlocks countless new lines of &6progression&r. No longer being constantly &6hunted&r by such a destructive force, the player is able to begin &6exploring&r the world in greater detail and challenge new, strong &6bosses&r, becoming much more &6powerful&r in the process."]
 			id: "15C68D60EA501F59"
+			rewards: [{
+				id: "67C4C8B43AA2BB09"
+				item: "a_man_with_plushies:plush_box"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -98,12 +103,19 @@
 				}
 			}
 			id: "6F548D96921647F9"
-			rewards: [{
-				count: 32
-				id: "7BAAD4C5B4002D34"
-				item: "createdeco:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "7BAAD4C5B4002D34"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					id: "215BCA704EC15294"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "66D5B8FCCB39F876"
 				item: {
@@ -299,6 +311,11 @@
 					item: "skilltree:wisdom_scroll"
 					type: "item"
 				}
+				{
+					id: "0898769B7AC6B368"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -361,6 +378,11 @@
 				{
 					id: "1FB61280255968C8"
 					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "535D786E4C8DE12B"
+					item: "a_man_with_plushies:plush_box"
 					type: "item"
 				}
 			]
@@ -530,6 +552,11 @@
 				{
 					id: "1C5C8BACCBA9A266"
 					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "170B20E4B349CB01"
+					item: "a_man_with_plushies:plush_box"
 					type: "item"
 				}
 			]
@@ -914,6 +941,11 @@
 					item: "skilltree:wisdom_scroll"
 					type: "item"
 				}
+				{
+					id: "6FE264308E0F50AA"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -1078,6 +1110,11 @@
 				{
 					id: "0E0446BF389691FE"
 					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "269CB50BB43A782B"
+					item: "a_man_with_plushies:plush_box"
 					type: "item"
 				}
 			]
