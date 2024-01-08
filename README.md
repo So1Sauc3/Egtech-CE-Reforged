@@ -30,7 +30,6 @@ ferritecore\
 gpumemleakfix\
 immediatelyfast\
 letmedespawn\
-maxhealthfix\
 memoryleakfix\
 modernfix\
 noseenotick\
