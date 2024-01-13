@@ -1,15 +1,15 @@
 # Egtech-CE-Reforged
 A Soi Sauce modpack.\
-version ```1.2.1```
+version ```1.3.0```
 
 # Download Instructions
-- CLICK the green ```<>code``` button and DOWNLOAD as a zip file (shown in Downloads folder as ```Egtech-CE-Reforged-1.2.1.ZIP```)
+- CLICK the green ```<>code``` button and DOWNLOAD as a zip file (shown in Downloads folder as ```Egtech-CE-Reforged-1.3.0.ZIP```)
 
 - PRESS ```WINDOWS+R``` to open up runtime prompt and ENTER ```%appdata%/.minecraft/``` to access the .minecraft folder
 - DELETE or REMOVE(to another location) any and all folders in ```.minecraft``` with names ```'config', 'kubejs', or 'mods'```
 
-- MOVE the 3 files ```'config', 'kubejs', 'mods'``` OUT of the ```Egtech-CE-Reforged-1.2.1.ZIP``` folder and INTO the ```.minecraft``` folder
-- DELETE the remaining ```Egtech-CE-Reforged-1.2.1.ZIP``` folder
+- MOVE the 3 files ```'config', 'kubejs', 'mods'``` OUT of the ```Egtech-CE-Reforged-1.3.0.ZIP``` folder and INTO the ```.minecraft``` folder
+- DELETE the remaining ```Egtech-CE-Reforged-1.3.0.ZIP``` folder
 
 - Result: ```.minecraft``` folder should have one copy of each of these files ```'config', 'kubejs', 'mods'```
 # Modlist
@@ -68,7 +68,8 @@ amw plushies - plushy gambling\
 chipped - chisel but for 1.18+\
 create deco - steampunk decorations\
 handcrafted - more decorations\
-plushies\
+plushies - craftable plushies\
+simple hats - hat gambling\
 simply light - more light blocks
 
 ```Terrain```\
@@ -118,6 +119,7 @@ steam and rails - more train stuff
 
 ```Combat```\
 better combat - animated combat\
+create armory - america\
 create sabers - lightsabers\
 parcool! - better movement\
 passive skill tree - skill tree\
