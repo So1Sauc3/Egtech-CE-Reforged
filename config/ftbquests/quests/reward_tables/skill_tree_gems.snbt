@@ -1,18 +1,53 @@
 {
-	id: "47D107CC711C32E3"
+	id: "445AC836DF823A0B"
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ item: "skilltree:ruby" }
-		{ item: "skilltree:onyx" }
-		{ item: "skilltree:moonstone" }
-		{ item: "skilltree:citrine" }
-		{ item: "skilltree:adamite" }
-		{ item: "skilltree:jade" }
-		{ item: "skilltree:sapphire" }
-		{ item: "skilltree:tourmaline" }
-		{ item: "skilltree:turquoise" }
-		{ item: "skilltree:iriscite" }
+		{
+			item: {
+				Count: 1b
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:citrine_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:iriscite_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:jade_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:ruby_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:sapphire_2"
+				}
+			}
+		}
 	]
 	title: "Skill Tree Gems"
 }

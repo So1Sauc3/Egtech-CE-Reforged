@@ -1,0 +1,1303 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market"
+	group: ""
+	icon: "minecraft:emerald"
+	id: "7FA81DDA0B538C2F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["41FC19F8C75AC180"]
+			description: ["This chapter introduces features for the server economy, including a &6market&r to spend hard-earned coins, and a &6professions&r section once players enter &6midgame progression&r."]
+			icon: "minecraft:emerald_block"
+			id: "5EEF56A544D7B93B"
+			rewards: [{
+				count: 8
+				id: "5E8D8D6C7D8434D7"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "002895F9F599DA58"
+				type: "checkmark"
+			}]
+			title: "Capitalism"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5EEF56A544D7B93B"
+				"41FC19F8C75AC180"
+			]
+			description: ["Professions offer alternative ways for players to obtain coins. They are &6repeatable&r quests that the player can use to gather more wealth."]
+			icon: "create:brown_toolbox"
+			id: "16728A6957A4C780"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "667F4A11BC09292C"
+				type: "checkmark"
+			}]
+			title: "Professions"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"16728A6957A4C780"
+				"6F548D96921647F9"
+			]
+			description: [""]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "14DA6808DFA9EF9D"
+			rewards: [
+				{
+					count: 16
+					id: "3CC73903DEB24CBF"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4675F9ED44C9F4A2"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "1E2FD485A5B7128C"
+					item: "cataclysm:amethyst_crab_meat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "7602BE91CC11ABB4"
+					item: "alexsmobs:centipede_leg"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "54DB03BCEB88F0D4"
+					item: "alexsmobs:crocodile_scute"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "13FAD7E664B4E7B4"
+					item: "alexsmobs:blood_sac"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1B032425B69AFC58"
+					item: "alexsmobs:fish_bones"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7A4C65F06E8F33CF"
+					item: "alexsmobs:serrated_shark_tooth"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "532D98714D247CC2"
+					item: "alexsmobs:straddlite"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0EDF5D444797536E"
+					item: "alexsmobs:bone_serpent_tooth"
+					type: "item"
+				}
+			]
+			title: "Warrior"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"16728A6957A4C780"
+				"08DED6B19C4BD9AE"
+			]
+			hide: true
+			icon: "farmersdelight:stove"
+			id: "46177E4DF7265409"
+			rewards: [
+				{
+					count: 16
+					id: "6A57DDC5766E8B78"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1ED9F3378524E752"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "54345BE8E29D735A"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "0FF84EADEC7893DA"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "240CCA6EE0AC8CED"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4252333CC25D3667"
+					item: "farmersdelight:mushroom_rice"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "11A57CF2C7D3F50B"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6CE30916A7B948E9"
+					item: "farmersdelight:shepherds_pie"
+					type: "item"
+				}
+			]
+			title: "Chef"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"16728A6957A4C780"
+				"2D1501C3B0AA0236"
+			]
+			hide: true
+			icon: "create:large_cogwheel"
+			id: "56684AB35C1F6332"
+			rewards: [
+				{
+					count: 32
+					id: "4A92278B266344C7"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F1BC33E0406CE20"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "63AA206E905D5775"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7A1512B9D92D2E58"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "2776185CD46B1C3F"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "08DC0791C3C1BB7A"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "006ECC1CE2A76ED5"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "3FA26AEA415F249C"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "195A2553E63BADF9"
+					item: "create:smart_chute"
+					type: "item"
+				}
+			]
+			title: "Mechanic"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"16728A6957A4C780"
+				"172ACAADF4827026"
+			]
+			hide: true
+			icon: "minecraft:enchanting_table"
+			id: "7A2D516827C91001"
+			rewards: [{
+				count: 16
+				id: "5D690182E66CF120"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "480D6F8DAEDAF1E6"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "29259717BC3B7B9E"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "3E9EEA0C789330CC"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			title: "Priest"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"16728A6957A4C780"
+				"5DD593D41C9F2CA4"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+			id: "76AC7A13D7E15876"
+			rewards: [
+				{
+					count: 32
+					id: "1E816AA7825DE7A0"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "255AF47C5B1354C7"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "2F9D1539C05F21DA"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "parcool:energy_drink"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "54F11B9AA34227A7"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:speed_iii"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "77B359F21D3CA213"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexscaves:long_deepsight"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "433FC5602F3681F7"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexscaves:long_magnetizing"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "26EE2CEA8C19BB03"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Alchemist"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"16728A6957A4C780"
+				"172ACAADF4827026"
+			]
+			hide: true
+			icon: "minecraft:anvil"
+			id: "763D59CC904D0FA5"
+			rewards: [{
+				count: 16
+				id: "0801F2397FAD2243"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1E899BA1D3BB31BC"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2502419725E97E54"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "45D3459922400069"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "76027A4273291523"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "25CB9AEE12F7240F"
+					item: {
+						Count: 1b
+						id: "simplyswords:iron_longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4428661D29F2FBD8"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F3A540E8095A2BC"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E2312B68846112A"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "400865F724D1B4F4"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blacksmith"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["16728A6957A4C780"]
+			hide: true
+			icon: "minecraft:stonecutter"
+			id: "16A1C3BBE6FBA2EB"
+			rewards: [{
+				count: 8
+				id: "5802ED826CDBE7BE"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "3DE18404739233C7"
+					item: "create:cut_andesite_bricks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "7525F701499EDFD2"
+					item: "create:andesite_pillar"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "18ED6E1537B9C067"
+					item: "handcrafted:andesite_pillar_trim"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "7D6F14CD48ABCCE4"
+					item: "minecraft:polished_deepslate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "16ACDD3C29EE033B"
+					item: "create:deepslate_pillar"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "3C2ABD8B594E6EB6"
+					item: "handcrafted:deepslate_corner_trim"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "6EBA9FEA6D441860"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "491EC5987E87AA2F"
+					item: "minecraft:mud_bricks"
+					type: "item"
+				}
+			]
+			title: "Stonecutter"
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["16728A6957A4C780"]
+			hide: true
+			icon: "handcrafted:oak_table"
+			id: "4C750AA9FFE6C4E1"
+			rewards: [{
+				count: 8
+				id: "7C3C4D901B392B80"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "6DF9EEFEFB0F9EE9"
+					item: "handcrafted:dark_oak_corner_trim"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "4962642A957BC0D9"
+					item: "handcrafted:dark_oak_pillar_trim"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "2834B8D1B27FA7C9"
+					item: "handcrafted:spruce_chair"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "421A531DD2B4A09B"
+					item: "handcrafted:spruce_table"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "10F40A475E50A073"
+					item: "handcrafted:birch_cupboard"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "3EA652A58A37D41A"
+					item: "handcrafted:birch_shelf"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "6EC26DA100BC6A23"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "2F7175B04ABEF0A4"
+					item: "minecraft:chiseled_bookshelf"
+					type: "item"
+				}
+			]
+			title: "Carpenter"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5EEF56A544D7B93B"]
+			description: [
+				"The market allows players to exchange coins for valuable items that will help them on their journey."
+				""
+				"&6Coins&r are divided into 3 &6tiers&r [copper, brass, netherite], and are &6NOT&r interchangeable with each other. Copper and brass coins are obtainable through professions and &6quests&r, while netherite coins are locked behind &6server titles&r."
+			]
+			icon: "farmersdelight:basket"
+			id: "0A2AC68EAC66D1CC"
+			rewards: [{
+				id: "7FCDC6582058BCD6"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "3EAE62885EC97A15"
+				type: "checkmark"
+			}]
+			title: "The Market"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"16728A6957A4C780"
+				"3C6AA3F0F6CCB741"
+				"01C634A27C66DC8D"
+			]
+			hide: true
+			icon: "alexscaves:tremorsaurus_egg"
+			id: "3FBD95DD7312B55F"
+			rewards: [
+				{
+					count: 32
+					id: "492B231CE99A64AB"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "481C9B82177021F3"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "018065FC6741E7F8"
+					item: "alexscaves:tremorsaurus_egg"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "23CA7E64B49B4284"
+					item: "alexscaves:relicheirus_egg"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "29849EADFEA5802F"
+					item: "alexsmobs:emu_egg"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "5EABCFEC6E5D52D5"
+					item: "minecraft:turtle_egg"
+					type: "item"
+				}
+				{
+					id: "5387D7C0A149ADC1"
+					item: "cataclysm:abyssal_egg"
+					type: "item"
+				}
+			]
+			title: "Biologist"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A43BB1A248EE3F9"]
+			description: ["For all of your runesmithing needs!"]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:blank_rune"
+			id: "7929A0835E3CE303"
+			rewards: [{
+				id: "26E1E530655E7236"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7BD4D836C5CF0CE1"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "Runestone"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700EA94C031D57FA"]
+			description: ["Powerful remains of ancient weapons."]
+			hide_dependency_lines: true
+			icon: "simplyswords:empowered_remnant"
+			id: "25475A18EA653056"
+			rewards: [{
+				id: "27BE4856BCEC4123"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "53882898CBE230DB"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Empowered Remnant"
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700EA94C031D57FA"]
+			description: ["To further augment already powerful items."]
+			hide_dependency_lines: true
+			icon: "simplyswords:runic_tablet"
+			id: "4ADC75C10EBAE627"
+			rewards: [{
+				id: "6A078B592C726CD9"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "489BC016ABC4BFC6"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Runic Tablet"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A2AC68EAC66D1CC"]
+			description: [
+				"Netherite coins are the highest &6tier&r coins in the game, with server titles granting up to a maximum of &6one per title&r. They &6cannot&r be obtained in any other way, and as such are extremely &6valuable&r. Use them &6wisely&r."
+				""
+				"&bNOTE&r: coins can be used for &6much more&r than simply buying items. They are great for using as &6leverage&r in trading and &6negotiating&r with other players."
+			]
+			icon: "createdeco:netherite_coin"
+			id: "6ECEFDA76B69CC7F"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "639FB6ACF33DCA14"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A2AC68EAC66D1CC"]
+			description: [
+				"Brass coins are the middle &6tier&r coins in the game, with the &6higher-level&r quests and professions granting them. They can be used to buy very useful items, as well as &6wisdom scrolls&r for leveling up the &6skill tree&r."
+				""
+				"&bNOTE&r: coins can be used for &6much more&r than simply buying items. They are great for using as &6leverage&r in trading and &6negotiating&r with other players."
+			]
+			icon: "createdeco:brass_coin"
+			id: "700EA94C031D57FA"
+			size: 1.25d
+			tasks: [{
+				id: "3EFD848CD7EDFB86"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A43BB1A248EE3F9"]
+			description: ["More explosives never not hurt anyone."]
+			hide_dependency_lines: true
+			icon: "supplementaries:bomb_blue"
+			id: "2D5524B1ACCF2D0A"
+			rewards: [{
+				id: "673B14C2022C119C"
+				item: "supplementaries:bomb_blue"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "6211BD29EC18987B"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "Blue Bomb"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700EA94C031D57FA"]
+			description: ["Sorry, what were my skills again?"]
+			hide_dependency_lines: true
+			icon: "skilltree:wisdom_scroll"
+			id: "4502BF5DE20CBA26"
+			rewards: [{
+				id: "5403E384FD554237"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "32BD74332E015F42"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Wisdom Scroll"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0A2AC68EAC66D1CC"]
+			description: [
+				"Copper coins are the lowest &6tier&r coins in the game, with most &6quests&r and professions granting them. They may not be the most valuable, but they can be used to buy &6useful&r items for your journey."
+				""
+				"&bNOTE&r: coins can be used for &6much more&r than simply buying items. They are great for using as &6leverage&r in trading and &6negotiating&r with other players."
+			]
+			icon: "createdeco:copper_coin"
+			id: "2A43BB1A248EE3F9"
+			size: 1.25d
+			tasks: [{
+				id: "4E7DE05ED7911618"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6ECEFDA76B69CC7F"]
+			description: ["Combined power of all protection enchants make you invincible*!"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:blast_protection"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "21FDCFCE6F7ACDDC"
+			rewards: [{
+				id: "3BE0F634203D312B"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "blast_protection"
+							lvl: 10
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "1x Enchanted Book"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6E8419C30438C3BF"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			title: "Enchanted Book"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6ECEFDA76B69CC7F"]
+			description: ["Truly immovable..."]
+			hide_dependency_lines: true
+			icon: "minecraft:bedrock"
+			id: "4BB98B846FEEFB62"
+			rewards: [{
+				id: "47FCD8D43CEE99D8"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			subtitle: "1x Bedrock"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "40F63CB4E9B7C1E0"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			title: "Bedrock"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6ECEFDA76B69CC7F"]
+			description: ["Capable of crossing infinite distances in mere seconds."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:warp_scroll"
+				tag: { }
+			}
+			id: "5054A774DB32281A"
+			rewards: [{
+				id: "2F51C5EECA8141E3"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "1x Warp Scroll"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "20E9FA6287864011"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			title: "Warp Scroll"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6ECEFDA76B69CC7F"]
+			description: ["UNLIMITED POWER."]
+			hide_dependency_lines: true
+			icon: "create:creative_blaze_cake"
+			id: "5AA87F93737AFDC7"
+			rewards: [{
+				id: "45C0EAA4D6F2CA33"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "295E13F5AD38CAD4"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			title: "Creative Blaze Cake"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6ECEFDA76B69CC7F"]
+			description: ["Loaded with a spell that costed more mana than can be obtained ever in survival."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:spell_crossbow"
+				tag: { }
+			}
+			id: "69059BFFACB88E73"
+			rewards: [{
+				id: "77555F68743D6AD3"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_crossbow"
+					tag: {
+						Charged: 1b
+						ChargedProjectiles: [{
+							Count: 1b
+							id: "minecraft:arrow"
+						}]
+						RepairCost: 0
+						"ars_nouveau:caster": {
+							current_slot: 0
+							flavor: ""
+							hidden_recipe: ""
+							is_hidden: 0b
+							spell_count: 1
+							spells: {
+								spell0: {
+									name: "Deus Ex Machina"
+									recipe: {
+										part0: "ars_nouveau:glyph_projectile"
+										part1: "ars_nouveau:glyph_wall"
+										part10: "toomanyglyphs:glyph_amplify_three"
+										part2: "ars_nouveau:glyph_sensitive"
+										part3: "ars_elemental:glyph_propagator_homing"
+										part4: "ars_nouveau:glyph_sensitive"
+										part5: "ars_nouveau:glyph_split"
+										part6: "toomanyglyphs:glyph_chaining"
+										part7: "ars_nouveau:glyph_aoe"
+										part8: "ars_nouveau:glyph_explosion"
+										part9: "toomanyglyphs:glyph_amplify_three"
+										size: 11
+									}
+									sound: {
+										pitch: 1.0f
+										soundTag: {
+											id: "ars_nouveau:fire_family"
+										}
+										volume: 1.0f
+									}
+									spellColor: {
+										b: 180
+										g: 25
+										r: 255
+										type: "ars_nouveau:constant"
+									}
+								}
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Deus Ex Machina\"}"
+						}
+						isSpell: 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Deus Ex Machina"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "1572D4FD8F150A87"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			title: "Enchanter's Crossbow"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6ECEFDA76B69CC7F"]
+			description: ["I don't even know what you might do with this..."]
+			hide_dependency_lines: true
+			icon: "minecraft:command_block"
+			id: "0367F0CA077B7AE5"
+			rewards: [{
+				id: "3F536269E3E8EC8F"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			subtitle: "1x Command Block"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "5DEC10B5035294D0"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			title: "Command Block"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A43BB1A248EE3F9"]
+			hide_dependency_lines: true
+			icon: "skilltree:amnesia_scroll"
+			id: "13DA04D9819F4E77"
+			rewards: [{
+				id: "1C7DB566A0598115"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "62E2BBB4C088F10F"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "Amnesia Scroll"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A43BB1A248EE3F9"]
+			description: ["Removing mistakes."]
+			hide_dependency_lines: true
+			icon: "skilltree:vacucite"
+			id: "482BB3E6C2B97544"
+			rewards: [{
+				id: "5CBC1096413D306A"
+				item: "skilltree:vacucite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 48L
+				id: "1FD402CC54C82ECB"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "Vacucite"
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A43BB1A248EE3F9"]
+			description: ["Colorful augments to existing gear."]
+			hide_dependency_lines: true
+			icon: "skilltree:iriscite"
+			id: "4D509C05E179F3CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "218F9890FA960E81"
+				table_id: 5174926021477806819L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 128L
+				id: "6BF836C7BA05E8B1"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "Skill Tree Gem"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700EA94C031D57FA"]
+			description: ["gAmBlINg"]
+			hide_dependency_lines: true
+			icon: "a_man_with_plushies:golden_plush_box"
+			id: "1BAD8A9E69CEE024"
+			rewards: [{
+				id: "2D57652B1881369B"
+				item: "a_man_with_plushies:golden_plush_box"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "38F3FADB86A63653"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Golden Plush Box"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["700EA94C031D57FA"]
+			description: [
+				"Shipping Address"
+				""
+				"&bNOTE&r: This is a one time purchase ONLY"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "witherstormmod:amulet"
+				tag: { }
+			}
+			id: "5DCDC67870839173"
+			rewards: [{
+				id: "5C242FD154B01073"
+				item: {
+					Count: 1b
+					id: "witherstormmod:amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "217CB64A9AA90A49"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Amulet"
+			x: 5.0d
+			y: -7.0d
+		}
+	]
+	title: "Market"
+}

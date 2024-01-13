@@ -157,25 +157,17 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					advancement: "cataclysm:kill_monstrosity"
-					criterion: ""
-					id: "0F7EEE8BC4269C14"
-					type: "advancement"
-				}
-				{
-					id: "197D3E6A1FB67293"
-					item: {
-						Count: 1b
-						id: "cataclysm:infernal_forge"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "41835C457D284ECC"
+				item: {
+					Count: 1b
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "The Foundry"
 			x: 0.5d
 			y: 4.5d
@@ -822,7 +814,7 @@
 					type: "item"
 				}
 				{
-					count: 32
+					count: 2
 					id: "63486C3357733922"
 					item: "createdeco:brass_coin"
 					type: "item"
@@ -947,19 +939,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					advancement: "cataclysm:kill_harbinger"
-					criterion: ""
-					id: "09E0D2568221D362"
-					type: "advancement"
-				}
-				{
-					id: "55B8885CAB2FD9DC"
-					item: "cataclysm:mechanical_fusion_anvil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "55B8885CAB2FD9DC"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
 			title: "The Forge"
 			x: 0.5d
 			y: -8.5d

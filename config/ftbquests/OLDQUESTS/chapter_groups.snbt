@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "74922ED1973925F3", title: "Early Game" }
+		{ id: "2AA1CE9666BDB6E0", title: "Mid Game" }
+		{ id: "4C9AFEF0A2D77F2E", title: "End Game" }
+	]
+}

@@ -1,0 +1,1270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survival"
+	group: "74922ED1973925F3"
+	icon: "witherstormmod:wooden_command_block_axe"
+	id: "597691F27D75D3E0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23402BC19FF05D29"]
+			icon: "create:honeyed_apple"
+			id: "41FC19F8C75AC180"
+			rewards: [
+				{
+					id: "37AD0020C20CAE04"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					id: "1CDD11A3579AF86E"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4096D0681DFF602F"
+				type: "checkmark"
+			}]
+			title: "The Beginning"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41FC19F8C75AC180"]
+			description: ["Accessed via a keybind, you are able to enhance your natural stats through this ability tree. In order to get skill points, &6complete quests and challenges&r in the FTB Quests menu to be rewarded with wisdom scrolls, each granting &61 skill point&r. Skill trees can be &6reset&r at &685% efficiency&r with an amnesia scroll obtained through similar methods."]
+			icon: "skilltree:wisdom_scroll"
+			id: "771BDE04A27E9AD7"
+			rewards: [
+				{
+					id: "28980D52BE03F017"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "173C180B3D019426"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Passive Skill Tree"
+			tasks: [{
+				id: "308F2F473C887FE1"
+				title: "Ability Tree"
+				type: "checkmark"
+			}]
+			title: "Harnessing the Stars"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41FC19F8C75AC180"]
+			description: ["With a plethora of keybind-activated moves, you are able to move much more dynamically than ever before. Begin by &6configuring the fast run keybind&r to a convenient key, as you will use this a LOT. Learn to wall run, set up combos with better combat, and more! Remember to &6manage your stamina&r, or &6consume energy drinks&r to enjoy infinite stamina for a set duration."]
+			icon: "minecraft:rabbit_foot"
+			id: "493C02CE8B746BED"
+			rewards: [{
+				id: "1F2DEC2F143F7A2E"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "parcool:energy_drink"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Parcool!"
+			tasks: [{
+				id: "349295F90169B27B"
+				title: "Parcool!"
+				type: "checkmark"
+			}]
+			title: "Parkour?"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41FC19F8C75AC180"]
+			description: [
+				"Instead of generic attacks, every weapon now has a certain &6attack sequence&r and hitbox (&6shown by f3+B&r), complete with fancy animations. Learn to pace your attacks and familiarize yourself with the different uses for each weapon."
+				""
+				"Note: unique weapons from the Better Combat mod are now locked behind &6FTB Questline&r completions, specifically through &6acquiring server titles.&r"
+			]
+			icon: "simplyswords:runic_tablet"
+			id: "79E996E6DB06CD59"
+			rewards: [{
+				id: "4B40FD8C87699D66"
+				item: {
+					Count: 1b
+					id: "simplyswords:sword_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Better Combat"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "6B415A2C53EC5CF2"
+				type: "advancement"
+			}]
+			title: "A Better Way to Fight"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41FC19F8C75AC180"]
+			description: ["One must be well-fed to take on the world. Player stats such as &6health&r points, speed, strength, and haste are now dependant on &6diet diversity&r and &6meal heartiness&r. As you unlock more sophisticated food options from mods such as &6Farmer's Delight&r and begin to consistently consume a greater &6variety&r of foods with better &6saturation&r values, your base stats will change accordingly."]
+			icon: "farmersdelight:apple_pie"
+			id: "18268C8173827051"
+			subtitle: "Slice of Life: Apple Pie Edition"
+			tasks: [{
+				id: "431D771DB7FA9504"
+				title: "Cornucopia"
+				type: "checkmark"
+			}]
+			title: "The Cornucopia (CHANGE DESC)"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41FC19F8C75AC180"]
+			description: ["This FTB Quests interface will be your &6most valuable guidebook&r throughout all of this modpack. Besides &6giving information&r, FTB Quests will give you &6essential items&r for the modpack, from otherwise unobtainable items such as scrolls of knowledge and unique weapons to currency and server title buffs."]
+			icon: "ftbquests:book"
+			id: "46114A891031CEAB"
+			rewards: [
+				{
+					id: "77FF803A2A561AF3"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					id: "3234FCE1C7F8BBBF"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "28D759757B4FA27C"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7178AB344DC07A20"
+					item: "alexsmobs:animal_dictionary"
+					type: "item"
+				}
+				{
+					id: "22C4BF849A3A6CAE"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					id: "6672DD3A26B54123"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "parcool:parcool_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A2F3E86F7158A1D"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7209D4A0B319C2E8"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "irons_spellbooks:iss_guide_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "FTB Quests"
+			tasks: [{
+				id: "4153AA3D3832408B"
+				title: "A Comprehensive Guide"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["41FC19F8C75AC180"]
+			description: ["The world has been altered forever by Tectonic and Regions Unexplored, combining large and &6dramatic terrain&r generation with a vast collection of &6new biomes&r to explore. Structures have been revamped and new ones added, from Yung's Better Structures to Better Villages and boss arenas from Lender's Cataclysm. The world is filled with unique adventures to undertake and terrain to &6explore&r."]
+			icon: "cobblemon:heavy_duty_boots"
+			id: "5D479A4CF975C84A"
+			rewards: [
+				{
+					id: "500668D9E3E83BAE"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:standard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "453F6C7015C149F6"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+			]
+			subtitle: "Regions Unexplored"
+			tasks: [{
+				id: "4F59AA6B0311E4A9"
+				type: "checkmark"
+			}]
+			title: "A World in Danger"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18268C8173827051"]
+			icon: {
+				Count: 1b
+				id: "vinery:red_wine"
+				tag: {
+					Year: 0
+				}
+			}
+			id: "1B4F7D308DEF17E3"
+			rewards: [{
+				count: 4
+				id: "17BB933A1C290F87"
+				item: "vinery:red_grape_seeds"
+				type: "item"
+			}]
+			subtitle: "Vinery"
+			tasks: [{
+				id: "2D6E9333892D7CD5"
+				type: "checkmark"
+			}]
+			title: "The Vineyard"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["172ACAADF4827026"]
+			description: ["In the fiery regions of the underworld, Nether's Delight enables the cultivation and &6cooking&r of its &6unique fauna&r and flora, from a plethora of hoglin dishes to strider delicacies. Just remember to bring fire resistance, and if you can't stand the &6heat&r, get out of the kitchen."]
+			hide: true
+			icon: "nethersdelight:stuffed_hoglin"
+			id: "3846633663A24D8E"
+			rewards: [
+				{
+					id: "6C0D5188191005C2"
+					item: {
+						Count: 1b
+						id: "nethersdelight:golden_machete"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F04509F3FBAFC4D"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Nether's Delight"
+			tasks: [{
+				id: "52C235D8CAA9A5CB"
+				type: "checkmark"
+			}]
+			title: "Hell's Kitchen"
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["579E7E1197C17F40"]
+			description: ["Villagers have stepped up in their architectural prowess, creating more &6sophisticated&r and biome-specific &6buildings&r. These villages provide &6safehaven&r for all travelers who pass by, but take care not to linger too long and become completely reliant on the village."]
+			icon: "minecraft:red_bed"
+			id: "71FFD3B71F6E087C"
+			rewards: [{
+				count: 4
+				id: "30CD0A48617E46A4"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Better Villages"
+			tasks: [{
+				id: "0AA330A579C76686"
+				structure: "#minecraft:village"
+				title: "Find a &2better village&r"
+				type: "structure"
+			}]
+			title: "Signs of Life"
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["579E7E1197C17F40"]
+			description: ["Structures from eons ago lie quietly in the corners of the world, waiting for brave explorers to discover them. From ocean monuments to fortresses and &6strongholds&r, they have all been revamped and &6improved&r in both beauty and &6difficulty&r."]
+			icon: "minecraft:prismarine_brick_stairs"
+			id: "66ED5AFC1C4FC802"
+			rewards: [{
+				count: 8
+				id: "2172999847BF2E17"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Yung's Structures"
+			tasks: [{
+				id: "651C363BF1E6CA33"
+				structure: "betteroceanmonuments:ocean_monument"
+				title: "Find an &2ocean monument&r"
+				type: "structure"
+			}]
+			title: "Remnants of Old"
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["493C02CE8B746BED"]
+			description: ["Get off my property! FTB chunks allows you to &6claim and protect&r your own domain, preventing players and certain entities from potential &6griefing&r. Additionally, you are able to &6chunkload&r up to 25 chunks to keep all of your production lines running around the clock."]
+			icon: "supplementaries:netherite_door"
+			id: "5BD3C3A39D7754A5"
+			subtitle: "FTB Chunks"
+			tasks: [{
+				id: "43119F6C3DF47CB1"
+				type: "checkmark"
+			}]
+			title: "Hippity Hoppity"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["493C02CE8B746BED"]
+			description: ["The world is vast, packed to the brim with adventures to be had, structures to find, and more. Thus, a method of recording and organizing locations and points of interests is crucial. JourneyMap allows you to &6set waypoints&r and &6display terrain&r in a variety of ways, an essential tool for any player."]
+			icon: "supplementaries:globe"
+			id: "4FEEE491D7BD191F"
+			rewards: [{
+				id: "34F370F0B9C42925"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			subtitle: "Journey Map"
+			tasks: [{
+				id: "690344ADE9A8EFE8"
+				type: "checkmark"
+			}]
+			title: "The Odyssey"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79E996E6DB06CD59"]
+			description: ["In a world with such variety in methods of commiting mass murder, such violent tendencies must be kept in check by a proper way to channel such feelings. This &6dummy&r does not feel pain, and will happily accept such destructive actions, all while telling you &6how much damage&r you dealt."]
+			icon: "dummmmmmy:target_dummy"
+			id: "56A5F9696B0645CD"
+			rewards: [{
+				id: "780C268F8A504006"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			subtitle: "Test Dummies"
+			tasks: [{
+				id: "179B1947467D407F"
+				type: "checkmark"
+			}]
+			title: "A Peaceful Way to Test"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["771BDE04A27E9AD7"]
+			description: ["It's vein miner."]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:ghostly_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76EC68229E5168D4"
+			rewards: [
+				{
+					count: 16
+					id: "6483185ADFD1F526"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6AB61F4C33DA893F"
+					item: "supplementaries:rope"
+					type: "item"
+				}
+			]
+			subtitle: "Vein Miner"
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "4DF53949F3FCA7A5"
+				type: "advancement"
+			}]
+			title: "Magical Mining"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["771BDE04A27E9AD7"]
+			description: ["No longer are you reliant on external programs to talk with other players. Simply walk up to them, &6unmute&r and begin speaking! Your &6volume&r is dependent on your &6distance&r from others."]
+			icon: "ars_nouveau:glyph_aoe"
+			id: "6B1C2B42CDF04F76"
+			subtitle: "Proximity Chat"
+			tasks: [{
+				id: "36B70FB788EE1E61"
+				type: "checkmark"
+			}]
+			title: "Voices in Your Head"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["79E996E6DB06CD59"]
+			icon: "minecraft:skeleton_skull"
+			id: "1E7ECACDA9E91200"
+			rewards: [{
+				id: "05B8C53ECF2A2A9F"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Corpse"
+			tasks: [{
+				id: "19445AA43262D0FE"
+				type: "checkmark"
+			}]
+			title: "A Safer Way to Die"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["579E7E1197C17F40"]
+			description: ["Entering the nether triggers a tidal wave of &6change&r across the world. The breaching of hell causes an influx of &6stronger mobs&r and more &6difficult mechanics&r. However, it also unlocks many more powerful parts of &6progression&r."]
+			id: "172ACAADF4827026"
+			rewards: [
+				{
+					count: 2
+					id: "7A53F7E8A01EFE7F"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "49429424E32CA0F6"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "The Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "0AEB2A865AFB6300"
+				title: "Enter the Incendium &2Nether&r"
+				type: "dimension"
+			}]
+			title: "Expert Mode"
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D479A4CF975C84A"]
+			description: ["It is an extremely hurtful feeling to conquer a structure and vanquish its foes, only to see that its loot has already been taken by an adventurer before you. With &6client-side chests&r, this becomes a thing of the &6past&r!"]
+			id: "579E7E1197C17F40"
+			rewards: [
+				{
+					count: 32
+					id: "15AE6F72CDD1AF3C"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "0145E4A313D4CFF1"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			subtitle: "Lootr"
+			tasks: [
+				{
+					advancement: "lootr:1chest"
+					criterion: ""
+					id: "50EB5E7C37E5B66E"
+					type: "advancement"
+				}
+				{
+					advancement: "lootr:1barrel"
+					criterion: ""
+					id: "1BFF7F67650F3D2F"
+					type: "advancement"
+				}
+			]
+			title: "Plenty to Share"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3846633663A24D8E"]
+			description: ["The hoglin provides a plethora of &6cuts of meat&r that can be made into many &6hearty&r and delicious dishes with distinct smoky flavors."]
+			icon: "nethersdelight:hoglin_trophy"
+			id: "7498563C74A136EA"
+			rewards: [{
+				count: 2
+				id: "43E0523C3A3E867B"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			subtitle: "Nether's Delight"
+			tasks: [
+				{
+					id: "63BABC230A9EE2F5"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
+				}
+				{
+					id: "46713B2A459C0628"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					type: "item"
+				}
+				{
+					id: "5AFF924997EEC987"
+					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					type: "item"
+				}
+				{
+					id: "50510A705ADAC22A"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+			]
+			title: "Overcooked"
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["172ACAADF4827026"]
+			description: ["The &6piglins&r make their home in the depths of the nether, harboring a thriving community of &6bartering&r."]
+			hide: true
+			icon: "minecraft:piglin_head"
+			id: "3335ECD135F35D9D"
+			rewards: [{
+				count: 8
+				id: "0C92A9E2C2719951"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Piglin Village"
+			tasks: [{
+				advancement: "incendium:misc/loot_piglin_village"
+				criterion: ""
+				id: "406969970F9BFB99"
+				type: "advancement"
+			}]
+			title: "Underworld Society"
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3335ECD135F35D9D"]
+			description: ["Locate the &6infernal altar&r and defeat the &6Blazing Inferno&r to obtain its powerful unique loot."]
+			icon: "minecraft:blaze_powder"
+			id: "49F03C92BE78D7AD"
+			rewards: [
+				{
+					count: 8
+					id: "0BD3B305C2A4D67D"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "5BF0735170626D01"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				advancement: "incendium:infernal_dunes/inferno/kill"
+				criterion: ""
+				id: "7C77EE4B354949C1"
+				type: "advancement"
+			}]
+			title: "Infernum"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D479A4CF975C84A"]
+			description: ["The world is filled with strange and familiar &6creatures&r alike, across all dimensions and in every biome. Every mob has a purpose, unique and hidden &6mechanics&r to discover, and &6items&r to obtain from its drops. "]
+			hide: true
+			icon: "alexsmobs:blobfish"
+			id: "098FC4D3E4568A0A"
+			rewards: [{
+				count: 4
+				id: "31454B67BD8826B5"
+				item: "alexsmobs:banana"
+				type: "item"
+			}]
+			subtitle: "Alex's Mobs"
+			tasks: [{
+				id: "1B429FA6084BFF85"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "Creatures Galore"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D479A4CF975C84A"]
+			description: ["High up in &6wizard towers&r and deep inside swamp witch huts, various &6magical apparatus&r can be found. When combined, they create beautiful and powerful &6spells&r of all kinds. Master them and become the ultimate wizard or witch!"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:pyromancer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "573320057A115871"
+			rewards: [
+				{
+					count: 4
+					id: "5ACBB390AD5FA3EB"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					id: "24123BAFC544B6A1"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:iron_spell_book"
+						tag: {
+							ISB_spellbook: {
+								activeSpellIndex: -1
+								spellSlots: 5
+								spells: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Iron's Spells"
+			tasks: [
+				{
+					count: 8L
+					id: "3FD64A0FAEFDE043"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "3656A3C5B4C1F42C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_spellbook: {
+								activeSpellIndex: -1
+								spellSlots: 4
+								spells: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66E780920F85D866"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+			]
+			title: "Yer a wizard!"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D479A4CF975C84A"]
+			description: ["Pokemon of astounding &6varieties&r and innumerable numbers now populate the &6lands&r. Can you find them all?"]
+			hide: true
+			icon: "cobblemon:poke_ball"
+			id: "60B885C58E03B74F"
+			rewards: [{
+				count: 12
+				id: "07DD3BAD8269AEA8"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "cobblemon:root"
+					criterion: ""
+					id: "6F9BB26112572298"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "265EB648C60BFDC9"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			title: "Trainer"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D479A4CF975C84A"]
+			description: ["From humble beginnings to immeasurable heights, Ars Nouveau provides &6endless possibilities&r for prospecting wizards and witches to &6fabricate&r their own specialized and powerful &6spells&r for every occasion."]
+			hide: true
+			icon: "ars_nouveau:novice_spell_book"
+			id: "5619CC97D22EE00E"
+			rewards: [{
+				count: 4
+				id: "070EC023BD5C8906"
+				item: "ars_nouveau:purple_archwood_sapling"
+				type: "item"
+			}]
+			subtitle: "Ars Nouveau"
+			tasks: [
+				{
+					id: "7771E5762CD049E4"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7B0B34A8AB33EEAD"
+					item: "ars_nouveau:sourceberry_bush"
+					type: "item"
+				}
+			]
+			title: "Spellcrafter"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["18268C8173827051"]
+			description: ["Farmer's Delight offers unique ways of &6cooking and crafting&r an abundance of dishes to enjoy. Additionally, Create: Slice and Dice implements options for &6automating food production&r in midgame and endgame. &6Open up fancy restaurants&r and compete in the food industry!"]
+			icon: "farmersdelight:ratatouille"
+			id: "08D79C20A85AC7BD"
+			rewards: [
+				{
+					id: "5B1CD2D8C1A12BBD"
+					item: {
+						Count: 1b
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6E2205E43DD4E0A6"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69D3120B18AA9EBD"
+				type: "checkmark"
+			}]
+			title: "Master Chef"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60B885C58E03B74F"]
+			id: "3F3C791D4A56C92F"
+			rewards: [
+				{
+					count: 8
+					id: "335105EC5DA88572"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					id: "04E914AD30DA2F01"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0504C97DFC8F25F6"
+					item: "cobblemon:pc"
+					type: "item"
+				}
+				{
+					id: "72DBECA31DE87F91"
+					item: "cobblemon:healing_machine"
+					type: "item"
+				}
+			]
+			title: "Pokecenter Essentials"
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60B885C58E03B74F"]
+			id: "35386EEBBFAD644B"
+			rewards: [{
+				count: 8
+				id: "73ACA5ECC9428376"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39484937DAFCA146"
+				item: "cobblemon:pasture"
+				type: "item"
+			}]
+			title: "Free Range"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5619CC97D22EE00E"]
+			id: "1C0F2F2AA6CDD133"
+			rewards: [
+				{
+					count: 2
+					id: "14C3AE16A0D84130"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "24F8BCE9107147E2"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1984FED40514B4C9"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "Magical Scholar"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5619CC97D22EE00E"]
+			icon: "ars_nouveau:creative_source_jar"
+			id: "5413568A291E5E56"
+			rewards: [{
+				count: 16
+				id: "752CED244823E3DE"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1AAF8506CD39ED27"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "7F00260F099281C2"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5B9E9DB5D0378B58"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			title: "Magical Alchemist"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3846633663A24D8E"]
+			description: ["The hellish ecosystem of the Nether gives rise to a variety of unique &6flora&r that can be made into several &6delicacies&r to enjoy."]
+			icon: "nethersdelight:magma_gelatin"
+			id: "0FE4BB064F871E3C"
+			rewards: [{
+				count: 16
+				id: "596FC78F906A247E"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Nether's Delight"
+			tasks: [
+				{
+					id: "395C3337B6D4ABEA"
+					item: "nethersdelight:magma_gelatin"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "180E314A1F5FA018"
+					item: "nethersdelight:nether_skewer"
+					type: "item"
+				}
+			]
+			title: "Hellish Delicacies"
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["075C687C98DA4D28"]
+			description: ["&6Conquer&r the throne of the &6Nether&r and take your place at its peak."]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "353F09944770AB10"
+			rewards: [
+				{
+					count: 8
+					id: "5A109A63362675C0"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "4B61B7C6BD939E15"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "260FDC4D11D0BB0E"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Conquerer"
+			tasks: [{
+				advancement: "incendium:ash_barrens/conquer_castle"
+				criterion: ""
+				id: "4F3CE3FE5C49F339"
+				type: "advancement"
+			}]
+			title: "King of Hell"
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3335ECD135F35D9D"]
+			description: ["Eradicate the &6pillager cult&r that has established their presence in the Nether by infiltrating the &6Sanctum&r."]
+			id: "588041406F3C5DEA"
+			rewards: [{
+				count: 8
+				id: "085AC6FB2401B454"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "incendium:quartz_flats/sanctum/vault_hunter"
+				criterion: ""
+				id: "2103B3E63067612C"
+				type: "advancement"
+			}]
+			title: "Twisted Faith"
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["46114A891031CEAB"]
+			hide: true
+			icon: "minecraft:barrel"
+			id: "6AC15DF9447D0558"
+			tasks: [{
+				consume_items: true
+				id: "5527FB5EAC1FBF75"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "The Examination of Persistence"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6AC15DF9447D0558"]
+			hide: true
+			icon: "minecraft:barrel"
+			id: "049EA7EFF818ACAC"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7C185167856E260E"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["049EA7EFF818ACAC"]
+			hide: true
+			icon: "minecraft:barrel"
+			id: "0758CD26B2009CEE"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "060CD21378469A77"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0758CD26B2009CEE"]
+			hide: true
+			icon: "minecraft:barrel"
+			id: "537727E7192A89C8"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0377A98A454A8E7D"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["537727E7192A89C8"]
+			hide: true
+			icon: "minecraft:barrel"
+			id: "04541509297CB89A"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "45CB47B8641AF6BF"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["04541509297CB89A"]
+			hide: true
+			icon: "minecraft:barrel"
+			id: "5B3F13B865DE6D18"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2358142F10C3EF5E"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["5B3F13B865DE6D18"]
+			hide: true
+			id: "2A97A79D7DAD1D5E"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0818FE4DBFF94631"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["2A97A79D7DAD1D5E"]
+			hide: true
+			id: "1A6DC38E25832E47"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "781F1BE18A326CF8"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["1A6DC38E25832E47"]
+			hide: true
+			id: "5AF23521516D5CA7"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "0A2E0E44302ED343"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["5AF23521516D5CA7"]
+			hide: true
+			id: "6DB3D3C5CA066221"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "5C8A7C8674888E14"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -25.5d
+		}
+		{
+			dependencies: ["6DB3D3C5CA066221"]
+			hide: true
+			id: "6D4C2429C40FF2CF"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "5E476A36B169B422"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["6D4C2429C40FF2CF"]
+			hide: true
+			id: "537BA7F601DB243E"
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "726235B40BDEB445"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["537BA7F601DB243E"]
+			hide: true
+			id: "484EEC91A8C8CDA9"
+			tasks: [{
+				consume_items: true
+				count: 4096L
+				id: "190D54E71FF46A2A"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["484EEC91A8C8CDA9"]
+			description: ["One piece down..."]
+			hide: true
+			icon: "kubejs:oreo_wafer_bottom"
+			id: "3654075A0944202F"
+			rewards: [
+				{
+					id: "159AA885AC812BDA"
+					item: "kubejs:oreo_wafer_bottom"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "581466772F923598"
+					item: "createdeco:industrial_iron_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1B059CDA4E617548"
+				type: "checkmark"
+			}]
+			title: "Bottom of the Barrel"
+			x: 1.5d
+			y: -33.5d
+		}
+		{
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "345A1A6F426882A0"
+			invisible: true
+			tasks: [{
+				id: "24101F073B579326"
+				title: "centering"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: 29.0d
+		}
+		{
+			dependencies: ["172ACAADF4827026"]
+			description: ["Discover the formidable &6fortress&r of the piglins, the true testament to their &6strengt&rh. Beware, the guards inside possess far more advanced &6technology and skill&r compared to others."]
+			hide: true
+			id: "075C687C98DA4D28"
+			rewards: [{
+				count: 32
+				id: "658148A377C76982"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Forbidden Castle"
+			tasks: [{
+				advancement: "incendium:ash_barrens/enter_castle"
+				criterion: ""
+				id: "2BF5D11E653A3D62"
+				type: "advancement"
+			}]
+			title: "The True Fortress"
+			x: 1.5d
+			y: 12.5d
+		}
+	]
+	title: "Survival"
+}

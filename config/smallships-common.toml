@@ -28,10 +28,10 @@ schematicVersion = 2
 		#Default attributes for the Cog. Speed in km/h, Health in default mc health points
 		[Ship.Cog.Attributes]
 			shipAttributeCogMaxHealth = 300.0
-			shipAttributeCogMaxSpeed = 30.0
-			shipAttributeCogMaxReverseSpeed = 0.1
-			shipAttributeCogMaxRotationSpeed = 4.5
-			shipAttributeCogAcceleration = 0.015
+			shipAttributeCogMaxSpeed = 40.0
+			shipAttributeCogMaxReverseSpeed = 0.2
+			shipAttributeCogMaxRotationSpeed = 5.0
+			shipAttributeCogAcceleration = 0.02
 			shipAttributeCogRotationAcceleration = 0.7
 
 		#Default configs for the container of the Cog.
@@ -49,11 +49,11 @@ schematicVersion = 2
 		#Default attributes for the Brigg. Speed in km/h, Health in default mc health points
 		[Ship.Brigg.Attributes]
 			shipAttributeBriggMaxHealth = 450.0
-			shipAttributeBriggMaxSpeed = 35.0
+			shipAttributeBriggMaxSpeed = 50.0
 			shipAttributeBriggMaxReverseSpeed = 0.1
 			shipAttributeBriggMaxRotationSpeed = 4.0
-			shipAttributeBriggAcceleration = 0.015
-			shipAttributeBriggRotationAcceleration = 0.55
+			shipAttributeBriggAcceleration = 0.01
+			shipAttributeBriggRotationAcceleration = 0.4
 
 		#Default configs for the container of the Brigg.
 		[Ship.Brigg.Container]
@@ -72,9 +72,9 @@ schematicVersion = 2
 			shipAttributeGalleyMaxHealth = 200.0
 			shipAttributeGalleyMaxSpeed = 30.0
 			shipAttributeGalleyMaxReverseSpeed = 0.1
-			shipAttributeGalleyMaxRotationSpeed = 5.0
-			shipAttributeGalleyAcceleration = 0.015
-			shipAttributeGalleyRotationAcceleration = 1.0
+			shipAttributeGalleyMaxRotationSpeed = 8.0
+			shipAttributeGalleyAcceleration = 0.03
+			shipAttributeGalleyRotationAcceleration = 1.5
 
 		#Default configs for the container of the Galley.
 		[Ship.Galley.Container]

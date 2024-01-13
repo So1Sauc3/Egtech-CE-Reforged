@@ -93,40 +93,44 @@
 				}
 				{
 					consume_items: true
-					count: 8L
+					count: 16L
 					id: "54DB03BCEB88F0D4"
 					item: "alexsmobs:crocodile_scute"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 8L
-					id: "13FAD7E664B4E7B4"
-					item: "alexsmobs:blood_sac"
-					type: "item"
-				}
-				{
-					count: 8L
+					count: 16L
 					id: "1B032425B69AFC58"
 					item: "alexsmobs:fish_bones"
 					type: "item"
 				}
 				{
-					count: 8L
+					consume_items: true
+					count: 16L
 					id: "7A4C65F06E8F33CF"
 					item: "alexsmobs:serrated_shark_tooth"
 					type: "item"
 				}
 				{
-					count: 4L
+					consume_items: true
+					count: 8L
 					id: "532D98714D247CC2"
 					item: "alexsmobs:straddlite"
 					type: "item"
 				}
 				{
-					count: 4L
+					consume_items: true
+					count: 8L
 					id: "0EDF5D444797536E"
 					item: "alexsmobs:bone_serpent_tooth"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "0E3F78A608F10327"
+					item: "minecraft:nether_star"
 					type: "item"
 				}
 			]
@@ -160,39 +164,50 @@
 				{
 					consume_items: true
 					count: 8L
-					id: "54345BE8E29D735A"
-					item: "create:honeyed_apple"
+					id: "5122795B755FC948"
+					item: "alexsmobs:shrimp_fried_rice"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 8L
-					id: "0FF84EADEC7893DA"
-					item: "farmersdelight:apple_pie"
+					id: "26C81662E790DA94"
+					item: "alexscaves:seething_stew"
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "240CCA6EE0AC8CED"
-					item: "farmersdelight:vegetable_soup"
+					consume_items: true
+					count: 16L
+					id: "3A887AEE5AF0A464"
+					item: "farmersdelight:vegetable_noodles"
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "4252333CC25D3667"
-					item: "farmersdelight:mushroom_rice"
+					consume_items: true
+					count: 4L
+					id: "299847812A2B5E07"
+					item: "farmersdelight:stuffed_pumpkin_block"
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "11A57CF2C7D3F50B"
-					item: "farmersdelight:grilled_salmon"
+					consume_items: true
+					count: 4L
+					id: "2DE80F611C603E14"
+					item: "farmersdelight:rice_roll_medley_block"
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "6CE30916A7B948E9"
-					item: "farmersdelight:shepherds_pie"
+					consume_items: true
+					count: 4L
+					id: "0607A9A474B492A1"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "47080193B1C07660"
+					item: "create:honeyed_apple"
 					type: "item"
 				}
 			]
@@ -226,50 +241,44 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 16L
+					count: 128L
 					id: "63AA206E905D5775"
 					item: "create:track"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "7A1512B9D92D2E58"
 					item: "create:gearbox"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "2776185CD46B1C3F"
 					item: "create:precision_mechanism"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4L
-					id: "08DC0791C3C1BB7A"
-					item: "create:gantry_carriage"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "006ECC1CE2A76ED5"
-					item: "create:encased_chain_drive"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 4L
+					count: 8L
 					id: "3FA26AEA415F249C"
 					item: "create:brass_funnel"
 					type: "item"
 				}
 				{
-					count: 4L
+					consume_items: true
+					count: 8L
 					id: "195A2553E63BADF9"
 					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "5EDF5D86836C77A7"
+					item: "create:blaze_burner"
 					type: "item"
 				}
 			]
@@ -350,7 +359,7 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 6L
+					count: 9L
 					id: "2F9D1539C05F21DA"
 					item: {
 						Count: 1b
@@ -363,7 +372,7 @@
 				}
 				{
 					consume_items: true
-					count: 6L
+					count: 9L
 					id: "54F11B9AA34227A7"
 					item: {
 						Count: 1b
@@ -376,7 +385,7 @@
 				}
 				{
 					consume_items: true
-					count: 6L
+					count: 9L
 					id: "77B359F21D3CA213"
 					item: {
 						Count: 1b
@@ -389,7 +398,7 @@
 				}
 				{
 					consume_items: true
-					count: 6L
+					count: 9L
 					id: "433FC5602F3681F7"
 					item: {
 						Count: 1b
@@ -402,13 +411,39 @@
 				}
 				{
 					consume_items: true
-					count: 6L
+					count: 9L
 					id: "26EE2CEA8C19BB03"
 					item: {
 						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 9L
+					id: "77C56FC4EEDB5A26"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "ars_nouveau:blasting_potion_strong"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 9L
+					id: "6DA69C81D835EC05"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "ars_nouveau:freezing_potion_strong"
 						}
 					}
 					type: "item"
@@ -756,7 +791,7 @@
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "29849EADFEA5802F"
 					item: "alexsmobs:emu_egg"
 					type: "item"
@@ -769,8 +804,24 @@
 					type: "item"
 				}
 				{
-					id: "5387D7C0A149ADC1"
-					item: "cataclysm:abyssal_egg"
+					consume_items: true
+					count: 8L
+					id: "354C7FE590E01036"
+					item: "alexscaves:subterranodon_egg"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "35DAA0D2D6521501"
+					item: "alexscaves:vallumraptor_egg"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "380F2938540472B6"
+					item: "alexscaves:grottoceratops_egg"
 					type: "item"
 				}
 			]
@@ -804,48 +855,26 @@
 		{
 			can_repeat: true
 			dependencies: ["700EA94C031D57FA"]
-			description: ["Powerful remains of ancient weapons."]
-			hide_dependency_lines: true
-			icon: "simplyswords:empowered_remnant"
-			id: "25475A18EA653056"
-			rewards: [{
-				id: "27BE4856BCEC4123"
-				item: "simplyswords:empowered_remnant"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "53882898CBE230DB"
-				item: "createdeco:brass_coin"
-				type: "item"
-			}]
-			title: "Empowered Remnant"
-			x: 7.0d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["700EA94C031D57FA"]
-			description: ["To further augment already powerful items."]
+			description: ["Powerful materials to upgrade your weapons."]
 			hide_dependency_lines: true
 			icon: "simplyswords:runic_tablet"
-			id: "4ADC75C10EBAE627"
+			id: "25475A18EA653056"
 			rewards: [{
-				id: "6A078B592C726CD9"
-				item: "simplyswords:runic_tablet"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "023C7C0B94F29612"
+				table_id: 2850800853511345388L
+				type: "choice"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
-				id: "489BC016ABC4BFC6"
+				id: "53882898CBE230DB"
 				item: "createdeco:brass_coin"
 				type: "item"
 			}]
-			title: "Runic Tablet"
+			title: "Simply Swords Materials"
 			x: 7.0d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0A2AC68EAC66D1CC"]
@@ -1203,14 +1232,27 @@
 			dependencies: ["2A43BB1A248EE3F9"]
 			description: ["Removing mistakes."]
 			hide_dependency_lines: true
-			icon: "skilltree:vacucite"
+			icon: {
+				Count: 1b
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:vacucite_3"
+				}
+			}
 			id: "482BB3E6C2B97544"
 			rewards: [{
-				id: "5CBC1096413D306A"
-				item: "skilltree:vacucite"
+				id: "61063271C7AD4965"
+				item: {
+					Count: 1b
+					id: "skilltree:gem"
+					tag: {
+						type: "skilltree:vacucite_3"
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 48L
 				id: "1FD402CC54C82ECB"
 				item: "createdeco:copper_coin"
@@ -1225,15 +1267,22 @@
 			dependencies: ["2A43BB1A248EE3F9"]
 			description: ["Colorful augments to existing gear."]
 			hide_dependency_lines: true
-			icon: "skilltree:iriscite"
+			icon: {
+				Count: 1b
+				id: "skilltree:gem"
+				tag: {
+					type: "skilltree:iriscite_2"
+				}
+			}
 			id: "4D509C05E179F3CF"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "218F9890FA960E81"
-				table_id: 5174926021477806819L
+				id: "489B0891FA404E84"
+				table_id: 4925469280486701579L
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 128L
 				id: "6BF836C7BA05E8B1"
 				item: "createdeco:copper_coin"
@@ -1256,6 +1305,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 4L
 				id: "38F3FADB86A63653"
 				item: "createdeco:brass_coin"
@@ -1289,6 +1339,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 64L
 				id: "217CB64A9AA90A49"
 				item: "createdeco:brass_coin"
@@ -1297,6 +1348,27 @@
 			title: "Amulet"
 			x: 5.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["700EA94C031D57FA"]
+			description: ["mOrE gAmBLiNg"]
+			hide_dependency_lines: true
+			id: "00CB544E47216164"
+			rewards: [{
+				id: "5A8126A9D1058FFD"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "38D3C1572437DDAD"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			title: "Epic Hat Grab Bag"
+			x: 7.0d
+			y: -5.0d
 		}
 	]
 	title: "Market"

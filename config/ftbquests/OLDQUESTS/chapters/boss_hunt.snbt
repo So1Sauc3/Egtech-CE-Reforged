@@ -1,0 +1,1134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss_hunt"
+	group: "2AA1CE9666BDB6E0"
+	icon: "cataclysm:flame_eye"
+	id: "382439CAE2DEA246"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["172ACAADF4827026"]
+			description: ["The Witherstorm's defeat unlocks countless new lines of &6progression&r. No longer being constantly &6hunted&r by such a destructive force, the player is able to begin &6exploring&r the world in greater detail and challenge new, strong &6bosses&r, becoming much more &6powerful&r in the process."]
+			id: "15C68D60EA501F59"
+			rewards: [{
+				id: "67C4C8B43AA2BB09"
+				item: "a_man_with_plushies:plush_box"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5F0AF5F203A81395"
+				item: "witherstormmod:withered_nether_star"
+				type: "item"
+			}]
+			title: "Savior"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C68D60EA501F59"]
+			description: ["Defeat the &6elder guardians&r in the ancient monument and begin your venture into the dark depths of the &6ocean&r."]
+			icon: {
+				Count: 1b
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "391467814141A620"
+			rewards: [{
+				count: 32
+				id: "05A248E54FC43A6F"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EC87EA03DC49C49"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ancient Construct"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C68D60EA501F59"]
+			description: ["Slay an &6evoker&r and begin your adventure towards the multitude of &6magical&r bosses."]
+			icon: {
+				Count: 1b
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "788967565DF39863"
+			rewards: [{
+				count: 32
+				id: "24F48E652E2C74AB"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A5372FB81544AFC"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mana \\& Artifice"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C68D60EA501F59"]
+			description: ["Defeat the &6normal&r wither and begin your descent towards the fiery bosses of &6hell&r."]
+			icon: {
+				Count: 1b
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F548D96921647F9"
+			rewards: [
+				{
+					count: 32
+					id: "7BAAD4C5B4002D34"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					id: "215BCA704EC15294"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66D5B8FCCB39F876"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Lesser"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F548D96921647F9"]
+			description: ["Defeat the &6Netherite Monstrosity&r and obtain its main drop, upgrading both your weapon and your &6pickaxe&r."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "247751AEAB407B70"
+			rewards: [
+				{
+					count: 32
+					id: "3D450068F078E2DF"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F83D540CB947628"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "0F7EEE8BC4269C14"
+					type: "advancement"
+				}
+				{
+					id: "197D3E6A1FB67293"
+					item: {
+						Count: 1b
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Foundry"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["247751AEAB407B70"]
+			description: ["Challenge and defeat the &6Ignis&r, a souls-like boss that holds reign over hell. The &6ingots&r it drops can be used to forge powerful gear."]
+			icon: "cataclysm:the_incinerator"
+			id: "2B5D0244C1E2BDC7"
+			rewards: [{
+				count: 4
+				id: "2E8B4BF36291ED0F"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "2A29D9491F305C10"
+					type: "advancement"
+				}
+				{
+					id: "1982B95C29493B41"
+					item: "cataclysm:the_incinerator"
+					type: "item"
+				}
+			]
+			title: "Dark Souls"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14C6F7933BB9AC92"]
+			description: ["Best the wild regions of the &6primoridial caves&r by &6taming&r its king with a crude weapon."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "alexscaves:primitive_club"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C6AA3F0F6CCB741"
+			rewards: [
+				{
+					count: 32
+					id: "31D7C4D13D8A6B67"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7383F13A46B228E0"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/tame_tremorsaurus"
+					criterion: ""
+					id: "064471852813B694"
+					type: "advancement"
+				}
+				{
+					id: "100F9395B5F0CFDF"
+					item: {
+						Count: 1b
+						id: "alexscaves:primitive_club"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bonk"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["14C6F7933BB9AC92"]
+			description: ["Pacify the toxic caves by defeating its &6tankiest brute&r and obtain &6alien-like&r weaponry."]
+			hide: true
+			icon: "alexscaves:raygun"
+			id: "6966E8C8EA3D65AB"
+			rewards: [
+				{
+					count: 32
+					id: "74122AC738D1F58F"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59E43E1D1E261434"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/defeat_brainiac"
+					criterion: ""
+					id: "7D34A4989A23B1FD"
+					type: "advancement"
+				}
+				{
+					id: "3B7E21AD93A8889D"
+					item: "alexscaves:raygun"
+					type: "item"
+				}
+			]
+			title: "Area 51"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["339AD67838274E0F"]
+			description: ["Summon and defeat the &6Leviathan,&r hidden away in the bowels of a &6half-submerged&r city."]
+			icon: "cataclysm:tidal_claws"
+			id: "01C634A27C66DC8D"
+			rewards: [
+				{
+					count: 4
+					id: "7386FF3DBC0C995C"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "414D77F61691C68B"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "0898769B7AC6B368"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "22D03E184B79C834"
+					type: "advancement"
+				}
+				{
+					id: "02973449C9A392DD"
+					item: "cataclysm:tidal_claws"
+					type: "item"
+				}
+			]
+			title: "Whiplash"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["788967565DF39863"]
+			description: ["Summon and defeat the &6Wilden Chimera&r, unlocking access to &6higher grade&r spell glyphs and items."]
+			hide: true
+			icon: "ars_nouveau:wilden_tribute"
+			id: "56B05809C650FAC3"
+			rewards: [
+				{
+					count: 32
+					id: "02A86D8EFD9A73D0"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "25E606741429CAC3"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46C85EFECBCF845C"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "Bellerophon"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56B05809C650FAC3"]
+			description: ["Obtain the archmage spellbook, the strongest &6spellcrafting&r tome in Ars Nouveau."]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "74761A2A02DA464A"
+			rewards: [
+				{
+					count: 2
+					id: "0B7466DCDA81793F"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "1FB61280255968C8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "535D786E4C8DE12B"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0308048D88CA7726"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "Archmage"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56B05809C650FAC3"]
+			description: ["Defeat the &6\"Dead\" King&r and obtain the &6blood staff&r, a unique spellbook with powerful capabilities."]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:blood_staff"
+				tag: {
+					ISB_spellbook: {
+						activeSpellIndex: 0
+						spellSlots: 5
+						spells: [
+							{
+								level: 6
+								sid: "irons_spellbooks:wither_skull"
+								slot: 0
+							}
+							{
+								level: 6
+								sid: "irons_spellbooks:ray_of_siphoning"
+								slot: 1
+							}
+							{
+								level: 3
+								sid: "irons_spellbooks:blood_step"
+								slot: 2
+							}
+							{
+								level: 6
+								sid: "irons_spellbooks:blood_slash"
+								slot: 3
+							}
+							{
+								level: 6
+								sid: "irons_spellbooks:blaze_storm"
+								slot: 4
+							}
+						]
+					}
+				}
+			}
+			id: "3750EB9B147C0738"
+			rewards: [{
+				count: 2
+				id: "645D5000109881D2"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4168076203D8036B"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:blood_staff"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: 0
+							spellSlots: 5
+							spells: [
+								{
+									level: 6
+									sid: "irons_spellbooks:wither_skull"
+									slot: 0
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:ray_of_siphoning"
+									slot: 1
+								}
+								{
+									level: 3
+									sid: "irons_spellbooks:blood_step"
+									slot: 2
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:blood_slash"
+									slot: 3
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:blaze_storm"
+									slot: 4
+								}
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Sealed Fate"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["339AD67838274E0F"]
+			description: ["Encounter and defeat a &6skelewag&r that spawns near &6sunken&r structures, and obtain its skull as a weapon."]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:skelewag_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0815F1CA2B79BCD9"
+			rewards: [{
+				count: 2
+				id: "49B7D242ABEF899A"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/skelewag"
+					criterion: ""
+					id: "175080508D672FBA"
+					type: "advancement"
+				}
+				{
+					id: "4D8CE8901A5A008A"
+					item: {
+						Count: 1b
+						id: "alexsmobs:skelewag_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Jack Sparrow"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7CF8895E97EDED83"
+				"2B5D0244C1E2BDC7"
+			]
+			description: ["Finally &6fuse&r together the chestplate and elytra, acquiring a &6formidable&r chest piece with top tier &6mobility&r."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:ignitium_elytra_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "174398DE00216EC4"
+			rewards: [
+				{
+					count: 8
+					id: "0EBF1D42BED81F6D"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "1C5C8BACCBA9A266"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "170B20E4B349CB01"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "008D9B2CE58B7492"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Phoenix"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["391467814141A620"]
+			description: ["Engage in peaceful trading with the &6Deep Ones&r, and obtain various ocean-themed weapons."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "alexscaves:sea_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "339AD67838274E0F"
+			rewards: [
+				{
+					count: 32
+					id: "0E541A5EA3E9C7C5"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E184995F23619B2"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/trade_with_deep_one"
+					criterion: ""
+					id: "43D75F1A642C41D4"
+					type: "advancement"
+				}
+				{
+					id: "7738E8BBAB0FD020"
+					item: {
+						Count: 1b
+						id: "alexscaves:sea_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06E3457FF7A03DB5"
+					item: {
+						Count: 1b
+						id: "alexscaves:ortholance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Lovecraftian Depths"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15C68D60EA501F59"]
+			description: ["Obtain an evil eye from &6trading&r with a priest, and begin your journey into the new world, full of bosses to &6challenge&r."]
+			icon: {
+				Count: 1b
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "14C6F7933BB9AC92"
+			rewards: [{
+				count: 32
+				id: "27AFAC3A70A8CD00"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A0B7C2DAB79FF56"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hunter"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F548D96921647F9"]
+			description: ["Defeat the &6Warped Mosco&r and obtain its muscles, useful for crafting powerful items."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "alexsmobs:hemolymph_blaster"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F381715C4E1A9DE"
+			rewards: [{
+				count: 2
+				id: "102510B04A806300"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+					criterion: ""
+					id: "74D49DE5E9B8BE52"
+					type: "advancement"
+				}
+				{
+					id: "115473E79C9AE8BB"
+					item: {
+						Count: 1b
+						id: "alexsmobs:hemolymph_blaster"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Evolution"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F548D96921647F9"]
+			description: ["Lava &6surfing&r WOOOOOOOOO"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "alexsmobs:straddleboard"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C3BAFAA726FDF62"
+			rewards: [{
+				id: "1E571F19568E2D98"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A9CE57DB01DD753"
+				item: {
+					Count: 1b
+					id: "alexsmobs:straddleboard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Surf's Up"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14C6F7933BB9AC92"]
+			description: ["Neutralize the magnetic caves by defeating a &6guardian&r golem, and use its &6heart&r to craft magnetic gear."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "alexscaves:galena_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "096931446EF69238"
+			rewards: [
+				{
+					count: 32
+					id: "4E9DC403D192B301"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B2925E68C80B6C6"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/defeat_magnetron"
+					criterion: ""
+					id: "23E8439D6FE7A4E7"
+					type: "advancement"
+				}
+				{
+					id: "5A0E095C690D9CBD"
+					item: {
+						Count: 1b
+						id: "alexscaves:resistor_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6305A0C478086DA9"
+					item: {
+						Count: 1b
+						id: "alexscaves:galena_gauntlet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Force"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["14C6F7933BB9AC92"]
+			description: ["Challenge and eradicate the &6cultists'&r ultimate &6summon,&r and obtain &6pure darkness&r capable of being woven into powerful weapons."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "alexscaves:hood_of_darkness"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77113008049D7C7E"
+			rewards: [
+				{
+					count: 32
+					id: "142A06D6E4CCB297"
+					item: "createdeco:copper_coin"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "63486C3357733922"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/defeat_forsaken"
+					criterion: ""
+					id: "0B7280AE0EBA2F85"
+					type: "advancement"
+				}
+				{
+					id: "3E65EF8CFC5E93DD"
+					item: {
+						Count: 1b
+						id: "alexscaves:desolate_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6002B1F2FD523442"
+					item: {
+						Count: 1b
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B72D887B97BD929"
+					item: {
+						Count: 1b
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CBF3499643B8833"
+					item: {
+						Count: 1b
+						id: "alexscaves:dreadbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Edgelord"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["416B03D308FCA442"]
+			description: ["Summon and defeat the &6void worm&r to obtain its &6eye&r, craftable into a pickaxe that can tear through the &6dimensional&r fabric itself to return you to your &6spawnpoint&r."]
+			icon: "alexsmobs:void_worm_eye"
+			id: "57E454E6A6D297B3"
+			rewards: [{
+				count: 2
+				id: "52B98E5A96F682FD"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/void_worm_kill"
+					criterion: ""
+					id: "3310BC878FF6C274"
+					type: "advancement"
+				}
+				{
+					id: "669DA6E45EB00A83"
+					item: {
+						Count: 1b
+						id: "alexsmobs:dimensional_carver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Devourer of Gods"
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"77113008049D7C7E"
+				"6966E8C8EA3D65AB"
+				"096931446EF69238"
+				"3C6AA3F0F6CCB741"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Defeat the ancient &6machinery&r buried deep within the earth and obtain a &6powerful anvil&r, unlocking the &6fusion&r of many powerful gear."]
+			icon: "cataclysm:mechanical_fusion_anvil"
+			id: "7CF8895E97EDED83"
+			rewards: [
+				{
+					count: 4
+					id: "2B1CD96801E24D72"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "68FA5F252C8F9679"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "6FE264308E0F50AA"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:kill_harbinger"
+					criterion: ""
+					id: "09E0D2568221D362"
+					type: "advancement"
+				}
+				{
+					id: "55B8885CAB2FD9DC"
+					item: "cataclysm:mechanical_fusion_anvil"
+					type: "item"
+				}
+			]
+			title: "The Forge"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7CF8895E97EDED83"]
+			description: ["Conquer the end and defeat the &6ender dragon&r, triggering &6master mode&r. With the defeat of the dragon, mobs will once again increase greatly in &6strength&r. Be &6prepared&r."]
+			icon: "minecraft:end_crystal"
+			id: "416B03D308FCA442"
+			rewards: [
+				{
+					count: 2
+					id: "1189113ED3E22054"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "40629A8710D7CB0A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/root"
+					criterion: ""
+					id: "7CBDAB9B845050CF"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "5A552BF568FF8C2C"
+					type: "advancement"
+				}
+			]
+			title: "Master Mode"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["416B03D308FCA442"]
+			description: ["Defeat the &6ender guardian&r and obtain its mechanical arm, gaining control of &6gravitational&r effects and void energy."]
+			id: "3294DA42E4D236CC"
+			rewards: [{
+				count: 2
+				id: "30788594D0E39A03"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "cataclysm:kill_ender_guardian"
+					criterion: ""
+					id: "71AED44CA715AAC3"
+					type: "advancement"
+				}
+				{
+					id: "7F1DB3C1E0210102"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+				{
+					id: "6E2C2FC189998AE4"
+					item: "cataclysm:gauntlet_of_guard"
+					type: "item"
+				}
+			]
+			title: "Keeper of Void"
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"7CF8895E97EDED83"
+				"3294DA42E4D236CC"
+			]
+			description: ["Use the mechanical fusion anvil to forge the &6void forge&r, an upgrade that comes with new &6void energy&r manipulation capabilities."]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:void_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20DB99EF8FD44332"
+			rewards: [{
+				count: 2
+				id: "65BF222446F531B7"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EE241FF55640B52"
+				item: {
+					Count: 1b
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Reinhardt"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"7CF8895E97EDED83"
+				"3294DA42E4D236CC"
+			]
+			description: ["Use the mechanical fusion anvil to forge the &6VASW&r, an upgrade that comes with new &6void energy&r-augmented howitzers."]
+			hide: true
+			hide_dependency_lines: true
+			icon: "cataclysm:void_assault_shoulder_weapon"
+			id: "24FEC12EAF127030"
+			rewards: [{
+				count: 2
+				id: "18403A3B7775C5FF"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7189ACDB382BA265"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "Misato Tachibana"
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3294DA42E4D236CC"]
+			description: ["Upgrade your &6gauntlet&r in a mechanical fusion anvil with the Ignis's &6shield&r, creating a &6formidable&r melee weapon."]
+			hide: true
+			icon: "cataclysm:gauntlet_of_bulwark"
+			id: "1A38B3C34C616DA7"
+			rewards: [
+				{
+					count: 8
+					id: "5D7BC7652111D3F3"
+					item: "createdeco:brass_coin"
+					type: "item"
+				}
+				{
+					id: "0E0446BF389691FE"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "269CB50BB43A782B"
+					item: "a_man_with_plushies:plush_box"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "117EFDDCBE8FC910"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			title: "Doomfist"
+			x: 0.5d
+			y: -14.5d
+		}
+	]
+	title: "Arms Race"
+}

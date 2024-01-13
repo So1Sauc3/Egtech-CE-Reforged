@@ -1,0 +1,10 @@
+{
+	id: "27901445A6EC94EC"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "simplyswords:runic_tablet" }
+		{ item: "simplyswords:empowered_remnant" }
+	]
+	title: "Runic Items"
+}
