@@ -128,7 +128,7 @@
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 2L
 					id: "0E3F78A608F10327"
 					item: "minecraft:nether_star"
 					type: "item"
@@ -832,24 +832,25 @@
 		{
 			can_repeat: true
 			dependencies: ["2A43BB1A248EE3F9"]
-			description: ["For all of your runesmithing needs!"]
+			description: ["Currently unobtainable(?) drops from Alex's Mobs"]
 			hide_dependency_lines: true
-			icon: "irons_spellbooks:blank_rune"
+			icon: "alexsmobs:capsid"
 			id: "7929A0835E3CE303"
 			rewards: [{
-				id: "26E1E530655E7236"
-				item: "irons_spellbooks:blank_rune"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7C59372712DC2286"
+				table_id: 9084496697722182051L
+				type: "choice"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 32L
 				id: "7BD4D836C5CF0CE1"
 				item: "createdeco:copper_coin"
 				type: "item"
 			}]
-			title: "Runestone"
-			x: -8.0d
+			title: "Alex's Mobs Materials"
+			x: -6.0d
 			y: -5.0d
 		}
 		{
@@ -933,7 +934,7 @@
 				type: "item"
 			}]
 			title: "Blue Bomb"
-			x: -6.0d
+			x: -8.0d
 			y: -5.0d
 		}
 		{
@@ -1241,7 +1242,7 @@
 			}
 			id: "482BB3E6C2B97544"
 			rewards: [{
-				id: "61063271C7AD4965"
+				id: "1596CE42EB83A68F"
 				item: {
 					Count: 1b
 					id: "skilltree:gem"
@@ -1253,7 +1254,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 48L
+				count: 32L
 				id: "1FD402CC54C82ECB"
 				item: "createdeco:copper_coin"
 				type: "item"
@@ -1283,7 +1284,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 128L
+				count: 64L
 				id: "6BF836C7BA05E8B1"
 				item: "createdeco:copper_coin"
 				type: "item"
@@ -1350,9 +1351,11 @@
 			y: -7.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["700EA94C031D57FA"]
 			description: ["mOrE gAmBLiNg"]
 			hide_dependency_lines: true
+			icon: "simplehats:hatbag_epic"
 			id: "00CB544E47216164"
 			rewards: [{
 				id: "5A8126A9D1058FFD"

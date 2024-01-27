@@ -215,7 +215,7 @@
 		}
 		{
 			dependencies: ["41FC19F8C75AC180"]
-			description: ["The world has been altered forever by Tectonic and Regions Unexplored, combining large and &6dramatic terrain&r generation with a vast collection of &6new biomes&r to explore. Structures have been revamped and new ones added, from Yung's Better Structures to Better Villages and boss arenas from Lender's Cataclysm. The world is filled with unique adventures to undertake and terrain to &6explore&r."]
+			description: ["The world has been altered forever by Tectonic and Regions Unexplored, combining large and &6dramatic terrain&r generation with a vast collection of &6new biomes&r to explore using a &6nature's compass&r. Structures have been revamped and new ones added, from Yung's Better Structures to Better Villages and boss arenas from Lender's Cataclysm. The world is filled with unique adventures to undertake and terrain to &6explore&r."]
 			icon: "cobblemon:heavy_duty_boots"
 			id: "5D479A4CF975C84A"
 			rewards: [

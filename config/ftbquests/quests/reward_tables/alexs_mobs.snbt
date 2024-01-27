@@ -1,0 +1,10 @@
+{
+	id: "7E129D9D66F099A3"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "alexsmobs:maggot" }
+		{ item: "alexsmobs:capsid" }
+	]
+	title: "Alex's Mobs"
+}

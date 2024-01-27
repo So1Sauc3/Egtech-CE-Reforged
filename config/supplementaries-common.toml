@@ -90,17 +90,13 @@
 		quill_adventurer_maps = true
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
 		quill_vanilla_maps = true
-		#These maps will roll a difference structure every time. Increase their price to balance them
-		#Range: 1.0 ~ 10.0
-		map_trade_price_multiplier = 2.0
-		#These maps will roll a difference structure every time. Decrease their max trades to balance them
-		#Range: 1 ~ 12
-		map_trade_max_trades = 2
 		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
 		#Range: 10 ~ 600
 		min_search_radius = 75
 		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
 		tinted_blocks_on_maps = true
+		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
+		random_adventurer_maps_select_random_structure = true
 
 	[tweaks.ceiling_banners]
 		#Allow banners to be placed on ceilings
@@ -155,6 +151,10 @@
 		cat_unluck = true
 		#If you have unluck you are more likely to get hit by a lighting
 		lightning_unluck = true
+
+	[tweaks.item_lore]
+		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
+		enabled = true
 
 #General settings
 [general]
@@ -246,6 +246,7 @@
 		ticks_to_increase_power = 15
 		#do enderman heads work when looked from any side?
 		work_from_any_side = false
+		drop_head = true
 
 	[redstone.turn_table]
 		enabled = true
@@ -351,15 +352,16 @@
 		#Dyed Bock types that cannot be cleaned with soap
 		clean_blacklist = ["minecraft:glazed_terracotta"]
 
+		#This is a map of special blocks that can be cleaned with soap
+		[functional.soap.special_blocks]
+			"minecraft:sticky_piston" = "minecraft:piston"
+			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"quark:dirty_glass" = "minecraft:glass"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
+
 	[functional.flax]
 		enabled = true
 		wild_flax = true
-		#How many trades to give to wandering trader
-		#Range: 0 ~ 10
-		wandering_trader_trades = 2
-		#How many trades to give to farmers
-		#Range: 0 ~ 10
-		farmer_trades = 1
 
 [building]
 	lapis_bricks = true
@@ -390,7 +392,6 @@
 
 	[building.ash_bricks]
 		enabled = true
-		mason_trades = true
 
 	[building.blackboard]
 		enabled = true
@@ -474,9 +475,6 @@
 	[building.globe]
 		enabled = true
 		sepia_globe = true
-		#How many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
-		#Range: 0 ~ 50
-		wandering_trader_trades = 2
 
 	[building.sign_post]
 		enabled = true
@@ -487,6 +485,11 @@
 			#With this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
 
+	[building.hat_stand]
+		enabled = true
+		#Allow all items to go on hat stand
+		unrestricted = false
+
 [tools]
 	candy = true
 	stasis = true
@@ -494,7 +497,6 @@
 
 	[tools.antique_ink]
 		enabled = true
-		cartographer_trades = true
 
 	[tools.quiver]
 		enabled = true

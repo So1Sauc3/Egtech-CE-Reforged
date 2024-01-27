@@ -229,13 +229,14 @@
 			dependencies: ["2C2F393F4233D064"]
 			description: [
 				"&bCriteria&r:"
-				"- defeat all &6bosses&r featured in the &6Arms Race&r chapter of Mid Game in under &63 hours&r"
+				"- defeat all &6bosses&r featured in the &6Arms Race&r chapter of Mid Game in under &62 hours&r"
 				""
 				"&bSubmit&r:"
 				"- &6video&r proof of killing every boss consecutively, cannot be edited"
 				""
 				"&bRules&r:"
 				"- logging out will pause timer, but you must inform the server you are doing the challenge and logging out"
+				"- bosses must be fought in their original spawn locations"
 				"- cannot be done collaboratively (for now)"
 			]
 			icon: "minecraft:stone_button"
@@ -453,7 +454,7 @@
 				""
 				"&bRules&r:"
 				"- factory must be built by you"
-				"- &7machines&r in this case is defined as all &6automatable&r items in the Create mod, excluding purely &6decorative/nonfunctional&r building blocks/items"
+				"- &6machines&r in this case is defined as all &6automatable&r items in the Create mod, excluding purely &6decorative/nonfunctional&r building blocks/items"
 				"- &6automating&r one item qualifies as automating its &6component&r items, but &6not&r the other way around"
 			]
 			icon: "create:creative_crate"
@@ -787,7 +788,9 @@
 				"- &6video/photo&r proof of PC containing all necessary pokemon"
 				""
 				"&bRules&r:"
+				"- &6Starter&r pokemon are not needed for the total"
 				"- &6duplicates&r do &6not&r count towards the final total"
+				"- &6evolutions&r of a pokemon count for its previous ones"
 				"- &6shiny&r pokemon variants are &6not required&r and count as &6normal&r"
 			]
 			icon: "cobblemon:master_ball"

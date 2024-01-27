@@ -112,6 +112,8 @@ ServerEvents.recipes(event => {
     
     event.recipes.create.splashing('gold_nugget', 'red_sand')
 
+	event.recipes.create.filling('lapis_lazuli', [Fluid.of('create_enchantment_industry:experience', 10), 'quartz'])
+
     event.recipes.create.compacting('kubejs:oreo_thin', ['kubejs:oreo_wafer_top','kubejs:oreo_cream','kubejs:oreo_wafer_bottom']).superheated()
     
     event.recipes.create.haunting('create:zinc_ingot','iron_ingot')
@@ -120,6 +122,8 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.create.crushing('2x kubejs:unstable_crushed_nether_star','kubejs:nether_star_fragment')
 	
+	event.recipes.create.mixing(['2x create:cinder_flour','glass_bottle'],['supplementaries:ash','irons_spellbooks:blood_vial']).heated()
+
 	event.recipes.create.mixing('kubejs:refined_explosive_powder',['2x alexscaves:sulfur_dust','blaze_powder','gunpowder']).heated()
 
 	event.recipes.create.mixing('32x kubejs:stabilized_crushed_nether_star',['32x kubejs:unstable_crushed_nether_star','cataclysm:ignitium_ingot','kubejs:refined_explosive_powder']).superheated()

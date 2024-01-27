@@ -3,7 +3,6 @@
   "maxPokemonLevel": 100,
   "maxPokemonFriendship": 255,
   "announceDropItems": true,
-  "defaultDropItemMethod": "ON_ENTITY",
   "ambientPokemonCryTicks": 1080,
   "defaultBoxCount": 30,
   "pokemonSaveIntervalSeconds": 30,
@@ -32,6 +31,7 @@
   "allowExperienceFromPvP": true,
   "experienceShareMultiplier": 0.5,
   "luckyEggMultiplier": 1.5,
+  "allowSpectating": true,
   "experienceMultiplier": 2.0,
   "pokemonPerChunk": 1.0,
   "passiveStatuses": {
@@ -61,7 +61,6 @@
   "energyRootChance": 0.25,
   "maxDynamaxLevel": 10,
   "teraTypeRate": 20.0,
-  "consumeHeldItems": true,
   "defaultPasturedPokemonLimit": 16,
   "pastureBlockUpdateTicks": 40,
   "pastureMaxWanderDistance": 64,
