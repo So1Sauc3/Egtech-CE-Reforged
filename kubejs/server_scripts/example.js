@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'witherstormmod:amulet' })
     event.remove({ output: 'a_man_with_plushies:golden_plush_box' })
     event.remove({ output: 'a_man_with_plushies:plush_box' })
-	
+	/*
 	event.remove({ output: 'createarmory:barrel_part'})
 	event.remove({ output: 'createarmory:nine_mm'})
 	event.remove({ output: 'createarmory:five_five_six'})
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 			event.recipes.createPressing(itr,itr)
 		]
 	).transitionalItem(itr).loops(1)
-	
+	*/
     event.shaped('a_man_with_plushies:plush_box', [
         'ABA', 
         'CDC',
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
         C: 'minecraft:diamond',
         D: 'minecraft:nether_star'   
     })
-
+	/*
 	event.shaped('createarmory:barrel_part', [
         'aaa', 
         'bbb',
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
 		c: 'supplementaries:ash',
 		d: 'minecraft:stone_button'
     })
-
+	*/
     event.shapeless('kubejs:example_iron_farm', [
     'create:empty_schematic',
     'minecraft:iron_ingot'
@@ -117,16 +117,18 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting('kubejs:oreo_thin', ['kubejs:oreo_wafer_top','kubejs:oreo_cream','kubejs:oreo_wafer_bottom']).superheated()
     
     event.recipes.create.haunting('create:zinc_ingot','iron_ingot')
-
-	event.recipes.create.crushing('4x kubejs:nether_star_fragment','nether_star')
 	
-	event.recipes.create.crushing('2x kubejs:unstable_crushed_nether_star','kubejs:nether_star_fragment')
+	//event.recipes.create.crushing('4x kubejs:nether_star_fragment','nether_star')
+	
+	//event.recipes.create.crushing('2x kubejs:unstable_crushed_nether_star','kubejs:nether_star_fragment')
 	
 	event.recipes.create.mixing(['2x create:cinder_flour','glass_bottle'],['supplementaries:ash','irons_spellbooks:blood_vial']).heated()
 
-	event.recipes.create.mixing('kubejs:refined_explosive_powder',['2x alexscaves:sulfur_dust','blaze_powder','gunpowder']).heated()
+	//event.recipes.create.mixing('kubejs:refined_explosive_powder',['2x alexscaves:sulfur_dust','blaze_powder','gunpowder']).heated()
 
-	event.recipes.create.mixing('32x kubejs:stabilized_crushed_nether_star',['32x kubejs:unstable_crushed_nether_star','cataclysm:ignitium_ingot','kubejs:refined_explosive_powder']).superheated()
+	event.recipes.create.mixing('flansmod:rainbow_paint_can',['2x alexsmobs:rainbow_jelly','water_bucket']).heated()
+
+	//event.recipes.create.mixing('32x kubejs:stabilized_crushed_nether_star',['32x kubejs:unstable_crushed_nether_star','cataclysm:ignitium_ingot','kubejs:refined_explosive_powder']).superheated()
 
     event.recipes.createMechanicalCrafting('minecraft:enchanted_golden_apple', [
 		' AAA ',
@@ -140,7 +142,7 @@ ServerEvents.recipes(event => {
 		C: 'create:honeyed_apple'
 	})
 
-    // CREATE ARMORY STUFF
+    /* CREATE ARMORY STUFF
     event.recipes.createMechanicalCrafting('createarmory:four_sixteen_upper', [
 		' caaa',
 		'bbbaa',
@@ -275,6 +277,7 @@ ServerEvents.recipes(event => {
 		c: 'blaze_rod',
         d: 'createarmory:barrel_part'
 	})
+	*/
 
 })
 MoreJSEvents.filterEnchantedBookTrade((event) => {

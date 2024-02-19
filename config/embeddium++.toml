@@ -82,7 +82,7 @@
 		onTileEntities = true
 		#Configure how fast light whould be updated
 		#Allowed Values: OFF, SLOW, NORMAL, FAST, SUPERFAST, FASTESTS, REALTIME
-		updateSpeed = "REALTIME"
+		updateSpeed = "OFF"
 		#Toggle if Entities should have dynamic lights
 		onEntities = true
 		updateOnlyOnPositionChange = true
@@ -106,7 +106,7 @@
 		cloudsHeight = 128
 		#Toggle fog feature
 		#Fog was a vanilla feature, toggling off may increases performance
-		fog = true
+		fog = false
 
 		[embeddiumplus.quality.darkness]
 			#Configure Darkness Mode

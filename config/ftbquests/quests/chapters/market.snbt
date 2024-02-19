@@ -917,12 +917,12 @@
 		{
 			can_repeat: true
 			dependencies: ["2A43BB1A248EE3F9"]
-			description: ["More explosives never not hurt anyone."]
+			description: ["Explosions :)"]
 			hide_dependency_lines: true
 			icon: "supplementaries:bomb_blue"
 			id: "2D5524B1ACCF2D0A"
 			rewards: [{
-				id: "673B14C2022C119C"
+				id: "1DD215A6CE6AC883"
 				item: "supplementaries:bomb_blue"
 				type: "item"
 			}]
